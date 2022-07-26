@@ -1,0 +1,136 @@
+.procedures {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.procedure {
+  height: 5.5rem;
+  background-color: #c4d9ff;
+  border-radius: 5rem;
+  word-wrap: normal;
+  display: flex;
+
+  align-items: center;
+  align-content: center;
+}
+
+.span-text {
+  font-family: "Montserrat";
+  font-weight: 800;
+  padding: 20px;
+  margin: 0 15px 0 15px;
+  border-right: 2px solid black;
+  font-size: 60px !important;
+  color: #457b9d;
+}
+
+.procedure img {
+  height: 100px;
+  width: 100px;
+  margin: 0 1rem 0 1rem;
+}
+.procedure span {
+  word-wrap: normal;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+}
+.button-text {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+}
+.mail-procedure-button {
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 900;
+  height: 2.5rem;
+  width: 100%;
+  background-color: #c4d9ff;
+  border-radius: 3rem;
+  margin: auto;
+}
+.button-procedure {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#border-procedure {
+  width: 380px;
+}
+
+.mail-procedure-button {
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 900;
+  height: 2.5rem;
+  width: 270px;
+  background-color: #c4d9ff;
+  border-radius: 3rem;
+}
+
+.procedure img {
+  height: 75%;
+  width: 5%;
+  margin: 0 1rem 0 1rem;
+}
+
+.gztQgT {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background: rgb(244, 244, 244);
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  line-height: 1.2em;
+  max-width: px;
+  min-height: 200px;
+  position: relative;
+  text-align: left;
+  width: 98%;
+  z-index: 0;
+}
+
+.grvnSA.show-less {
+  /* max-height: 50px; */
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  overflow: hidden;
+}
+
+@media (max-width: 405px) {
+  #border-procedure {
+    width: 370px;
+  }
+}
+
+@media (max-width: 392px) {
+  #border-procedure {
+    width: 200px;
+  }
+}

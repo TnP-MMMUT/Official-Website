@@ -1,0 +1,34 @@
+body {
+  font-family: "Montserrat";
+}
+
+.accordion {
+  padding: 15px;
+}
+#faq {
+  width: 6rem;
+}
+.accordion-item {
+  box-sizing: border-box;
+  background: #f5f9ff;
+  /* height: 100px; */
+  /* Primary Color */
+
+  /* border: 2.29565px solid #457B9D; */
+  box-shadow: 0px 6.88695px 8.3652px rgba(74, 58, 255, 0.19);
+  border-radius: 16.0695px;
+  width: 100% !important;
+}
+.collapsed {
+  background: #f5f9ff;
+  padding: 32px 12px;
+}
+
+.accordion-body {
+  padding: 40px;
+  text-align: justify;
+}
+.accordion-item {
+  padding: 12px;
+  margin: 20px 1px;
+}

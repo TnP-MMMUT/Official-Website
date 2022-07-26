@@ -1,0 +1,133 @@
+.container-academics {
+  font-family: "Montserrat" !important;
+}
+
+.border-head {
+  width: 230px;
+}
+
+.text1-all {
+  padding-top: 15px;
+  width: 94%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+
+  color: #212121;
+}
+
+.ug-head {
+  margin-top: 1rem;
+  margin-left: 7rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: black;
+}
+
+.border-UG {
+  width: 490px;
+}
+
+.border-PG {
+  width: 470px;
+}
+
+.border-DP {
+  width: 390px;
+}
+
+.text2-UG {
+  padding-top: 15px;
+  top: 414px;
+  width: 94%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+
+  color: #212121;
+}
+
+.acad {
+  padding-top: 10px;
+  top: 414px;
+
+  margin-top: 0px !important;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+
+  color: #212121;
+}
+.acad .sub-head {
+  font-weight: 600;
+}
+
+.acad li {
+  font-size: 20px;
+  text-align: left;
+}
+
+.li-type {
+  font-weight: 500;
+  list-style-type: lower-roman !important;
+}
+
+.sub-li {
+  list-style-type: lower-alpha;
+}
+
+@media (max-width: 768px) {
+  .academics .text1-all {
+    font-size: 18px;
+    margin-left: 7rem;
+  }
+  .academics .text2-UG {
+    font-size: 18px;
+  }
+  .academics {
+    margin-left: -6rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .border-UG {
+    width: 270px;
+  }
+  .border-PG {
+    width: 460px;
+  }
+}
+
+@media (max-width: 460px) {
+  .border-PG {
+    width: 240px;
+  }
+}
+
+@media (max-width: 420px) {
+  .border-DP {
+    width: 370px;
+  }
+}
+
+@media (max-width: 375px) {
+  .border-DP {
+    width: 240px;
+  }
+}

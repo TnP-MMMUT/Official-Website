@@ -1,0 +1,65 @@
+.layout-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: whitesmoke;
+  padding: 1rem 1rem;
+  margin: 1rem;
+}
+
+h3 {
+  font-weight: 600;
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: pre-wrap; /* css-3 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle {
+  border: 2px solid rgba(0, 0, 0, 0.473);
+  border-radius: 50%; /* relative value */
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.image-logo {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.expand {
+  width: 20rem;
+  margin-top: 10px;
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: pre-wrap; /* css-3 */
+  word-wrap: normal; /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: normal;
+  white-space: normal;
+}

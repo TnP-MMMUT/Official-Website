@@ -1,0 +1,308 @@
+/* Chart Container CSS */
+
+.placement-head {
+  margin-top: 1rem;
+  margin-left: 7rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: black;
+}
+
+.border-placement {
+  width: 360px;
+  height: 3px;
+  /* left: 162px; */
+  top: 394px;
+  background-color: #457b9d;
+  border: 1px solid #457b9d;
+  /* margin-left: 7rem; */
+}
+
+#recruiters {
+  width: 260px;
+  height: 3px;
+  /* left: 162px; */
+  top: 394px;
+  background-color: #457b9d;
+  border: 1px solid #457b9d;
+  /* margin-left: 7rem; */
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 650px;
+  height: 350px;
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-head {
+  margin-top: 1rem;
+  margin-left: 7rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: black;
+}
+
+.border-training {
+  width: 320px;
+  height: 2.5px;
+  left: 162px;
+  top: 394px;
+  background-color: #457b9d;
+  border: 1px solid #457b9d;
+  margin-left: 7rem;
+}
+
+.border-outer-placement {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  vertical-align: middle;
+  /* justify-content: center; */
+  margin-top: 1rem;
+  border: 3px solid #457b9d;
+  width: 680px;
+  height: 425px;
+}
+
+.past-year {
+  margin: 20px;
+}
+
+.past-year h4 {
+  font-family: "Montserrat" !important;
+  text-decoration: underline;
+}
+
+.testimonials {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Montserrat" !important;
+  font-weight: 800;
+}
+
+.testimonials h2 {
+  font-weight: 600;
+}
+
+.underline-head2 {
+  height: 0.2rem;
+  width: 17%;
+  background-color: #457b9d;
+  border-radius: 0.01rem;
+}
+
+h2 {
+  font-family: "Montserrat" !important;
+  font-weight: 600;
+}
+
+.item {
+  font-family: "Montserrat" !important;
+  color: blue;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: transform 500ms ease-in-out 25ms;
+}
+.item:hover {
+  font-size: 19px;
+  color: crimson;
+  transform: translateX(0px) translateY(75px);
+}
+
+.chartjs-size-monitor-shrink {
+  position: absolute;
+  direction: ltr;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  z-index: -1;
+}
+
+@media (max-width: 1200px) {
+  .border-placement {
+    align-self: start;
+  }
+  #recruiters {
+    width: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .border-placement {
+    align-self: start;
+    margin-left: 4rem;
+  }
+  #recruiters {
+    width: 220px;
+  }
+}
+
+@media (max-width: 700px) {
+  .border-placement {
+    align-self: start;
+    margin-left: 4rem;
+  }
+  .border-outer-placement {
+    width: 600px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 550px;
+    margin-left: 10px;
+  }
+  #recruiters {
+    width: 220px;
+  }
+}
+@media (max-width: 600px) {
+  .border-placement {
+    align-self: start;
+    margin-left: 4rem;
+  }
+  .border-outer-placement {
+    width: 475px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 450px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 485px) {
+  .border-placement {
+    align-self: start;
+    margin-left: 4rem;
+  }
+  .border-outer-placement {
+    width: 465px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 450px;
+    margin-left: 10px;
+  }
+  #recruiters {
+    width: 200px;
+  }
+}
+
+@media (max-width: 465px) {
+  .border-placement {
+    width: 21rem;
+  }
+  .border-outer-placement {
+    width: 400px;
+    height: 300px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 350px;
+    height: 250px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 399px) {
+  .border-placement {
+    margin-left: 3rem;
+    width: 22rem;
+  }
+  #Graduate-title {
+    margin-left: 3rem;
+  }
+  .border-outer-placement {
+    width: 380px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 350px;
+    height: 180px;
+    margin-left: 10px;
+  }
+  #recruiters {
+    width: 190px;
+  }
+}
+@media (max-width: 368px) {
+  .border-placement {
+    margin-left: 1.4rem;
+    width: 12rem;
+  }
+  #Graduate-title {
+    margin-left: 1.4rem;
+  }
+  .border-outer-placement {
+    width: 350px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 300px;
+    height: 180px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 336px) {
+  .border-placement {
+    margin-left: 0.7rem;
+    width: 14rem;
+  }
+  #Graduate-title {
+    margin-left: 0.7rem;
+  }
+  .border-outer-placement {
+    width: 300px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 316px) {
+  .border-placement {
+    width: 10rem;
+  }
+  .border-outer-placement {
+    width: 300px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
+  }
+}

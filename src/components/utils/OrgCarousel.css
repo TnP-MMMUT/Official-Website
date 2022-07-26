@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+.testimonials {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.underline-head {
+  height: 0.2rem;
+  width: 36%;
+  background-color: #457b9d;
+  border-radius: 0.01rem;
+}
+.underline-head2 {
+  height: 0.2rem;
+  width: 17%;
+  background-color: #457b9d;
+  border-radius: 0.01rem;
+}
+
+.item {
+  height: 3rem;
+  min-width: 14rem;
+  padding: 2%;
+}
+
+.carousel1 {
+  margin: 2% 5%;
+  cursor: grab;
+  overflow: hidden;
+  margin: 1%;
+}
+.carousel-item {
+  transform: scale(0.8);
+}
+
+@media (max-width: 450px) {
+  .item {
+    height: 4rem;
+    min-width: 10rem;
+    padding: 2%;
+  }
+  .underline-head {
+    width: 70%;
+  }
+  .underline-head2 {
+    width: 60%;
+  }
+}
