@@ -1,5 +1,6 @@
 import Navsm from "../Navbar/Navsm";
 import Footer from "../utils/Footer";
+import Map from "../utils/Map";
 import { motion, useAnimation, useScroll } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -156,21 +157,7 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="map ms-3 ms-md-5 ms-lg-5">Map</div>
-        <div className="border5 ms-3 ms-md-5 ms-lg-5"></div>
-        <div className="mapFrame">
-          <iframe
-            title="Map"
-            src={MapLink}
-            height="450"
-            frameborder="0"
-            allowfullscreen
-            aria-hidden="false"
-            tabindex="0"
-            width="94%"
-            className="col-10"
-          ></iframe>
-        </div>
+        <Map />
 
         <div className="campus ms-3 ms-md-5 ms-lg-5">Campus Tour Video</div>
         <div className="border6 ms-3 ms-md-5 ms-lg-5"></div>
