@@ -139,11 +139,21 @@ const Navbar = () => {
                 <li className="navwidth">
                   <a
                     style={{ textDecoration: "none", color: "#000" }}
-                    href="https://bit.ly/3zhzNVy"
+                    href="https://tinyurl.com/y5vkask9"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Resume Template
+                  </a>
+                </li>
+                <li className="navwidth">
+                  <a
+                    style={{ textDecoration: "none", color: "#000" }}
+                    href="https://bit.ly/3zhzNVy"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Training Letter
                   </a>
                 </li>
               </ul>

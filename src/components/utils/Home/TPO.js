@@ -48,19 +48,22 @@ const TPO = () => {
             </div>
             <div className="col-12 col-md-8 col-sm-12 col-lg-8">
               <p className="ms-2 ms-md-5 about-text">
-                Madan Mohan Malviya University of Technology (MMMUT), Gorakhpur
-                has grown to become the national flagship of UP State
-                Government, known for the excellence of it's teaching to the
-                national and international communities. MMMUT has been
-                strategically created (established in 2013) on the legacy of
-                success presented by Madan Mohan Malviya Engineering College
-                Gorakhpur (established in 1962 by Government of UP) towards
-                providing cutting edge learning technology, internationally
-                benchmarked education and critical research opportunities in
-                frontier areas of contemporary concern. The confidence posed by
-                the industries for our institute is indicated by the fact that
-                maximum students are placed and are serving in various leading
-                global industries
+                Madan Mohan Malaviya University of Technology, Gorakhpur is one
+                of the established university of India. It is my pride and
+                privilege to share few facts about placements as it has always
+                been a vital ingredient for endorsing students potentiality.
+                Also it's always an endeavour for entire academic fraternity to
+                raise the placement bar year on year by imparting essential
+                technical and non-technical techniques to students due to which
+                they become competent to face the industry challenges. I am also
+                proud to say that MMMUT has faced the challenges successfully.
+                This is possible due to outstanding efforts of the faculty and
+                of the bright students who are selected after a stringent
+                process. Our alumni have achieved tremendous success in all
+                sphere and this bears an eloquent testimony to our efforts. I
+                take pride in cordially inviting you to participate in our
+                endeavour and look forward to welcoming you for the recruitment
+                program.
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ import Linkedin from "../../images/linkedin.png";
 
 const Footer = () => {
   return (
-    <div className="footer-procedure">
+    <div className="footer-procedure mt-3">
       <div className="footer-text">
         ©{new Date().getFullYear()}, Training & Placement Cell, MMMUT, Gorakhpur
       </div>

@@ -1,11 +1,11 @@
 import Navsm from "../Navbar/Navsm";
 import "../../style/headTNP.css";
 import Footer from "../utils/Footer";
-import InvitationText from "../utils/invitationText";
 import Email from "../../images/email2.png";
 import Phone from "../../images/phone-call.png";
 import { Link } from "react-router-dom";
 import { motion, useScroll } from "framer-motion";
+import InvitationTextTPO from "../utils/invitationTextTPO";
 
 const HeadTNP = () => {
   const { scrollYProgress } = useScroll();
@@ -63,7 +63,7 @@ const HeadTNP = () => {
           <h2 style={{ textDecoration: "underline" }}>INVITATION</h2>
         </div>
 
-        <InvitationText />
+        <InvitationTextTPO />
         <Footer />
       </div>
     </>

@@ -6,6 +6,9 @@ const PieChart = ({ chartData }) => {
   const header = chartData.datasets[0].label;
 
   const options = {
+    interaction:{
+      intersect: false,
+    },
     responsive: true,
     maintainAspectRatio: false,
     elements: {

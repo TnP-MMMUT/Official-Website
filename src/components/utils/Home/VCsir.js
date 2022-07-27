@@ -48,12 +48,12 @@ const VCsir = () => {
             </div>
             <div className="col-12 col-md-8 col-sm-12 col-lg-8">
               <p className="ms-2 ms-md-5 about-text">
-                Madan Mohan Malviya University of Technology (MMMUT), Gorakhpur
+                Madan Mohan Malaviya University of Technology (MMMUT), Gorakhpur
                 has grown to become the national flagship of UP State
                 Government, known for the excellence of it's teaching to the
                 national and international communities. MMMUT has been
                 strategically created (established in 2013) on the legacy of
-                success presented by Madan Mohan Malviya Engineering College
+                success presented by Madan Mohan Malaviya Engineering College
                 Gorakhpur (established in 1962 by Government of UP) towards
                 providing cutting edge learning technology, internationally
                 benchmarked education and critical research opportunities in

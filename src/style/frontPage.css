@@ -13,6 +13,10 @@
   color: #212121;
 }
 
+h4 .img {
+  width: 35px;
+  height: 35px;
+}
 .link {
   word-wrap: normal;
   word-break: normal;

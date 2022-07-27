@@ -78,7 +78,16 @@ const Fdata = [
     name: "Dr. Bharti Shukla",
     post: "Member",
     designation: "Assistant Professor",
-    department: "HMSD Department",
+    department: "HMSD",
+  },
+  {
+    id: 10,
+    image:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658917765/T_P%20Site/photo_2022-07-27_15-58-36_nyxpqn.jpg",
+    name: "Miss Sukanya Pandey",
+    post: "Placement Coordinator",
+    designation: "Technical Staff",
+    department: "T&P Cell",
   },
 ];
 

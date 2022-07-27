@@ -1,7 +1,7 @@
-import Logos from "../Logo/Logos";
 import { Link } from "react-router-dom";
+import Logos from "../Logo/Logos";
 
-const InvitationText = () => {
+const InvitationTextTPO = () => {
   return (
     <>
       <section>
@@ -9,7 +9,7 @@ const InvitationText = () => {
           <div className="invite-text mt-5">
             <p>Dear Sir/Ma’am, </p>
             <p>
-              We feel immense pleasure in introducing Madan Mohan Malaviya
+              I feel immense pleasure in introducing Madan Mohan Malaviya
               University of Technology, Gorakhpur with the humble request to
               invite you on behalf of this University to our ‘Campus Recruitment
               Programme'. The Govt. of Uttar Pradesh established Madan Mohan
@@ -53,7 +53,7 @@ const InvitationText = () => {
               Improvement Program (QIP) of the Government of India.
             </p>
             <p>
-              We feel great pleasure in informing that during previous years the
+              I feel great pleasure in informing that during previous years the
               companies like M/s Tata Consultancy Services (TCS), Wipro
               Technologies, HCL, Cognizant, Idea Cellular (P) Ltd., Vodafone,
               Indian Army, Adobe, Coforge Technologies, Amazon, Mahindra
@@ -77,7 +77,7 @@ const InvitationText = () => {
               including Fortune 500 organizations.
             </p>
             <p>
-              We shall be extremely thankful if you kindly accede to our request
+              I shall be extremely thankful if you kindly accede to our request
               of interaction with our students for their placement/internship
               and developing a long-term relationship with this University. You
               can contact the undersigned for any of the information in this
@@ -86,8 +86,7 @@ const InvitationText = () => {
               Technology, Gorakhpur.
             </p>
             <p>
-              In case of any queries, feel free to contact the Prof. V K
-              Dwivedi, Professor, Training & Placement Cell at
+              In case of any queries, feel free to contact the undersigned at
               (9953001761/8765783675) or Dr. Rajan Mishra, Vice Chairman
               (Internship) and Coordinator, (Mobile No: 09235500560). Looking
               forward to your kind response.{" "}
@@ -98,11 +97,9 @@ const InvitationText = () => {
             <br />{" "}
             <span>
               <b>
-                Training & Placement Cell,
-                <br />
-                Madan Mohan Malaviya University of Technology,
-                <br />
-                Gorakhpur
+                {" "}
+                Prof. V.K. Dwivedi <br />
+                Professor, T&P <br /> MMMUT, Gorakhpur
               </b>
             </span>
           </div>
@@ -153,4 +150,4 @@ const InvitationText = () => {
   );
 };
 
-export default InvitationText;
+export default InvitationTextTPO;

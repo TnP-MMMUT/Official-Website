@@ -72,7 +72,7 @@ const QuickLinks = () => {
                     {" "}
                     <img
                       className="img"
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/communicate_1_o8akqp.png"
+                      src="https://cdn-icons-png.flaticon.com/512/2343/2343694.png"
                       alt="Error loading "
                     />{" "}
                     <Link className="link" to="/studentCoordinators">
@@ -92,9 +92,9 @@ const QuickLinks = () => {
                         <img
                           className="img"
                           alt="Error loading "
-                          src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"
-                        />{" "}
-                        Brochures
+                          src="https://cdn-icons-png.flaticon.com/512/543/543931.png"
+                        />
+                        {""} &nbsp; Brochures
                       </motion.h4>
                     }
                     on={"hover"}
@@ -128,7 +128,7 @@ const QuickLinks = () => {
                     {" "}
                     <img
                       className="img"
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_1_yusxhi.png"
+                      src="https://cdn-icons.flaticon.com/png/512/548/premium/548174.png?token=exp=1658917400~hmac=fa69b84847aaef8c5768284c52400c58"
                       alt="Error loading "
                     />{" "}
                     <Link to="/placement_training" className="link">
@@ -146,7 +146,7 @@ const QuickLinks = () => {
                   <img
                     src="https://res.cloudinary.com/dltqjc99w/image/upload/v1658265845/cell/download_1_hs3qzf.png"
                     className="img"
-                    alt="Error loading  "
+                    alt="Error loading"
                   />{" "}
                   Downloads
                 </h2>
@@ -159,7 +159,7 @@ const QuickLinks = () => {
                       >
                         {" "}
                         <img
-                          src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png"
+                          src="https://cdn-icons-png.flaticon.com/512/3534/3534066.png"
                           className="img"
                           alt="Error loading "
                         />{" "}
@@ -206,9 +206,9 @@ const QuickLinks = () => {
                   >
                     {" "}
                     <img
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648277/insurance_1_ufp80u.png "
+                      src="https://cdn-icons-png.flaticon.com/512/4599/4599295.png"
                       className="img"
-                      alt="Error loading  "
+                      alt="Error loading"
                     />{" "}
                     <a
                       href="https://res.cloudinary.com/vaish1101/image/upload/v1658241167/gyan%20sir/T_P_Policy_2022_kf9g0e.pdf"
@@ -223,9 +223,9 @@ const QuickLinks = () => {
                   >
                     {" "}
                     <img
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597836/templates_1_xyrfpr.png"
+                      src="https://cdn-icons-png.flaticon.com/512/893/893505.png"
                       className="img"
-                      alt="Error loading  "
+                      alt="Error loading"
                     />{" "}
                     <a className="link" href="https://bit.ly/3zhzNVy">
                       Resume Template
@@ -237,13 +237,44 @@ const QuickLinks = () => {
                   >
                     {" "}
                     <img
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648352/invitation_1_t0whud.png"
+                      src="https://cdn-icons-png.flaticon.com/512/980/980240.png"
                       className="img"
-                      alt="Error loading  "
+                      alt="Error loading"
                     />{" "}
                     <Link to="/invite" className="link">
                       Invitation
                     </Link>
+                  </motion.h4>
+                  <motion.h4
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    {" "}
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/3842/3842018.png"
+                      className="img"
+                      alt="Error loading"
+                    />{" "}
+                    <a className="link" href="https://tinyurl.com/y5vkask9">
+                      Industrial Training Letter
+                    </a>
+                  </motion.h4>
+                  <motion.h4
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    {" "}
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/7626/7626235.png"
+                      className="img"
+                      alt="Error loading"
+                    />{" "}
+                    <a
+                      className="link"
+                      href="http://www.mmmut.ac.in/pdf/T&P%20Contacts_List%202022-2023.pdf"
+                    >
+                      Contact List
+                    </a>
                   </motion.h4>
                 </div>
               </div>

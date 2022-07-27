@@ -35,9 +35,9 @@ const FrontPage = () => {
         <p className="about-text ms-3 ms-md-5 ms-lg-5 mt-2">
           <b>Training & Placement Cell (T&P)</b> of the University centrally
           handles all aspects of campus placements/internship,
-          training/workshops for the graduating students of all Departments. T&P
-          is well equipped with excellent infrastructure to support each and
-          every stage of the placement processes. T&P Student Coordinators
+          training/workshops for the graduating students of all departments. T&P
+          Cell is well equipped with excellent infrastructure to support each
+          and every stage of the placement processes. T&P Student Coordinators
           assist in arranging Pre-Placement Talks, Written Tests, Group
           Discussions, and Interviews etc. are made as per the requirements of
           the Organizations conducting the drive.
