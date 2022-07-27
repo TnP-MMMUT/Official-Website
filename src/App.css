@@ -483,15 +483,22 @@
   width: 1.3rem;
   word-spacing: normal;
 }
-.footer-links .footer-text {
+.footer-text {
+  align-items: start;
   text-align: left;
   font-family: Montserrat;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .footer-procedure {
   display: flex;
-  flex: 1;
+  padding: 10px;
+  width: 100%;
+  /* height: 40px; */
+  /* flex: 1; */
+  background: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .footer-procedure div {
   margin: auto;
