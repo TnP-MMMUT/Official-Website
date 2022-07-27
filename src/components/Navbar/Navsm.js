@@ -6,9 +6,10 @@ const Navsm = () => {
     <>
       <div className="pages_nav">
         <Navbar />
-        <div className="image-nav-div-container">
+
+        <div className="image-nav-div-container mt-5">
           <img
-            className="mx-auto my-auto text-center"
+            className="mx-auto text-center mt-5"
             src={imageCenterNavBar}
             alt="logo"
           />
