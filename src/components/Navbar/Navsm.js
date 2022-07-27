@@ -8,7 +8,7 @@ const Navsm = () => {
         <Navbar />
         <div className="image-nav-div-container">
           <img
-            className="image-center mx-auto my-auto text-center"
+            className="mx-auto my-auto text-center"
             src={imageCenterNavBar}
             alt="logo"
           />

@@ -1,15 +1,21 @@
 import Navsm from "../Navbar/Navsm";
-import React from "react";
+import Footer from "../utils/Footer";
 
 import "./FAQs.css";
 import "../FAQs/FAQs.js";
 
-import Footer from "../utils/Footer";
+import { motion, useAnimation, useScroll } from "framer-motion";
 
-const Faqs = () => {
+const FAQs = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <>
       <Navsm />
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      ></motion.div>
+
       <div className="about ms-5">FAQs</div>
       <div className="border1 ms-5" id="faq"></div>
       <div className="container-sm">
@@ -315,4 +321,4 @@ const Faqs = () => {
   );
 };
 
-export default Faqs;
+export default FAQs;

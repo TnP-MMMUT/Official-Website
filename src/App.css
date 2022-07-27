@@ -16,19 +16,22 @@
   max-height: 100vh;
   margin: auto;
   background-size: 100%;
-  background-attachment: fixed;
   background-position: 51% 0%;
 }
 
 .image-div-container {
   /* width: 50%; */
   height: 70vh;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   align-content: center;
   justify-items: center;
   justify-content: center;
+}
+
+.image-center {
+  width: 60%;
 }
 
 /*---------------Navbar---------------*/
@@ -83,7 +86,7 @@
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: #eaeaea;
+  background-color: #f8f8f8;
   border-radius: 15px;
 
   font-family: "Montserrat" !important;
@@ -104,6 +107,7 @@
   line-height: 17px;
   text-align: left;
   margin-left: -32px;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .navbar .menu :hover #whyRec,
@@ -203,7 +207,7 @@
 }
 .image-nav-div-container {
   /* width: 50%; */
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -253,7 +257,7 @@
 
   font-family: "Montserrat";
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   text-align: justify;
   color: #212121;
@@ -290,7 +294,7 @@
 
   font-family: "Montserrat";
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   text-align: justify;
   color: #212121;
@@ -326,7 +330,7 @@
   font-family: "Montserrat";
   font-style: normal;
   /* font-weight: 600; */
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   text-align: justify;
 
@@ -346,7 +350,7 @@
 }
 
 .border4 {
-  width: 300px;
+  width: 335px;
   height: 3px;
   left: 162px;
   top: 394px;
@@ -363,7 +367,7 @@
 
   font-family: "Montserrat";
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   text-align: justify;
   color: #212121;
@@ -390,7 +394,7 @@
 }
 
 .border5 {
-  width: 75px;
+  width: 80px;
   height: 3px;
   left: 162px;
   top: 394px;
@@ -427,7 +431,7 @@
 }
 
 .border6 {
-  width: 305px;
+  width: 335px;
   height: 3px;
   left: 162px;
   top: 394px;
@@ -446,7 +450,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 20px;
   line-height: 1.5em;
   text-align: center;
   color: #457b9d;
@@ -506,6 +510,16 @@
     background-size: cover;
     /* width:auto; */
   }
+  .image-nav-div-container {
+    /* width: 50%; */
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1220px) {
@@ -524,8 +538,7 @@
 @media (max-width: 1024px) {
   /* Responsive view */
   .image-nav-div-container {
-    /* width: 50%; */
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -542,13 +555,17 @@
     justify-items: center;
     justify-content: center;
   }
+  .image-center {
+    width: 80%;
+  }
   .navbar .nav-sm {
     width: 100%;
     height: 70px;
     position: fixed;
     top: 0;
+    -webkit-backdrop-filter: blur(1px);
     backdrop-filter: blur(1px);
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.692);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
     z-index: 126;
@@ -582,10 +599,10 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    border-radius: 5px;
+    border-radius: 0 0 30px 30px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.692);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
     display: none;
@@ -606,12 +623,14 @@
     /* transform: translateY(-14rem); */
     display: block;
     margin-top: 10px;
+    width: -moz-fit-content;
     width: fit-content;
     height: auto;
     position: relative;
     z-index: 100;
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
-    background: hsla(0, 0%, 100%, 0.25);
+    background: white;
     box-shadow: 0 20px 30px rgba(255, 255, 255, 0.1);
     border: 1px solid black;
   }
@@ -644,186 +663,6 @@
   /* Error Page UI ends*/
 }
 
-/* @media (min-width: 400px) and (max-width: 900px) {
-  .about {
-    font-size: 2rem;
-    margin-left: 2rem;
-    margin-right: 4rem;
-  }
-
-  .text1 {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 500px) {
-  .about {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text1 {
-    font-size: 1rem;
-    word-spacing: normal;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .border1 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
-  .vision {
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text2 {
-    font-size: 1.2rem;
-  }
-
-  .border1 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 64%;
-  }
-
-  .vision {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text2 {
-    font-size: 1rem;
-    word-spacing: normal;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .border2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .mission {
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text3 {
-    font-size: 1.2rem;
-  }
-
-  .border2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 40%;
-  }
-
-  .mission {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text3 {
-    font-size: 1rem;
-
-    word-spacing: normal;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .border3 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
-  .loc {
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
-  .text4 {
-    font-size: 1.2rem;
-
-    word-spacing: normal;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .border4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 88%;
-  }
-
-  .map {
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text5 {
-    font-size: 1.2rem;
-    word-spacing: normal;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .border5 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 28%;
-  }
-
-  .campus {
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .text6 {
-    font-size: 1.2rem;
-
-    word-spacing: normal;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .border6 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 88%;
-  }
-
-  .video {
-    padding: auto;
-  }
-  .loc {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-  }
-  .map {
-    font-size: 1.5rem;
-  }
-  .campus {
-    font-size: 1.5rem;
-  }
-  .footer-links img {
-    height: 0.8rem;
-    width: 0.8rem;
-    justify-content: space-between;
-  }
-  .footer-text {
-    font-size: 0.6rem;
-  }
-} */
 /* ---------invitation page------------- */
 .head1 {
   width: 100%;
@@ -1042,6 +881,9 @@
   .footer-text-procedure {
     font-size: 0.6rem;
   }
+  .image-center {
+    width: 95%;
+  }
 }
 @media (min-width: 450px) and (max-width: 600px) {
   .Heading-procedure {
@@ -1082,6 +924,9 @@
   /* Navbar */
   .navbar .menu :hover .dropdown_menu {
     /* transform: translateY(0.1rem) translateX(2vw); */
+  }
+  .image-center {
+    width: 90%;
   }
 }
 @media (min-width: 601px) and (max-width: 1000px) {

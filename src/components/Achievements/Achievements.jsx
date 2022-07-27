@@ -26,7 +26,7 @@ const Achievements = () => {
         <div className="component-div">
           <CounterComponent />
 
-          <div className="logo-component">
+          <div className="logo-component text-center mx-auto">
             <Logos />
           </div>
         </div>
@@ -36,7 +36,7 @@ const Achievements = () => {
         </div>
         <div className="border1 border-alumni ms-3 ms-md-5 ms-lg-5"></div>
         <div className="component-alumni">
-          <div className="logo-component">
+          <div className="logo-component text-center mx-auto">
             <Logos />
           </div>
         </div>

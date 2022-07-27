@@ -1,25 +1,32 @@
 /*--List--*/
-.navList{
-    background: #F5F9FF;
-    width: fit-content;
+.navList {
+  background: #f5f9ff;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Montserrat";
 }
 /*--Headings--*/
-.PastROUnderline{
-    width:31rem!important;
+.PastROUnderline {
+  width: 520px !important;
 }
 
-
-@media (max-width:606px) {
-    .PastROUnderline{
-        width:17rem!important;
-    }
-    
+@media (max-width: 606px) {
+  .PastROUnderline {
+    width: 510px !important;
+  }
 }
-@media (max-width:360px) {
-    .PastROUnderline{
-        width:14.4rem!important;
-    }
-    .PastROHeading{
-        margin-right: 1rem!important;
-    }
+@media (max-width: 536px) {
+  .PastROUnderline {
+    width: 490px !important;
+  }
+}
+@media (max-width: 524px) {
+  .PastROUnderline {
+    width: 280px !important;
+  }
+}
+@media (max-width: 360px) {
+  .PastROUnderline {
+    width: 14.4rem !important;
+  }
 }

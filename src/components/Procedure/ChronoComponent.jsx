@@ -15,7 +15,7 @@ const ChronoComponent = () => {
       theme={{
         primary: "lightskyblue",
         secondary: "blue",
-        cardBgColor: "whitesmoke",
+        cardBgColor: "white",
         cardForeColor: "black",
         titleColor: "black",
         titleColorActive: "white",

@@ -19,7 +19,9 @@ const Procedure = () => {
           <ChronoComponent />
 
           <div className="button-text mx-auto">
-            <div className="mx-auto">Interested in Recruitment?</div>
+            <div className="mx-auto text-center">
+              Interested in Recruitment?
+            </div>
           </div>
           <div className="button-procedure text-center mx-auto">
             <button className="mail-procedure-button">

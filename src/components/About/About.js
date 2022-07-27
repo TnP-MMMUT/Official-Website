@@ -37,8 +37,8 @@ const About = () => {
       ></motion.div>
 
       <div>
-        <div className="about ms-3 ms-md-5 ms-lg-5">About MMMUT</div>
-        <div className="border1 ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="about ms-3 ms-md-4 ms-lg-5">About MMMUT</div>
+        <div className="border1 ms-3 ms-md-4 ms-lg-5"></div>
 
         <div className="text1 mx-auto">
           <p className="pTag">
@@ -64,8 +64,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="vision ms-3 ms-md-5 ms-lg-5">Vision</div>
-        <div className="border2 ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="vision ms-3 ms-md-4 ms-lg-5">Vision</div>
+        <div className="border2 ms-3 ms-md-4 ms-lg-5"></div>
         <motion.div className="text2 mx-auto">
           <p>
             To facilitate and promote studies, research, technology incubation,
@@ -75,9 +75,9 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="mission ms-3 ms-md-5 ms-lg-5">Mission</div>
-        <div className="border3 ms-3 ms-md-5 ms-lg-5"></div>
-        <div className="text3 ms-3 ms-md-5 ms-lg-5">
+        <div className="mission ms-3 ms-md-4 ms-lg-5">Mission</div>
+        <div className="border3 ms-3 ms-md-4 ms-lg-5"></div>
+        <div className="text3 ms-3 ms-md-4 ms-lg-5">
           <p>
             The distinctive mission of the University is:
             <br />
@@ -143,8 +143,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="loc ms-3 ms-md-5 ms-lg-5">Location & Campus</div>
-        <div className="border4 ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="loc ms-3 ms-md-4 ms-lg-5">Location & Campus</div>
+        <div className="border4 ms-3 ms-md-4 ms-lg-5"></div>
         <motion.div className="text4 mx-auto">
           <p>
             The University has a lush green campus that spreads over a vast area
@@ -159,8 +159,8 @@ const About = () => {
 
         <Map />
 
-        <div className="campus ms-3 ms-md-5 ms-lg-5">Campus Tour Video</div>
-        <div className="border6 ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="campus ms-3 ms-md-4 ms-lg-5">Campus Tour Video</div>
+        <div className="border6 ms-3 ms-md-4 ms-lg-5"></div>
       </div>
 
       <div ref={ref}>

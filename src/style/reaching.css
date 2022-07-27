@@ -3,6 +3,10 @@
   font-family: "Montserrat";
 }
 
+.text1 li {
+  margin-bottom: 10px;
+}
+
 .border-location {
   width: 160px;
 }

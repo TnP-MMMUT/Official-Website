@@ -115,7 +115,9 @@ function PlacementTraining() {
               id="recruiters"
             ></div>
           </div>
-          <Logos />
+          <div className="text-center mx-auto">
+            <Logos />
+          </div>
         </div>
 
         {/* Training Part */}

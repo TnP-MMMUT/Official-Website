@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <motion.li>
             Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu mx-auto mx-auto mx-auto" id="whyRec">
+            <div className="dropdown_menu mx-auto" id="whyRec">
               <motion.ul className="about-list">
                 <motion.li>
                   <NavLink to="/about" className="dropdownnavlink">

@@ -35,7 +35,8 @@
 }
 
 .quicklinks {
-  width: 60%;
+  width: 50%;
+  height: -moz-fit-content;
   height: fit-content;
   margin: 1.2rem auto;
   justify-items: center;
@@ -47,6 +48,7 @@
 .link {
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 
 .quicklinks .rowQLbig {
@@ -56,11 +58,17 @@
   align-items: center;
 }
 
+.quicklinks .rowQLbig a {
+  font-size: 22px;
+}
+
 .quicklinks h4 {
   margin: 1.5rem;
   cursor: pointer;
   flex-grow: 1;
+  font-size: 22px;
 }
+
 .img {
   margin-right: 10px;
 }
@@ -145,6 +153,22 @@
   }
 
   #aboutTPOM {
+    width: 17rem;
+  }
+
+  .quicklinks {
+    width: 90%;
+  }
+}
+
+@media (max-width: 343px) {
+  .quicklinks {
+    width: 100%;
+  }
+}
+
+@media (max-width: 331px) {
+  #aboutVCM {
     width: 17rem;
   }
 }

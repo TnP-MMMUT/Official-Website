@@ -7,20 +7,27 @@
   margin-bottom: 0;
   margin-top: 0;
 }
+.inner-carousel {
+  width: 95%;
+}
+
+.tab-pane {
+  font-family: "Montserrat" !important;
+}
 
 h2 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 600;
 }
 .underline-head {
   height: 0.2rem;
-  width: 36%;
+  width: 500px;
   background-color: #457b9d;
   border-radius: 0.01rem;
 }
 .underline-head2 {
   height: 0.2rem;
-  width: 17%;
+  width: 270px !important;
   background-color: #457b9d;
   border-radius: 0.01rem;
 }
@@ -41,6 +48,34 @@ h2 {
   transform: scale(0.8);
 }
 
+@media (max-width: 1322px) {
+  .inner-carousel {
+    width: 90%;
+  }
+}
+
+@media (max-width: 960px) {
+  .underline-head {
+    width: 490px;
+  }
+  .underline-head2 {
+    width: 260px !important;
+  }
+}
+
+@media (max-width: 706px) {
+  .underline-head {
+    width: 490px !important;
+  }
+  .underline-head2 {
+    width: 250px !important;
+  }
+}
+@media (max-width: 526px) {
+  .underline-head {
+    width: 330px !important;
+  }
+}
 @media (max-width: 450px) {
   .item {
     height: 4rem;
@@ -48,9 +83,24 @@ h2 {
     padding: 2%;
   }
   .underline-head {
-    width: 70%;
+    width: 500px;
   }
   .underline-head2 {
-    width: 60%;
+    width: 270px !important;
+  }
+  .inner-carousel {
+    width: 70%;
+  }
+}
+
+@media (max-width: 368px) {
+  .underline-head {
+    width: 310px !important;
+  }
+}
+
+@media (max-width: 348px) {
+  .underline-head {
+    width: 290px !important;
   }
 }

@@ -105,6 +105,7 @@ const InvitationText = () => {
 
           <div
             style={{ marginTop: "2rem", marginBottom: "2rem", width: "90%" }}
+            className="text-center mx-auto"
           >
             <Logos />
           </div>

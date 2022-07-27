@@ -1,12 +1,12 @@
 //Past Recruiting Organisations List
-import React from "react";
+import "./OrgCarousel.css";
 import CompanyData from "../../data/CompanyData";
 
 const List = () => {
   return (
     <>
-      <div className="recruitersComp ms-4 ms-lg-5 my-3">
-        <div className="navList me-4 me-lg-5">
+      <div className="ms-4 ms-lg-5 mt-4">
+        <div className="navList">
           <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
               <button
@@ -624,7 +624,7 @@ const List = () => {
               role="tabpanel"
               aria-labelledby="pills-T-tab"
             >
-             <ul>
+              <ul>
                 {CompanyData[19].map((element, index) => (
                   <li key={index}>{element}</li>
                 ))}
@@ -636,7 +636,7 @@ const List = () => {
               role="tabpanel"
               aria-labelledby="pills-U-tab"
             >
-             <ul>
+              <ul>
                 {CompanyData[20].map((element, index) => (
                   <li key={index}>{element}</li>
                 ))}
