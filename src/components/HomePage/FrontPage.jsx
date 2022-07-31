@@ -8,6 +8,8 @@ import { motion, useScroll } from "framer-motion";
 
 import "../../style/frontPage.css";
 import imageCenter from "../../images/Center.png";
+import PhotoAlbum from "react-photo-album";
+import { gallery } from "../../data/gallery";
 
 const FrontPage = () => {
   const { scrollYProgress } = useScroll();
@@ -61,6 +63,14 @@ const FrontPage = () => {
         <div className="about ms-3 ms-md-5 ms-lg-5">From the TPO’s Desk</div>
         <div className="border1 ms-3 ms-md-5 ms-lg-5 mb-3" id="aboutTPOM"></div>
         <TPO />
+
+        <h2 className="about ms-3 ms-md-5 ms-lg-5">
+          Image Gallery of T&P Cell
+        </h2>
+        <div className="border-gallery ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="news-container mt-3 text-center mx-auto">
+          <PhotoAlbum layout="masonry" photos={gallery} />
+        </div>
       </div>
 
       <Footer />

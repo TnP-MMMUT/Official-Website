@@ -7,21 +7,25 @@
   border: 1.60618px solid #457b9d;
   margin-left: 7rem;
 }
-.our-team {
+
+/* Card Component */
+#our-team-alumni {
   padding: 30px 0 40px;
-  margin: 15px 0rem;
-  font-family: "Montserrat" !important;
-  background-color: #f7f5ec;
+  margin: 20px 2rem;
   text-align: center;
   overflow: hidden;
   position: relative;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 21rem;
-  height: 22.2rem;
+  width: 264px;
+  height: 23rem;
+  background: #ffffff !important;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 15px;
 }
 
-.our-team .picture {
+#our-team-alumni .picture {
   display: inline-block;
   height: 130px;
   width: 130px;
@@ -30,12 +34,12 @@
   position: relative;
 }
 
-.our-team .picture::before {
+#our-team-alumni .picture::before {
   content: "";
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #2371bf;
+  background-color: #22223b !important ;
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -45,62 +49,67 @@
   transition: all 0.3s linear 0s;
 }
 
-.our-team:hover .picture::before {
+#our-team-alumni:hover .picture::before {
   height: 100%;
 }
 
-.our-team .picture::after {
+#our-team-alumni .picture::after {
   content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #2371bf;
+  background-color: #22223b !important;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-.our-team .picture img {
+#our-team-alumni .picture img {
   width: 100%;
   height: auto;
+  overflow: hidden;
   border-radius: 50%;
   transform: scale(1);
   transition: all 0.9s ease 0s;
 }
 
-.our-team:hover .picture img {
+#our-team-alumni:hover .picture img {
   box-shadow: 0 0 0 14px #f7f5ec;
   transform: scale(0.7);
 }
 
-.our-team .title {
+#our-team-alumni .title {
   display: block;
-  font-size: 14px;
-  color: #3a3d41;
+  font-size: 15px;
+  color: #4e5052;
   text-transform: capitalize;
 }
 
-.our-team .social {
+#our-team-alumni .team-content h3 {
+  word-wrap: normal;
+}
+
+#our-team-alumni .social {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #2371bf;
+  background-color: #22223b !important;
   position: absolute;
   bottom: -100px;
   left: 0;
   transition: all 0.5s ease 0s;
 }
 
-.our-team:hover .social {
+#our-team-alumni:hover .social {
   bottom: 0;
 }
 
-.our-team .social li {
+#our-team-alumni .social li {
   display: inline-block;
 }
 
-.our-team .social li a {
+#our-team-alumni .social li a {
   display: block;
   padding: 10px;
   font-size: 17px;
@@ -109,16 +118,16 @@
   text-decoration: none;
 }
 
-.our-team .social li a:hover {
-  color: #2371bf;
-  background-color: #f7f5ec;
+#our-team-alumni .social li a:hover {
+  color: #22223b !important;
+  background-color: white;
 }
 
 @media (max-width: 1200px) {
   .borderpromalumni {
     align-self: start;
   }
-  .our-team {
+  .our-team-alumni {
     margin: 1rem auto;
     width: 80%;
   }
@@ -130,11 +139,13 @@
   }
 }
 
-/* @media (max-width: 433px) {
-  .borderpromalumni {
-    width: 12rem;
+@media (max-width: 768px) {
+  #our-team {
+    margin: 2rem;
+    height: 22.2rem;
   }
-} */
+}
+
 @media (max-width: 399px) {
   .borderpromalumni {
     margin-left: 3rem;

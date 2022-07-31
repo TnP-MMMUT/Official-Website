@@ -119,20 +119,22 @@ h2 {
   font-weight: 600;
 }
 
-.item {
+.items .item {
   font-family: "Montserrat" !important;
   color: blue;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 17px;
+  margin: 0;
   font-weight: 500;
-  transition: transform 500ms ease-in-out 25ms;
 }
-.item:hover {
-  font-size: 19px;
+.items .item a {
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+}
+.items .item a:hover {
   color: crimson;
-  transform: translateX(0px) translateY(75px);
 }
-
 .chartjs-size-monitor-shrink {
   position: absolute;
   direction: ltr;

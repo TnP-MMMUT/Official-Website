@@ -5,6 +5,7 @@ import FData from "../../data/Fdata";
 
 import "../../style/Faculty.css";
 
+
 const Faculty = () => {
   return (
     <>

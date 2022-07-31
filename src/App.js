@@ -20,9 +20,12 @@ import ErrorPage from "./components/utils/errorPage";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+import ScrollToTop from "./components/utils/ScrollToTop";
+
 const Routing = () => {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<FrontPage />} />
         <Route path="/about" element={<About />} />

@@ -1,32 +1,30 @@
 import React from "react";
-import "../../style/alumni.css";
 import Navsm from "../Navbar/Navsm";
 import AlumniData from "../../data/alumniData";
 import Alumnus from "./Alumnus";
 import Footer from "../utils/Footer";
+import "../../style/alumni.css";
 
 const Alumni = () => {
   return (
     <>
       <Navsm />
-      <div className="about ms-3 ms-md-5 ms-lg-5" id="alumn_title">
-        Prominent Alumni
-      </div>
-      <div className="borderpromalumni border1 ms-3 ms-md-5 ms-lg-5"></div>
 
-      <div>
-        <div className="container">
-          <div className="row">
+      <div className="container-fluid">
+        <div className="about ms-3 ms-md-5 ms-lg-5" id="alumn_title">
+          Prominent Alumni
+        </div>
+        <div className="borderpromalumni ms-3 ms-md-5 ms-lg-5"></div>
+
+        <div className="row-container d-flex flex-row text-center mx-auto">
+          <div className="row text-center mx-auto">
             {AlumniData.map((element) => {
-              return (
-                <>
-                  <Alumnus key={element.id} data={element} />
-                </>
-              );
+              return <Alumnus key={element.id} data={element} />;
             })}
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );
