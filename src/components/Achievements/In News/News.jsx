@@ -6,7 +6,7 @@ const News = () => {
   return (
     <>
       <div className="news-container">
-        <PhotoAlbum layout="rows" photos={photos} />
+        <PhotoAlbum layout="masonry" photos={photos} />
       </div>
     </>
   );

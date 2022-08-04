@@ -118,43 +118,43 @@
   font-size: 20px;
   justify-content: justify;
 }
-.stu-border {
+#stu-border {
   width: 310px;
 }
-.edb-border {
+#edb-border {
   width: 270px;
 }
-.iiche-border {
+#iiche-border {
   width: 305px;
 }
-.rc-border {
+#rc-border {
   width: 200px;
 }
-.nss-border {
+#nss-border {
   width: 350px;
 }
-.ncc-border {
+#ncc-border {
   width: 300px;
 }
-.seb-border {
+#seb-border {
   width: 330px;
 }
-.sports-border {
+#sports-border {
   width: 270px;
 }
-.ecell-border {
+#ecell-border {
   width: 90px;
 }
-.uic-border {
+#uic-border {
   width: 360px;
 }
-.ieee-border {
+#ieee-border {
   width: 300px;
 }
-.sae-border {
+#sae-border {
   width: 280px;
 }
-.cul-border {
+#cul-border {
   width: 220px;
 }
 
@@ -165,53 +165,53 @@
 }
 
 @media (max-width: 384px) {
-  .uic-border {
+  #uic-border {
     width: 355px;
   }
 }
 
 @media (max-width: 372px) {
-  .uic-border {
+  #uic-border {
     width: 305px;
   }
 
-  .nss-border {
+  #nss-border {
     width: 345px;
   }
 }
 
 @media (max-width: 364px) {
-  .nss-border {
+  #nss-border {
     width: 240px;
   }
 }
 
 @media (max-width: 346px) {
-  .seb-border {
+  #seb-border {
     width: 260px;
   }
 }
 
 @media (max-width: 320px) {
-  .stu-border {
+  #stu-border {
     width: 170px;
   }
-  .uic-border {
+  #uic-border {
     width: 290px;
   }
-  .iiche-border {
+  #iiche-border {
     width: 235px;
   }
 }
 @media (max-width: 316px) {
-  .ncc-border {
+  #ncc-border {
     width: 240px;
   }
 
-  .uic-border {
+  #uic-border {
     width: 225px;
   }
-  .iiche-border {
+  #iiche-border {
     width: 235px;
   }
 }

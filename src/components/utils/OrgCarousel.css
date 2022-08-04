@@ -21,7 +21,7 @@ h2 {
 }
 .underline-head {
   height: 0.2rem;
-  width: 500px;
+  width: 500px !important;
   background-color: #457b9d;
   border-radius: 0.01rem;
 }

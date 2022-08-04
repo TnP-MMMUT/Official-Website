@@ -24,7 +24,7 @@ const GraduatingStudent = () => {
     labels: ChartData.map((data) => data.Branch),
     datasets: [
       {
-        label: "B.Tech. Students Graduating in 2023",
+        label: "B.Tech. Graduating Students (2023)",
         data: ChartData.map((data) => data.Strength),
         backgroundColor: colorArray,
         borderColor,
@@ -36,7 +36,7 @@ const GraduatingStudent = () => {
     labels: ChartDataPG.map((data) => data.Course),
     datasets: [
       {
-        label: "PG Students Graduating in 2023",
+        label: "PG Graduating Students (2023)",
         data: ChartDataPG.map((data) => data.TotalIntake),
         backgroundColor: colorArray,
         borderColor,
@@ -59,47 +59,23 @@ const GraduatingStudent = () => {
   return (
     <>
       <Navsm />
-      <div style={{ marginBottom: "1rem" }}>
-        <div className="chart-head ms-4 ms-lg-5" id="Graduate-title">
+      <div className="container-fluid">
+        <div className="chart-head ms-3 ms-lg-5" id="Graduate-title">
           Graduating Students
         </div>
-        <div className="border-graduating ms-4 ms-lg-5"></div>
+        <div className="border-graduating ms-3 ms-lg-5"></div>
 
-        <div className="chart-container">
-          <div className="border-outer">
-            <div
-              className="chart"
-              style={{
-                position: "relative",
-                margin: "0 auto",
-              }}
-            >
-              <PieChart chartData={chartDataBTech} />
-            </div>
+        <div className="charts-container text-center">
+          <div className="chart text-center">
+            <PieChart chartData={chartDataBTech} />
           </div>
 
-          <div className="border-outer">
-            <div
-              className="chart"
-              style={{
-                position: "relative",
-                margin: "0 auto",
-              }}
-            >
-              <PieChart chartData={chartDataPG} />
-            </div>
+          <div className="chart text-center">
+            <PieChart chartData={chartDataPG} />
           </div>
 
-          <div className="border-outer">
-            <div
-              className="chart"
-              style={{
-                position: "relative",
-                margin: "0 auto",
-              }}
-            >
-              <PieChart chartData={chartDataCourse} />
-            </div>
+          <div className="chart text-center">
+            <PieChart chartData={chartDataCourse} />
           </div>
         </div>
       </div>

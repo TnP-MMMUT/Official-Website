@@ -62,69 +62,43 @@ function PlacementTraining() {
   return (
     <>
       <Navsm />
-      <div style={{ marginBottom: "1rem" }}>
+      <div className="container-fluid">
         {/* Placement Part */}
-        <div className="placement-head ms-4 ms-lg-5" id="Graduate-title">
+        <div className="placement-head ms-0 ms-lg-5" id="Graduate-title">
           Placement Statistics
         </div>
-        <div className="border-placement ms-4 ms-lg-5"></div>
+        <div className="border-placement ms-0 ms-lg-5"></div>
 
-        <div className="stats-container">
-          <div className="stats">
-            <div className="border-outer-placement">
-              <div className="bar">
-                <BarChart chartData={offersData} />
-              </div>
-            </div>
+        <div className="stats-container mt-3">
+          <div className="bar text-center">
+            <BarChart chartData={offersData} />
           </div>
 
-          <div className="stats">
-            <div className="border-outer-placement">
-              <div
-                className="bar"
-                style={{
-                  position: "relative",
-                  margin: "0 auto",
-                }}
-              >
-                <BarChart chartData={averageData} />
-              </div>
-            </div>
+          <div className="bar text-center">
+            <BarChart chartData={averageData} />
           </div>
 
-          <div className="stats">
-            <div className="border-outer-placement">
-              <div
-                className="bar"
-                style={{
-                  position: "relative",
-                  margin: "0 auto",
-                }}
-              >
-                <BarChart chartData={highestData} />
-              </div>
-            </div>
+          <div className="bar text-center">
+            <BarChart chartData={highestData} />
           </div>
         </div>
 
         <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <div className="testimonials ms-4 ms-lg-5">
-            <h2>Past Recruiters</h2>
-            <div
-              className="border-placement ms-1 ms-lg-1"
-              id="recruiters"
-            ></div>
+          <div className="training-head ms-0 ms-lg-5" id="Graduate-title">
+            Past Recruiters
           </div>
+          <div className="border-placement ms-0 ms-lg-5" id="recruiters"></div>
+
           <div className="text-center container-md mx-auto">
             <Logos />
           </div>
         </div>
 
         {/* Training Part */}
-        <div className="training-head ms-4 ms-lg-5" id="Graduate-title">
+        <div className="training-head ms-0 ms-lg-5" id="Graduate-title">
           Training Activities
         </div>
-        <div className="border-training ms-4 ms-lg-5"></div>
+        <div className="border-training ms-0 ms-lg-5"></div>
 
         <TrainingTable />
 

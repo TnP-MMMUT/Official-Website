@@ -170,7 +170,7 @@
   /* padding: 0 .5rem; */
 }
 .navbar .menu :hover .dropdown_menu .navwidth2 {
-  width: 280px;
+  width: 262px;
 }
 
 .navbar .menu :hover .dropdown_menu .navwidth {
@@ -705,9 +705,9 @@
     font-weight: 600;
     padding-left: 0% !important;
   }
-  /* .about-list {
-    width: 550px;
-  } */
+  .navbar .menu :hover .dropdown_menu .navwidth2 {
+    width: 280px;
+  }
 }
 
 @media (max-width: 768px) {

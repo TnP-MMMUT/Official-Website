@@ -25,7 +25,7 @@ const TPO = () => {
   }, [inViewMessage, animationMessage]);
   return (
     <>
-      <div ref={refMessage}>
+      <div ref={refMessage} className="container-sm">
         <motion.div animate={animationMessage}>
           <div className="row d-flex flex-row-reverse">
             <div className="col-12 col-md-4 col-lg-4">
@@ -47,7 +47,7 @@ const TPO = () => {
               </div>
             </div>
             <div className="col-12 col-md-8 col-sm-12 col-lg-8">
-              <p className="ms-2 ms-md-5 about-text">
+              <p className="about-text">
                 Madan Mohan Malaviya University of Technology, Gorakhpur is one
                 of the established university of India. It is my pride and
                 privilege to share few facts about placements as it has always

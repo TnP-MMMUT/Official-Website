@@ -4,7 +4,7 @@ const BarGraph = ({ chartData }) => {
   const header = chartData.datasets[0].label;
 
   const options = {
-    responsive: true,
+    // responsive: true,
     maintainAspectRatio: false,
     categoryPercentage: 0.5,
     elements: {
@@ -68,7 +68,15 @@ const BarGraph = ({ chartData }) => {
         display: true,
         text: `${header}`,
         align: "center",
-        font: { weight: "bold", size: 20, family: "Montserrat", padding: 0 },
+        padding: {
+          bottom: 30,
+        },
+        font: {
+          weight: "bold",
+          size: 20,
+          family: "Montserrat",
+          padding: 10,
+        },
       },
     },
   };

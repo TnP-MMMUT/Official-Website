@@ -3,8 +3,8 @@ import "../../style/academics.css";
 const UG = () => {
   return (
     <>
-      <div className="about ms-3 ms-md-6 ms-lg-5">Undergraduate Programmes</div>
-      <div className="border1 border-UG ms-3 ms-md-6 ms-lg-5"></div>
+      <div className="about ms-2 ms-md-6 ms-lg-5">Undergraduate Programmes</div>
+      <div className="border1 border-UG ms-2 ms-md-6 ms-lg-5"></div>
       <div className="text2-UG mx-auto ms-lg-5">
         <p>
           The University offers the following undergraduate programmes leading

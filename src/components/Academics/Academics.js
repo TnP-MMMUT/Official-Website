@@ -18,9 +18,9 @@ const Academics = () => {
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
 
-      <div className="container-academics">
-        <div className="about ms-3 ms-md-6 ms-lg-5">Programmes</div>
-        <div className="border1 border-head ms-3 ms-md-6 ms-lg-5"></div>
+      <div className="container-fluid">
+        <div className="about ms-2 ms-md-6 ms-lg-5">Programmes</div>
+        <div className="border1 border-head ms-2 ms-md-6 ms-lg-5"></div>
         <div className="text1-all mx-auto">
           The University offers various programmes at undergraduate,
           postgraduate and doctoral level.

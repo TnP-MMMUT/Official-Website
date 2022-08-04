@@ -120,7 +120,7 @@
 }
 
 .border-student {
-  width: 180px;
+  width: 180px !important;
 }
 
 #our-team .social li a:hover {

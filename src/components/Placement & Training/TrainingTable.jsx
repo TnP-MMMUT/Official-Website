@@ -11,7 +11,7 @@ function TrainingTable() {
       <div className="dataGrid" style={{ display: "flex" }}>
         <div className="tableTitle">Training Activities 2021-22</div>
         <div
-          className=" tableStyle"
+          className="tableStyle"
           style={{ height: 790, width: "95%", flexGrow: 1 }}
         >
           <DataGrid

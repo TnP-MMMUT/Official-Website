@@ -3,7 +3,7 @@
 }
 
 .border-head {
-  width: 230px;
+  width: 230px !important;
 }
 
 .text1-all {
@@ -33,15 +33,15 @@
 }
 
 .border-UG {
-  width: 490px;
+  width: 490px !important;
 }
 
 .border-PG {
-  width: 470px;
+  width: 470px !important;
 }
 
 .border-DP {
-  width: 390px;
+  width: 390px !important;
 }
 
 .text2-UG {
@@ -107,27 +107,27 @@
 
 @media (max-width: 510px) {
   .border-UG {
-    width: 270px;
+    width: 270px !important;
   }
   .border-PG {
-    width: 460px;
+    width: 460px !important;
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 462px) {
   .border-PG {
-    width: 240px;
+    width: 240px !important;
   }
 }
 
 @media (max-width: 420px) {
   .border-DP {
-    width: 370px;
+    width: 370px !important;
   }
 }
 
 @media (max-width: 375px) {
   .border-DP {
-    width: 240px;
+    width: 240px !important;
   }
 }

@@ -9,8 +9,8 @@ import "../../style/academics.css";
 const PG = () => {
   return (
     <>
-      <div className="about ms-3 ms-md-6 ms-lg-5">Postgraduate Programmes</div>
-      <div className="border1 border-PG ms-3 ms-md-6 ms-lg-5"></div>
+      <div className="about ms-2 ms-md-6 ms-lg-5">Postgraduate Programmes</div>
+      <div className="border1 border-PG ms-2 ms-md-6 ms-lg-5"></div>
       <div className="text2-UG mx-auto ms-lg-5">
         <p>
           The University offers the following undergraduate programmes leading

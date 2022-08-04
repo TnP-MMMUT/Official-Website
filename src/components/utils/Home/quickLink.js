@@ -104,17 +104,18 @@ const QuickLinks = () => {
                       <ul>
                         <li>
                           <a href="http://www.mmmut.ac.in/Pdf/T&P%20Placement%20Brochure%202022-23.pdf">
+                            Placement Brochure 2022-2023
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://drive.google.com/uc?export=download&id=1xJfgmYiO3ZJZ2sUPRFfLT2J73Jic7tfd">
                             Placement Brochure 2021-2022
                           </a>
                         </li>
                         <li>
-                          <a href="#">Placement Brochure 2020-2021</a>
-                        </li>
-                        <li>
-                          <a href="#">Placement Brochure 2019-2020</a>
-                        </li>
-                        <li>
-                          <a href="#">Placement Brochure 2018-2019</a>
+                          <a href="https://drive.google.com/uc?export=download&id=1jZvVRT4kjVOGYG6rNPCJzBC7T67jSK-U">
+                            Placement Brochure 2020-2021
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -128,7 +129,7 @@ const QuickLinks = () => {
                     {" "}
                     <img
                       className="img"
-                      src="https://cdn-icons.flaticon.com/png/512/548/premium/548174.png?token=exp=1658917400~hmac=fa69b84847aaef8c5768284c52400c58"
+                      src="https://cdn-icons-png.flaticon.com/512/921/921591.png"
                       alt="Error loading "
                     />{" "}
                     <Link to="/placement_training" className="link">

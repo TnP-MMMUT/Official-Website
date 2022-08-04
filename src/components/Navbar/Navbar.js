@@ -79,12 +79,12 @@ const Navbar = () => {
             For Companies <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu navwidth2">
               <ul>
-                <li>
+                <li className="navwidth2">
                   <NavLink to="/invite" className="dropdownnavlink">
                     Invitation
                   </NavLink>
                 </li>
-                <li>
+                <li className="navwidth2">
                   <a
                     style={{ textDecoration: "none", color: "#000" }}
                     href="http://www.mmmut.ac.in/Pdf/T&P%20Placement%20Brochure%202022-23.pdf"
@@ -94,17 +94,17 @@ const Navbar = () => {
                     Placement Brochure
                   </a>
                 </li>
-                <li>
+                <li className="navwidth2">
                   <NavLink to="/procedure" className="dropdownnavlink">
                     Placement Procedure
                   </NavLink>
                 </li>
-                <li>
+                <li className="navwidth2">
                   <NavLink to="/reachingMMMUT" className="dropdownnavlink">
                     Reaching MMMUT
                   </NavLink>
                 </li>
-                <li>
+                <li className="navwidth2">
                   <NavLink to="/placement_training" className="dropdownnavlink">
                     Placement Statistics & Training
                   </NavLink>

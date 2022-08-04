@@ -47,7 +47,7 @@ const VCsir = () => {
               </div>
             </div>
             <div className="col-12 col-md-8 col-sm-12 col-lg-8">
-              <p className="ms-2 ms-md-5 about-text">
+              <p className="about-text">
                 Madan Mohan Malaviya University of Technology (MMMUT), Gorakhpur
                 has grown to become the national flagship of UP State
                 Government, known for the excellence of it's teaching to the

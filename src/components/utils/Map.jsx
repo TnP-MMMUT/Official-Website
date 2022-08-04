@@ -15,7 +15,6 @@ const Map = () => {
           aria-hidden="false"
           tabindex="0"
           width="94%"
-          className="col-10"
         ></iframe>
       </div>
     </>

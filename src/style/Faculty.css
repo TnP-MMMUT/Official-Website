@@ -24,7 +24,7 @@
 
 /* Border */
 .border-faculty {
-  width: 355px;
+  width: 355px !important;
 }
 
 /* Card Component */
@@ -115,6 +115,6 @@
 
 @media (max-width: 383px) {
   .border-faculty {
-    width: 230px;
+    width: 230px !important;
   }
 }

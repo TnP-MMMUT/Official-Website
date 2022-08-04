@@ -2,7 +2,6 @@
 
 .chart-head {
   margin-top: 1rem;
-  margin-left: 7rem;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -12,9 +11,9 @@
   color: black;
 }
 
-.chart-container {
+.charts-container {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -27,7 +26,6 @@
   top: 394px;
   background-color: #457b9d;
   border: 1px solid #457b9d;
-  margin-left: 7rem;
 }
 
 .chart {
@@ -36,8 +34,10 @@
   justify-content: center;
   justify-items: center;
   margin-top: 2rem;
-  height: 600px;
-  width: 600px;
+  height: 550px;
+  width: 550px;
+  padding: 15px;
+  border: 3px solid #457b9d;
 }
 
 .chart-headline {
@@ -56,8 +56,8 @@
   margin-top: 1rem;
   margin: 1rem 20px;
   border: 3px solid #457b9d;
-  width: 700px;
-  height: 650px;
+  width: 650px;
+  height: 600px;
 }
 
 @media (max-width: 1200px) {
@@ -106,7 +106,7 @@
   }
 }
 
-@media (max-width: 516px) {
+@media (max-width: 520px) {
   .border-graduating {
     align-self: start;
     margin-left: 4rem;
@@ -116,8 +116,8 @@
     height: 500px;
   }
   .border-outer {
-    width: 480px;
-    height: 530px;
+    width: 470px;
+    height: 520px;
   }
 }
 
@@ -132,8 +132,8 @@
     height: 530px;
   }
   .border-outer {
-    width: 460px;
-    height: 540px;
+    width: 445px;
+    height: 530px;
   }
 }
 
@@ -167,14 +167,12 @@
     height: 370px;
   }
 }
-@media (max-width: 368px) {
+
+@media (max-width: 385px) {
   .border-graduating {
-    margin-left: 1.4rem;
     width: 12rem;
   }
-  #Graduate-title {
-    margin-left: 1.4rem;
-  }
+
   .chart {
     height: 320px;
     width: 320px;
@@ -193,11 +191,11 @@
     margin-left: 0.7rem;
   }
   .chart {
-    height: 320px;
-    width: 300px;
+    height: 310px;
+    width: 290px;
   }
   .border-outer {
-    width: 320px;
+    width: 312px;
     height: 340px;
   }
 }

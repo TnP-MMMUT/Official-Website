@@ -31,10 +31,10 @@ const FrontPage = () => {
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
 
-      <div className="container-sm">
-        <h2 className="about ms-3 ms-md-5 ms-lg-5">About Us</h2>
-        <div className="border1 ms-3 ms-md-5 ms-lg-5" id="aboutBor"></div>
-        <p className="about-text ms-3 ms-md-5 ms-lg-5 mt-2">
+      <div className="container-sm mx-auto">
+        <h2 className="about ms-1 ms-md-1 ms-lg-1">About Us</h2>
+        <div className="border1" id="aboutBor"></div>
+        <p className="about-text mt-2">
           <b>Training & Placement Cell (T&P)</b> of the University centrally
           handles all aspects of campus placements/internship,
           training/workshops for the graduating students of all departments. T&P
@@ -45,30 +45,30 @@ const FrontPage = () => {
           the Organizations conducting the drive.
         </p>
 
-        {/* <h2 className="about ms-3 ms-md-5 ms-lg-5">Announcements</h2>
-        <div className="border1 ms-3 ms-md-5 ms-lg-5" id="aboutAnn"></div>
+        {/* <h2 className="about">Announcements</h2>
+        <div className="border1" id="aboutAnn"></div>
 
         <div className="row col-12 mt-2">
-          <p className="ms-3 ms-md-5 ms-lg-5 about-text">Coming soon!</p>
+          <p className= about-text">Coming soon!</p>
         </div> */}
 
         <QuickLinks />
 
-        <div className="about ms-3 ms-md-5 ms-lg-5">
+        <div className="about ms-1 ms-md-1 ms-lg-1">
           From the Vice-Chancellor’s Desk
         </div>
-        <div className="border1 ms-3 ms-md-5 ms-lg-5 mb-3" id="aboutVCM"></div>
+        <div className="border1 mb-3" id="aboutVCM"></div>
         <VCsir />
 
-        <div className="about ms-3 ms-md-5 ms-lg-5">From the TPO’s Desk</div>
-        <div className="border1 ms-3 ms-md-5 ms-lg-5 mb-3" id="aboutTPOM"></div>
+        <div className="about ms-1 ms-md-1 ms-lg-1">From the TPO’s Desk</div>
+        <div className="border1 mb-3" id="aboutTPOM"></div>
         <TPO />
 
-        <h2 className="about ms-3 ms-md-5 ms-lg-5">
+        <h2 className="about ms-1 ms-md-1 ms-lg-1">
           Image Gallery of T&P Cell
         </h2>
-        <div className="border-gallery ms-3 ms-md-5 ms-lg-5"></div>
-        <div className="news-container mt-3 text-center mx-auto">
+        <div className="border-gallery"></div>
+        <div className="news-container gallery-style container-fluid mt-3 text-center mx-auto">
           <PhotoAlbum layout="masonry" photos={gallery} />
         </div>
       </div>

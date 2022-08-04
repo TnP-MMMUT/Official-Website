@@ -5,10 +5,18 @@ import Alumnus from "./Alumnus";
 import Footer from "../utils/Footer";
 import "../../style/alumni.css";
 
+import { motion, useScroll } from "framer-motion";
+
 const Alumni = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <>
       <Navsm />
+
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      ></motion.div>
 
       <div className="container-fluid">
         <div className="about ms-3 ms-md-5 ms-lg-5" id="alumn_title">

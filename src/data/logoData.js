@@ -120,7 +120,7 @@ export const LogoData = [
   {
     id: "21",
     imgLink:
-      "https://www.jaroeducation.com/wp-content/uploads/2019/10/jaro_Logo_1.png",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jaro_Education_Logo.png?20160929072611",
     altText: "company_logo",
   },
   {
@@ -487,6 +487,12 @@ export const LogoData = [
     id: "85",
     imgLink:
       "https://d1.awsstatic.com/gcrp_adverbTechnologies_03282022.4e0f935e4bb413543057504676b4eba9e018b9cd.png",
+    altText: "company_logo",
+  },
+  {
+    id: "86",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/MakeMyTrip_Logo.png",
     altText: "company_logo",
   },
 ];

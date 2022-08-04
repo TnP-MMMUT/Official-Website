@@ -24,7 +24,10 @@ const LifeAtMMMUT = () => {
       <div className="container-fluid mx-auto">
         <div className="content1">
           <div className="about ms-2 ms-md-5 ms-lg-5">Student Activities</div>
-          <div className="border1 ms-2 ms-md-5 ms-lg-5 mb-2 stu-border"></div>
+          <div
+            className="border1 ms-2 ms-md-5 ms-lg-5 mb-2"
+            id="stu-border"
+          ></div>
           <p className="ms-2 ms-md-5 ms-lg-5 s-about">
             The students of MMMUT are brilliant in extracurricular, sports and
             leadership roles, in addition to a strenuous academic schedule.
@@ -41,7 +44,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           IEEE Student Branch
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 ieee-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="ieee-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -70,7 +73,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           SAE Collegiate Club
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 sae-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="sae-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -97,7 +100,7 @@ const LifeAtMMMUT = () => {
 
         {/* Cultural */}
         <div className="about-society ms-2 ms-md-5 ms-lg-5">Cultural Synod</div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 cul-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="cul-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -125,7 +128,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           The Editorial Board
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 edb-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="edb-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -151,7 +154,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           Sports Sub Council
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 sports-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="sports-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -178,7 +181,7 @@ const LifeAtMMMUT = () => {
 
         {/* RC */}
         <div className="about-society ms-2 ms-md-5 ms-lg-5">Robotics Club</div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 rc-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="rc-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -207,7 +210,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           National Service Scheme
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 nss-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="nss-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -236,7 +239,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           National Cadet Corps
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 ncc-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="ncc-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -266,7 +269,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           Social Engineer's Board
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 seb-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="seb-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -293,7 +296,7 @@ const LifeAtMMMUT = () => {
 
         {/* E-Cell */}
         <div className="about-society ms-2 ms-md-5 ms-lg-5">E-Cell</div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 ecell-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="ecell-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -321,7 +324,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           University Innovation Cell
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 uic-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="uic-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}
@@ -351,7 +354,7 @@ const LifeAtMMMUT = () => {
         <div className="about-society ms-2 ms-md-5 ms-lg-5">
           IICHE Student Branch
         </div>
-        <div className="border1 ms-2 ms-md-5 ms-lg-5 iiche-border"></div>
+        <div className="border1 ms-2 ms-md-5 ms-lg-5" id="iiche-border"></div>
         <motion.div
           className="content1 ms-2 ms-md-5 ms-lg-5"
           initial={{ opacity: 0, translateX: -40 }}

@@ -16,21 +16,25 @@
   justify-content: center;
   text-align: center;
   font-size: 32px;
+  word-wrap: none !important;
 }
 
 .row-1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  word-wrap: none !important;
 }
 
 .row-2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  word-wrap: none !important;
 }
 
 .quadrant-1 {
+  word-wrap: none !important;
   background-color: rgba(246, 246, 246, 0.923);
   font-weight: bold;
   padding: 10px;
@@ -43,6 +47,7 @@
 .quadrant-1 h3 {
   color: rgb(65, 65, 65);
   font-weight: 600;
+  word-wrap: normal !important;
 }
 
 .component-alumni {
@@ -50,6 +55,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  word-wrap: none !important;
 }
 
 .logo-component {
@@ -65,11 +71,11 @@
 }
 
 .border-alumni {
-  width: 370px;
+  width: 370px !important;
 }
 
 .border-layout {
-  width: 410px;
+  width: 410px !important;
   margin-bottom: 10px;
 }
 
@@ -78,7 +84,7 @@
 }
 
 .border-news {
-  width: 300px;
+  width: 300px !important;
   margin-bottom: 10px;
 }
 
@@ -92,12 +98,23 @@
 .news-container {
   font-family: "Montserrat" !important;
   margin: 10px;
-  margin-bottom: 20px;
   align-items: center;
   justify-items: center;
   justify-content: center;
   width: 90%;
 }
+
+.react-photo-album--photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  object-fit: fill;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+  border-radius: 2px;
+}
+
 @media (max-width: 900px) {
   .news-container {
     margin: 15px;
@@ -105,31 +122,31 @@
 }
 @media (max-width: 414px) {
   .border-layout {
-    width: 240px;
+    width: 240px !important;
   }
   .news-container {
     width: 90%;
     margin: 20px;
   }
   .border-alumni {
-    width: 365px;
+    width: 365px !important;
   }
 }
 
 @media (max-width: 392px) {
   .border-alumni {
-    width: 340px;
+    width: 340px !important;
   }
 }
 
 @media (max-width: 366px) {
   .border-alumni {
-    width: 320px;
+    width: 320px !important;
   }
 }
 
 @media (max-width: 366px) {
   .border-alumni {
-    width: 220px;
+    width: 220px !important;
   }
 }

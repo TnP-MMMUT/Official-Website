@@ -6,10 +6,10 @@ const PieChart = ({ chartData }) => {
   const header = chartData.datasets[0].label;
 
   const options = {
-    interaction:{
+    interaction: {
       intersect: false,
     },
-    responsive: true,
+    // responsive: true,
     maintainAspectRatio: false,
     elements: {
       points: {
@@ -22,7 +22,7 @@ const PieChart = ({ chartData }) => {
         position: "right",
         labels: {
           font: {
-            size: 20,
+            size: 16,
             family: "Montserrat",
             padding: 20,
           },
@@ -48,7 +48,10 @@ const PieChart = ({ chartData }) => {
         display: true,
         text: `${header}`,
         align: "center",
-        font: { weight: "bold", size: 20, family: "Montserrat", padding: 0 },
+        padding: {
+          bottom: 20,
+        },
+        font: { weight: "bold", size: 22, family: "Montserrat", padding: 0 },
       },
     },
   };
