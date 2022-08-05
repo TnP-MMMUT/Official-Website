@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Official-Website/static/css/main.5b7442d4.css",
-    "main.js": "/Official-Website/static/js/main.d796098e.js",
+    "main.css": "/Official-Website/static/css/main.ab0dc730.css",
+    "main.js": "/Official-Website/static/js/main.8789acaa.js",
     "static/media/cara1resize.jpg": "/Official-Website/static/media/cara1resize.7501d301422d3962c118.jpg",
     "static/media/Testimonial.png": "/Official-Website/static/media/Testimonial.5b399bde301ad84053cd.png",
     "static/media/cara2resize.jpg": "/Official-Website/static/media/cara2resize.b69e71cce850ad08a014.jpg",
@@ -15,11 +15,11 @@
     "static/media/slick.ttf": "/Official-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Official-Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Official-Website/index.html",
-    "main.5b7442d4.css.map": "/Official-Website/static/css/main.5b7442d4.css.map",
-    "main.d796098e.js.map": "/Official-Website/static/js/main.d796098e.js.map"
+    "main.ab0dc730.css.map": "/Official-Website/static/css/main.ab0dc730.css.map",
+    "main.8789acaa.js.map": "/Official-Website/static/js/main.8789acaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b7442d4.css",
-    "static/js/main.d796098e.js"
+    "static/css/main.ab0dc730.css",
+    "static/js/main.8789acaa.js"
   ]
 }
