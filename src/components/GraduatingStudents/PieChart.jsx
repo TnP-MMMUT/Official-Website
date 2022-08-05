@@ -23,7 +23,7 @@ const PieChart = ({ chartData }) => {
         labels: {
           font: {
             size: 16,
-            family: "Montserrat",
+            family: "Neo Sans Pro",
             padding: 20,
           },
         },
@@ -36,12 +36,12 @@ const PieChart = ({ chartData }) => {
       },
       tooltip: {
         titleFont: {
-          size: 10,
-          family: "Montserrat",
+          size: 20,
+          family: "Neo Sans Pro",
         },
         bodyFont: {
-          size: 10,
-          family: "Montserrat",
+          size: 20,
+          family: "Neo Sans Pro",
         },
       },
       title: {
@@ -51,7 +51,7 @@ const PieChart = ({ chartData }) => {
         padding: {
           bottom: 20,
         },
-        font: { weight: "bold", size: 22, family: "Montserrat", padding: 0 },
+        font: { weight: "bold", size: 22, family: "Neo Sans Pro", padding: 0 },
       },
     },
   };

@@ -7,6 +7,7 @@ const ChronoComponent = () => {
       items={items}
       slideShow
       mode="VERTICAL_ALTERNATING"
+      twoColumns
       fontSizes={{
         cardText: "19rem",
         cardTitle: "1.4rem",

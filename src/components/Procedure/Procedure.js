@@ -8,12 +8,9 @@ const Procedure = () => {
   return (
     <>
       <Navsm />
-      <div className="container-sm">
+      <div className="container-fluid">
         <div className="about ms-2 ms-md-5 ms-lg-5">Placement Procedure</div>
-        <div
-          className="border1 ms-2 ms-md-5 ms-lg-5"
-          id="border-procedure"
-        ></div>
+        <div className="border-bottom ms-2 ms-md-5 ms-lg-5"></div>
 
         <div className="procedures ms-2 ms-md-5 ms-lg-5">
           <ChronoComponent />

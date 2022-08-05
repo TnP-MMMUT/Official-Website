@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import { containerClasses } from "@mui/system";
 
 const QuickLinks = () => {
   const { ref, inView } = useInView();
@@ -35,70 +36,72 @@ const QuickLinks = () => {
           <div className="row-head">
             <div className="row-quick">
               <div className="quicklinks">
-                <h2 className="text-center mt-2">
-                  {" "}
+                <div className="link-container mb-2 mt-3">
                   <img
                     className="img"
-                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536300/link_1_dxwycj.png"
+                    src="https://cdn-icons.flaticon.com/png/512/1925/premium/1925510.png?token=exp=1659695741~hmac=db53065b3fae46451343cf13d4b99dbc"
                     alt="Error loading "
-                  />{" "}
-                  Quick Links
-                </h2>
-                <div className="rowQLbig">
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                  />
+                  <h2 className="text-center mt-2">Quick Links</h2>
+                </div>
+
+                <div className="rowQLbig mb-2 mt-4">
+                  <div className="link-container">
                     <img
                       className="img"
                       style={{ height: "50px", width: "50px" }}
                       src="https://s3.ap-south-1.amazonaws.com/assets.ynos.in/startup-logos/YNOS336741.jpg"
                       alt="Error loading "
-                    />{" "}
-                    <a
-                      style={{ textDecoration: "none", color: "#000" }}
-                      href="https://app.joinsuperset.com/#/s/feed"
-                      target="_blank"
-                      rel="noreferrer"
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
                     >
-                      Login to Superset
-                    </a>
-                  </motion.h4>
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                      <a
+                        style={{ textDecoration: "none", color: "#000" }}
+                        href="https://app.joinsuperset.com/#/s/feed"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Login to Superset
+                      </a>
+                    </motion.h4>
+                  </div>
+                  <div className="link-container">
                     <img
                       className="img"
                       src="https://cdn-icons-png.flaticon.com/512/2343/2343694.png"
                       alt="Error loading "
-                    />{" "}
-                    <Link className="link" to="/studentCoordinators">
-                      {" "}
-                      Contact Us
-                    </Link>
-                  </motion.h4>
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <Link className="link" to="/studentCoordinators">
+                        Contact Us
+                      </Link>
+                    </motion.h4>
+                  </div>
 
                   <Popup
                     trigger={
-                      <motion.h4
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                        className="save-button"
-                      >
-                        {" "}
+                      <div className="link-container">
                         <img
                           className="img"
                           alt="Error loading "
                           src="https://cdn-icons-png.flaticon.com/512/543/543931.png"
                         />
-                        {""} &nbsp; Brochures
-                      </motion.h4>
+                        <motion.h4
+                          whileHover={{ scale: 1.03 }}
+                          whileTap={{ scale: 0.9 }}
+                          className="save-button"
+                        >
+                          Brochures
+                        </motion.h4>
+                      </div>
                     }
                     on={"hover"}
-                    position="bottom left"
+                    position="bottom center"
                   >
                     <div className="hid1">
                       <ul>
@@ -121,51 +124,52 @@ const QuickLinks = () => {
                     </div>
                   </Popup>
 
-                  <motion.h4
-                    className="placementStats"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                  <div className="link-container">
                     <img
                       className="img"
                       src="https://cdn-icons-png.flaticon.com/512/921/921591.png"
                       alt="Error loading "
-                    />{" "}
-                    <Link to="/placement_training" className="link">
-                      Placement Statistics & Trainings
-                    </Link>
-                  </motion.h4>
+                    />
+                    <motion.h4
+                      className="placementStats"
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <Link to="/placement_training" className="link">
+                        Placement Statistics & Trainings
+                      </Link>
+                    </motion.h4>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="row-quick">
               <div className="quicklinks">
-                <h2 className="text-center mt-2">
-                  {" "}
+                <div className="link-container mt-3">
                   <img
-                    src="https://res.cloudinary.com/dltqjc99w/image/upload/v1658265845/cell/download_1_hs3qzf.png"
+                    src="https://cdn-icons-png.flaticon.com/512/3677/3677179.png"
                     className="img"
                     alt="Error loading"
-                  />{" "}
-                  Downloads
-                </h2>
-                <div className="rowQLbig">
+                  />
+                  <h2 className="text-center mt-2">Downloads</h2>
+                </div>
+                <div className="rowQLbig mb-2 mt-4">
                   <Popup
                     trigger={
-                      <motion.h4
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                      >
-                        {" "}
+                      <div className="link-container">
                         <img
                           src="https://cdn-icons-png.flaticon.com/512/3534/3534066.png"
                           className="img"
                           alt="Error loading "
-                        />{" "}
-                        Placement Reports
-                      </motion.h4>
+                        />
+                        <motion.h4
+                          whileHover={{ scale: 1.03 }}
+                          whileTap={{ scale: 0.9 }}
+                        >
+                          Placement Reports
+                        </motion.h4>
+                      </div>
                     }
                     // modal="true"
                     on={"hover"}
@@ -201,82 +205,90 @@ const QuickLinks = () => {
                       </ul>
                     </div>
                   </Popup>
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+
+                  <div className="link-container">
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/4599/4599295.png"
                       className="img"
                       alt="Error loading"
-                    />{" "}
-                    <a
-                      href="https://res.cloudinary.com/vaish1101/image/upload/v1658241167/gyan%20sir/T_P_Policy_2022_kf9g0e.pdf"
-                      className="link"
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
                     >
-                      Placement Policy
-                    </a>
-                  </motion.h4>
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                      <a
+                        href="https://res.cloudinary.com/vaish1101/image/upload/v1658241167/gyan%20sir/T_P_Policy_2022_kf9g0e.pdf"
+                        className="link"
+                      >
+                        Placement Policy
+                      </a>
+                    </motion.h4>
+                  </div>
+                  <div className="link-container">
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/893/893505.png"
                       className="img"
                       alt="Error loading"
-                    />{" "}
-                    <a className="link" href="https://bit.ly/3zhzNVy">
-                      Resume Template
-                    </a>
-                  </motion.h4>
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <a className="link" href="https://bit.ly/3zhzNVy">
+                        Resume Template
+                      </a>
+                    </motion.h4>
+                  </div>
+
+                  <div className="link-container">
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/980/980240.png"
                       className="img"
                       alt="Error loading"
-                    />{" "}
-                    <Link to="/invite" className="link">
-                      Invitation
-                    </Link>
-                  </motion.h4>
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <Link to="/invite" className="link">
+                        Invitation
+                      </Link>
+                    </motion.h4>
+                  </div>
+                  <div className="link-container">
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/3842/3842018.png"
                       className="img"
                       alt="Error loading"
-                    />{" "}
-                    <a className="link" href="https://tinyurl.com/y5vkask9">
-                      Industrial Training Letter
-                    </a>
-                  </motion.h4>
-                  <motion.h4
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    {" "}
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      <a className="link" href="https://tinyurl.com/y5vkask9">
+                        Industrial Training Letter
+                      </a>
+                    </motion.h4>
+                  </div>
+
+                  <div className="link-container">
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/7626/7626235.png"
                       className="img"
                       alt="Error loading"
-                    />{" "}
-                    <a
-                      className="link"
-                      href="http://www.mmmut.ac.in/pdf/T&P%20Contacts_List%202022-2023.pdf"
+                    />
+                    <motion.h4
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.9 }}
                     >
-                      Contact List
-                    </a>
-                  </motion.h4>
+                      <a
+                        className="link"
+                        href="http://www.mmmut.ac.in/pdf/T&P%20Contacts_List%202022-2023.pdf"
+                      >
+                        Contact List
+                      </a>
+                    </motion.h4>
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 /*------------Home page first 100vh-----------*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"); */
+@import url("http://fonts.cdnfonts.com/css/neo-sans-pro");
 
 .homediv {
   background-image: linear-gradient(
@@ -91,7 +92,7 @@
 }
 
 .navbar .menu {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -136,7 +137,7 @@
   background-color: #f8f8f8;
   border-radius: 15px;
 
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -147,7 +148,7 @@
   /* margin-left: 32px; */
 }
 .navbar .menu :hover .dropdown_menu ul {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -285,10 +286,7 @@
 
 .about {
   margin-top: 1rem;
-  margin-left: 7rem;
-  /* margin-right: 3rem; */
-
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -296,21 +294,19 @@
   color: black;
 }
 
-.border1 {
-  width: 260px;
-  height: 3px;
+.border-bottom {
+  width: 50px;
+  height: 5px;
+  margin-top: 5px;
   left: 162px;
   top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  /* margin-left: 7rem; */
+  background-color: #004d70;
 }
 
 .text1 {
   padding-top: 10px;
   width: 94%;
-
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-size: 20px;
   line-height: 29px;
@@ -319,10 +315,7 @@
 }
 
 .vision {
-  margin-top: 1rem;
-  margin-left: 7rem;
-
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -330,24 +323,10 @@
   color: black;
 }
 
-.border2 {
-  width: 110px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  margin-left: 7rem;
-}
-
 .text2 {
-  /* margin-left: 7rem;
-  margin-right: 7rem; */
-  padding-top: 1.5rem;
-  top: 414px;
+  padding-top: 10px;
   width: 94%;
-
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-size: 20px;
   line-height: 29px;
@@ -356,10 +335,7 @@
 }
 
 .mission {
-  margin-top: 1rem;
-  margin-left: 7rem;
-
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -367,25 +343,13 @@
   color: black;
 }
 
-.border3 {
-  width: 130px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  margin-left: 7rem;
-}
-
 .text3 {
-  padding-top: 1.5rem;
-  top: 414px;
+  padding-top: 10px;
   width: 94%;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
-  /* font-weight: 600; */
-  font-size: 20px;
+  font-size: 21px;
   line-height: 29px;
   text-align: justify;
 
@@ -394,9 +358,8 @@
 
 .loc {
   margin-top: 1.5rem;
-  margin-left: 7rem;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -404,23 +367,11 @@
   color: black;
 }
 
-.border4 {
-  width: 335px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  margin-left: 7rem;
-}
-
 .text4 {
-  /* margin-left: 7rem;
-  margin-right: 7rem; */
-  padding-top: 1.5rem;
+  padding-top: 10px;
   width: 94%;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-size: 20px;
   line-height: 29px;
@@ -430,9 +381,8 @@
 
 .map {
   margin-top: 1.5rem;
-  margin-left: 7rem;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -444,27 +394,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-  width: 94%;
-}
-
-.border5 {
-  width: 80px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  margin-left: 7rem;
+  /* width: 94%; */
 }
 
 .text5 {
-  margin-left: 7rem;
   margin-right: 7rem;
   padding-top: 1.5rem;
-  top: 414px;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-size: 24px;
   line-height: 29px;
@@ -475,9 +412,8 @@
 
 .campus {
   margin-top: 1.5rem;
-  margin-left: 7rem;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -485,24 +421,8 @@
   color: black;
 }
 
-.border6 {
-  width: 335px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  margin-left: 7rem;
-  margin-bottom: 2rem;
-}
-
 .text6 {
-  margin-left: 7rem;
-  margin-right: 7rem;
-  padding-top: 1.5rem;
-  top: 414px;
-
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -517,7 +437,7 @@
   align-items: center;
 }
 .footer-links {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   display: flex;
   flex-direction: row;
   justify-items: center;
@@ -549,7 +469,7 @@
 }
 .footer-procedure div {
   margin: auto;
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
 }
 
 @keyframes caraouse {
@@ -725,6 +645,23 @@
     color: pink;
   }
 
+  .text1 {
+    width: 100%;
+  }
+
+  .text2 {
+    width: 100%;
+  }
+  .text3 {
+    width: 100%;
+  }
+  .text4 {
+    width: 100%;
+  }
+  .text5 {
+    width: 100%;
+  }
+
   /* Error Page UI ends*/
 }
 
@@ -736,7 +673,7 @@
 }
 
 .head2 {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -759,7 +696,7 @@
 }
 
 .invite-text {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
@@ -788,7 +725,7 @@
   border-radius: 4rem;
 }
 .downloadBrochure-button span {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -803,7 +740,7 @@
   text-decoration: none;
 }
 .mail-button a {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -819,7 +756,7 @@
   height: 60px;
 }
 .copyrt-invitation div {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-size: 1.2rem;
   margin: auto;
 }
@@ -915,7 +852,7 @@
 }
 @media (max-width: 449px) {
   .Heading-procedure div {
-    width: 95%;
+    width: 94%;
   }
   .procedure {
     height: 5rem;
@@ -947,7 +884,7 @@
     font-size: 0.6rem;
   }
   .image-center {
-    width: 95%;
+    width: 94%;
   }
 }
 @media (min-width: 450px) and (max-width: 600px) {
@@ -1010,7 +947,7 @@
     width: 6%;
   }
   .procedure span {
-    font-family: "Montserrat";
+    font-family: "Neo Sans Pro", sans-serif !important;
     font-size: 0.8rem;
     font-weight: 600;
   }

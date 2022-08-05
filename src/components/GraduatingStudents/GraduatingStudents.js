@@ -63,7 +63,7 @@ const GraduatingStudent = () => {
         <div className="chart-head ms-3 ms-lg-5" id="Graduate-title">
           Graduating Students
         </div>
-        <div className="border-graduating ms-3 ms-lg-5"></div>
+        <div className="border-bottom ms-3 ms-lg-5"></div>
 
         <div className="charts-container text-center">
           <div className="chart text-center">

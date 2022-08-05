@@ -4,17 +4,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Neo Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Neo Sans Pro", sans-serif;
 }
 
 body {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Neo Sans Pro", sans-serif;
 }
 
 /*---------------Homepage CSS-----------------*/

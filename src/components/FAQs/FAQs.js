@@ -15,10 +15,10 @@ const FAQs = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
-
-      <div className="about ms-5">FAQs</div>
-      <div className="border1 ms-5" id="faq"></div>
       <div className="container-sm">
+        <div className="about ms-2">FAQs</div>
+        <div className="border-bottom ms-2"></div>
+
         <div className="row">
           <div className="accordion" id="accordionExample">
             <div className="accordion-item">
@@ -31,7 +31,7 @@ const FAQs = () => {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  How to reach MMMUT , Gorakhpur?
+                  How to reach MMMUT, Gorakhpur?
                 </button>
               </h2>
               <div
@@ -64,7 +64,7 @@ const FAQs = () => {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Where will we be accomodated in an on-campus drive?
+                  Where will we be accommodated in an on-campus drive?
                 </button>
               </h2>
               <div
@@ -219,7 +219,7 @@ const FAQs = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  The eligibilty of a students depends on the brackets
+                  The eligibility of a students depends on the brackets
                   including: • Up to 6 LPA • 6 LPA - 10 LPA • Above 10 LPA If a
                   student is placed in any of the brackets, he/she would be
                   allowed to appear only for the companies whose package lies in

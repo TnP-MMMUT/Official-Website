@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
 }
 
 .counter-row {
@@ -67,7 +67,7 @@
 .alumni {
   font-size: 32px;
   font-weight: 600;
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
 }
 
 .border-alumni {
@@ -80,7 +80,7 @@
 }
 
 .layout-container {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
 }
 
 .border-news {
@@ -96,7 +96,7 @@
 }
 
 .news-container {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   margin: 10px;
   align-items: center;
   justify-items: center;

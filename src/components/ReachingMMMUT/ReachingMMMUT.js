@@ -19,7 +19,7 @@ const ReachingMMMUT = () => {
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
 
-      <div className="reaching-container">
+      <div className="container-fluid">
         <Location />
         <Connectivity />
         <Map />

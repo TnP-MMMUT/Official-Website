@@ -19,7 +19,7 @@
 }
 
 .span-text {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-weight: 800;
   padding: 20px;
   margin: 0 15px 0 15px;
@@ -35,13 +35,13 @@
 }
 .procedure span {
   word-wrap: normal;
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-size: 18px;
   font-weight: 600;
   overflow: hidden;
 }
 .button-text {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-size: 1.2rem;
   font-weight: 900;
   margin: auto;
@@ -85,7 +85,7 @@
   margin: 0 1rem 0 1rem;
 }
 
-.gztQgT {
+/* .gztQgT {
   -webkit-align-items: flex-start;
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
@@ -115,13 +115,13 @@
 }
 
 .grvnSA.show-less {
-  /* max-height: 50px; */
+ 
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   overflow: hidden;
-}
+} */
 
 @media (max-width: 405px) {
   #border-procedure {

@@ -12,8 +12,12 @@
   animation: carousel_life 50s linear 3s infinite;
 }
 
+.pages_nav {
+  z-index: 1000;
+}
+
 .container-fluid {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
 }
 
 @keyframes carousel_life {
@@ -79,7 +83,7 @@
   }
 }
 .content1 {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   text-align: justify;
 }
 
@@ -88,7 +92,7 @@
   margin-left: 7rem;
   /* margin-right: 3rem; */
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -114,7 +118,7 @@
 .s-about {
   flex: 2;
   align-content: center;
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-size: 20px;
   justify-content: justify;
 }

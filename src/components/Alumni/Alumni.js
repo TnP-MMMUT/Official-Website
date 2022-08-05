@@ -22,7 +22,7 @@ const Alumni = () => {
         <div className="about ms-3 ms-md-5 ms-lg-5" id="alumn_title">
           Prominent Alumni
         </div>
-        <div className="borderpromalumni ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="border-bottom ms-3 ms-md-5 ms-lg-5"></div>
 
         <div className="row-container d-flex flex-row text-center mx-auto">
           <div className="row text-center mx-auto">

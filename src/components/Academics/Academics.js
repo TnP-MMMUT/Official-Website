@@ -20,7 +20,7 @@ const Academics = () => {
 
       <div className="container-fluid">
         <div className="about ms-2 ms-md-6 ms-lg-5">Programmes</div>
-        <div className="border1 border-head ms-2 ms-md-6 ms-lg-5"></div>
+        <div className="border-bottom ms-2 ms-md-6 ms-lg-5"></div>
         <div className="text1-all mx-auto">
           The University offers various programmes at undergraduate,
           postgraduate and doctoral level.
@@ -29,7 +29,6 @@ const Academics = () => {
         <PG />
       </div>
 
-      <div style={{ marginBottom: "10px" }}></div>
       <Footer />
     </>
   );

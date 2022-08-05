@@ -10,7 +10,7 @@ const StudentCoordinators = () => {
       <Navsm />
       <div className="container-fluid">
         <div className="about ms-3 ms-md-5 ms-lg-5">Our Team</div>
-        <div className="border1 border-student ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="border-bottom border-student ms-3 ms-md-5 ms-lg-5"></div>
 
         <div className="row-container d-flex flex-row text-center mx-auto">
           <div className="row text-center mx-auto">

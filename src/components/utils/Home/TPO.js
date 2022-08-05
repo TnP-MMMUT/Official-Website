@@ -25,7 +25,7 @@ const TPO = () => {
   }, [inViewMessage, animationMessage]);
   return (
     <>
-      <div ref={refMessage} className="container-sm">
+      <div ref={refMessage}>
         <motion.div animate={animationMessage}>
           <div className="row d-flex flex-row-reverse">
             <div className="col-12 col-md-4 col-lg-4">

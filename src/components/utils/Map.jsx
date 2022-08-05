@@ -3,8 +3,8 @@ const MapLink = "https://bit.ly/3b3DlkZ";
 const Map = () => {
   return (
     <>
-      <div className="map ms-3 ms-md-4 ms-lg-5">Map</div>
-      <div className="border5 ms-3 ms-md-4 ms-lg-5"></div>
+      <div className="map ms-md-4 ms-lg-5">Map</div>
+      <div className="border-bottom ms-md-4 ms-lg-5 mb-4"></div>
       <div className="mapFrame mx-auto text-center">
         <iframe
           title="Map"

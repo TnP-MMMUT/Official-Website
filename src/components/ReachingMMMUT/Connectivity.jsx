@@ -1,9 +1,9 @@
 const Connectivity = () => {
   return (
     <>
-      <div className="about ms-3 ms-md-6 ms-lg-5">Connectivity</div>
-      <div className="border1 border-head ms-3 ms-md-6 ms-lg-5"></div>
-      <ul className="text1 mx-auto ms-3 ms-md-6 ms-lg-5">
+      <div className="about ms-md-4 ms-lg-5">Connectivity</div>
+      <div className="border-bottom ms-md-4 ms-lg-5"></div>
+      <ul className="text1 mx-auto ms-md-4 ms-lg-5">
         <li>
           <b>Through Air:</b> Mahayogi Gorakhnath Airport, Gorakhpur, Uttar
           Pradesh, 273002 is well connected with all major cities (Delhi,

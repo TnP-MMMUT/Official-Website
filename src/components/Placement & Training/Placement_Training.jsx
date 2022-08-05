@@ -67,7 +67,7 @@ function PlacementTraining() {
         <div className="placement-head ms-0 ms-lg-5" id="Graduate-title">
           Placement Statistics
         </div>
-        <div className="border-placement ms-0 ms-lg-5"></div>
+        <div className="border-bottom ms-0 ms-lg-5"></div>
 
         <div className="stats-container mt-3">
           <div className="bar text-center">
@@ -87,7 +87,7 @@ function PlacementTraining() {
           <div className="training-head ms-0 ms-lg-5" id="Graduate-title">
             Past Recruiters
           </div>
-          <div className="border-placement ms-0 ms-lg-5" id="recruiters"></div>
+          <div className="border-bottom ms-0 ms-lg-5"></div>
 
           <div className="text-center container-md mx-auto">
             <Logos />
@@ -98,11 +98,15 @@ function PlacementTraining() {
         <div className="training-head ms-0 ms-lg-5" id="Graduate-title">
           Training Activities
         </div>
-        <div className="border-training ms-0 ms-lg-5"></div>
+        <div className="border-bottom ms-0 ms-lg-5"></div>
 
-        <TrainingTable />
+        <div className="container-fluid mb-4 mx-auto text-center">
+          <TrainingTable />
+        </div>
 
-        <TrainingList />
+        <div className="container-fluid mb-4">
+          <TrainingList />
+        </div>
       </div>
       <Footer />
     </>

@@ -32,8 +32,8 @@ const FrontPage = () => {
       ></motion.div>
 
       <div className="container-sm mx-auto">
-        <h2 className="about ms-1 ms-md-1 ms-lg-1">About Us</h2>
-        <div className="border1" id="aboutBor"></div>
+        <div className="about">About Us</div>
+        <div className="border-bottom"></div>
         <p className="about-text mt-2">
           <b>Training & Placement Cell (T&P)</b> of the University centrally
           handles all aspects of campus placements/internship,
@@ -46,7 +46,7 @@ const FrontPage = () => {
         </p>
 
         {/* <h2 className="about">Announcements</h2>
-        <div className="border1" id="aboutAnn"></div>
+        <div className="border-bottom" id="aboutAnn"></div>
 
         <div className="row col-12 mt-2">
           <p className= about-text">Coming soon!</p>
@@ -54,20 +54,16 @@ const FrontPage = () => {
 
         <QuickLinks />
 
-        <div className="about ms-1 ms-md-1 ms-lg-1">
-          From the Vice-Chancellor’s Desk
-        </div>
-        <div className="border1 mb-3" id="aboutVCM"></div>
+        <div className="about">From the Vice-Chancellor’s Desk</div>
+        <div className="border-bottom mb-3"></div>
         <VCsir />
 
-        <div className="about ms-1 ms-md-1 ms-lg-1">From the TPO’s Desk</div>
-        <div className="border1 mb-3" id="aboutTPOM"></div>
+        <div className="about">From the TPO’s Desk</div>
+        <div className="border-bottom mb-3"></div>
         <TPO />
 
-        <h2 className="about ms-1 ms-md-1 ms-lg-1">
-          Image Gallery of T&P Cell
-        </h2>
-        <div className="border-gallery"></div>
+        <h2 className="about">Image Gallery of T&P Cell</h2>
+        <div className="border-bottom"></div>
         <div className="news-container gallery-style container-fluid mt-3 text-center mx-auto">
           <PhotoAlbum layout="masonry" photos={gallery} />
         </div>

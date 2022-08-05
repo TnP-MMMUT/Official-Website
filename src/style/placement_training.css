@@ -3,7 +3,7 @@
 .placement-head {
   margin-top: 1rem;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -55,7 +55,7 @@
   margin-top: 1rem;
   margin-left: 7rem;
 
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -73,13 +73,10 @@
   margin-left: 7rem;
 }
 
-.past-year {
-  margin: 20px;
-}
-
 .past-year h4 {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .testimonials {
@@ -88,7 +85,7 @@
   margin-right: auto;
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-weight: 800;
 }
 
@@ -108,25 +105,27 @@
 }
 
 h2 {
-  font-family: "Montserrat" !important;
-  font-weight: 600;
+  font-family: "Neo Sans Pro", sans-serif !important;
+  font-weight: 700;
 }
 
-.items .item {
-  font-family: "Montserrat" !important;
-  color: blue;
+.items-training .item-training {
+  font-family: "Neo Sans Pro", sans-serif !important;
+  color: rgb(0, 34, 113) !important;
   text-decoration: none !important;
-  font-size: 17px;
-  margin: 0;
+  font-size: 20px;
+  margin-bottom: 8px !important;
+  padding: 0 !important;
   font-weight: 500;
 }
-.items .item a {
+.items-training .item-training a {
   text-decoration: none !important;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 16px !important;
+  padding: 0 !important;
+  color: black;
 }
-.items .item a:hover {
-  color: crimson;
+.items-training .item-training a:hover {
+  color: rgb(0, 46, 106) !important;
 }
 .chartjs-size-monitor-shrink {
   position: absolute;

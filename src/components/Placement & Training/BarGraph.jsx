@@ -17,7 +17,7 @@ const BarGraph = ({ chartData }) => {
         ticks: {
           font: {
             size: 16,
-            family: "Montserrat",
+            family: "Neo Sans Pro",
           },
         },
         grid: {
@@ -29,7 +29,7 @@ const BarGraph = ({ chartData }) => {
         ticks: {
           font: {
             size: 16,
-            family: "Montserrat",
+            family: "Neo Sans Pro",
           },
         },
         grid: {
@@ -42,26 +42,26 @@ const BarGraph = ({ chartData }) => {
         display: false,
         font: {
           size: 20,
-          family: "Montserrat",
+          family: "Neo Sans Pro",
           padding: 20,
         },
         position: "bottom",
         labels: {
           font: {
             size: 20,
-            family: "Montserrat",
+            family: "Neo Sans Pro",
             padding: 20,
           },
         },
       },
       tooltip: {
         titleFont: {
-          size: 10,
-          family: "Montserrat",
+          size: 14,
+          family: "Neo Sans Pro",
         },
         bodyFont: {
-          size: 10,
-          family: "Montserrat",
+          size: 14,
+          family: "Neo Sans Pro",
         },
       },
       title: {
@@ -74,7 +74,7 @@ const BarGraph = ({ chartData }) => {
         font: {
           weight: "bold",
           size: 20,
-          family: "Montserrat",
+          family: "Neo Sans Pro",
           padding: 10,
         },
       },

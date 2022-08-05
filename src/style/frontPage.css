@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
 .container-sm {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .about-text {
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -74,23 +74,35 @@ h4 .img {
 .quicklinks .rowQLbig {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin: auto;
-  align-items: center;
+  margin-left: 1.5rem;
 }
 
 .quicklinks .rowQLbig a {
   font-size: 22px;
 }
 
+.link-container {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  margin-bottom: 1.2rem;
+  /*  */
+}
+
+.link-container > img {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  width: 35px !important;
+  height: 35px !important;
+}
+
 .quicklinks h4 {
-  margin: 1.5rem;
   cursor: pointer;
   flex-grow: 1;
   font-size: 22px;
-}
-
-.img {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .popup-content {
@@ -100,7 +112,7 @@ h4 .img {
 }
 
 [role="tooltip"].popup-content {
-  font-family: "Montserrat" !important;
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-size: 16px;
   text-decoration: none;
   width: -moz-fit-content !important;
@@ -120,7 +132,7 @@ h4 .img {
 
 .quicklinks .hid1 ul li {
   text-decoration: none !important;
-  font-family: "Montserrat";
+  font-family: "Neo Sans Pro", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -165,7 +177,17 @@ h4 .img {
   .quicklinks .rowQL {
     width: 100%;
   }
+
+  .link-container {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+
+  .link-container > img {
+    margin-right: 8px;
+  }
 }
+
 @media (max-width: 760px) {
   #aboutVCM {
     width: 30rem;

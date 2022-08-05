@@ -36,37 +36,33 @@ const About = () => {
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
 
-      <div>
-        <div className="about ms-3 ms-md-4 ms-lg-5">About MMMUT</div>
-        <div className="border1 ms-3 ms-md-4 ms-lg-5"></div>
+      <div className="container-fluid">
+        <div className="about ms-md-4 ms-lg-5">About MMMUT</div>
+        <div className="border-bottom ms-md-4 ms-lg-5"></div>
 
-        <div className="text1 mx-auto">
-          <p className="pTag">
-            <b>Madan Mohan Malaviya University of Technology, Gorakhpur</b> has
-            been established in year 2013 by the Government of Uttar Pradesh in
-            the form of a non-affiliating, teaching and research University
-            after reconstituting the{" "}
-            <b>Madan Mohan Malaviya Engineering College, Gorakhpur</b> which was
-            established in <b>1962</b>.
-          </p>
-
-          <p>
-            Fifty-Four batches of students have entered its portals to emerge
-            after four years of rigorous education under the tutelage of some of
-            the most venerable teachers, engineers ready to face the world and
-            create new worlds. The University is located in the Gorakhpur-Deoria
-            road about 9 Km away from Gorakhpur Railway Station. In addition to
-            UG in Civil Engineering, Chemical Engineering, Computer Science &
-            Engineering, Mechanical Engineering, Electrical Engineering and
-            Electronics & Communication Engineering, Information Technology,
-            University also offers MCA, BBA, MBA, M.Tech, M.Sc. and Ph.D.
-            courses in various specializations.
-          </p>
+        <div className="text1 ms-md-4 ms-lg-5 mb-3">
+          <b>Madan Mohan Malaviya University of Technology, Gorakhpur</b> has
+          been established in year 2013 by the Government of Uttar Pradesh in
+          the form of a non-affiliating, teaching and research University after
+          reconstituting the{" "}
+          <b>Madan Mohan Malaviya Engineering College, Gorakhpur</b> which was
+          established in <b>1962</b>.
+          <br />
+          Fifty-Four batches of students have entered its portals to emerge
+          after four years of rigorous education under the tutelage of some of
+          the most venerable teachers, engineers ready to face the world and
+          create new worlds. The University is located in the Gorakhpur-Deoria
+          road about 9 Km away from Gorakhpur Railway Station. In addition to UG
+          in Civil Engineering, Chemical Engineering, Computer Science &
+          Engineering, Mechanical Engineering, Electrical Engineering and
+          Electronics & Communication Engineering, Information Technology,
+          University also offers MCA, BBA, MBA, M.Tech, M.Sc. and Ph.D. courses
+          in various specializations.
         </div>
 
-        <div className="vision ms-3 ms-md-4 ms-lg-5">Vision</div>
-        <div className="border2 ms-3 ms-md-4 ms-lg-5"></div>
-        <motion.div className="text2 mx-auto">
+        <div className="vision ms-md-4 ms-lg-5">Vision</div>
+        <div className="border-bottom ms-md-4 ms-lg-5"></div>
+        <motion.div className="text2 ms-md-4 ms-lg-5">
           <p>
             To facilitate and promote studies, research, technology incubation,
             product innovation and extension work in Science, Technology and
@@ -75,9 +71,9 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="mission ms-3 ms-md-4 ms-lg-5">Mission</div>
-        <div className="border3 ms-3 ms-md-4 ms-lg-5"></div>
-        <div className="text3 ms-3 ms-md-4 ms-lg-5">
+        <div className="mission ms-md-4 ms-lg-5">Mission</div>
+        <div className="border-bottom ms-md-4 ms-lg-5"></div>
+        <div className="text3 ms-md-4 ms-lg-5">
           <p>
             The distinctive mission of the University is:
             <br />
@@ -143,9 +139,9 @@ const About = () => {
           </p>
         </div>
 
-        <div className="loc ms-3 ms-md-4 ms-lg-5">Location & Campus</div>
-        <div className="border4 ms-3 ms-md-4 ms-lg-5"></div>
-        <motion.div className="text4 mx-auto">
+        <div className="loc ms-md-4 ms-lg-5">Location & Campus</div>
+        <div className="border-bottom ms-md-4 ms-lg-5"></div>
+        <motion.div className="text4 ms-md-4 ms-lg-5">
           <p>
             The University has a lush green campus that spreads over a vast area
             of 354 acres. As you enter its gate, the first sight that greets you
@@ -159,25 +155,24 @@ const About = () => {
 
         <Map />
 
-        <div className="campus ms-3 ms-md-4 ms-lg-5">Campus Tour Video</div>
-        <div className="border6 ms-3 ms-md-4 ms-lg-5"></div>
-      </div>
+        <div className="campus ms-md-4 ms-lg-5">Campus Tour Video</div>
+        <div className="border-bottom ms-md-4 ms-lg-5 mb-3"></div>
 
-      <div ref={ref}>
-        <motion.div class="video" animate={animation}>
-          <iframe
-            class="center-video"
-            width="560"
-            height="315"
-            src=" https://www.youtube.com/embed/SpMVPPIl8x0"
-            title="YouTube video player"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-        </motion.div>
+        <div ref={ref}>
+          <motion.div class="video" animate={animation}>
+            <iframe
+              class="center-video"
+              width="560"
+              height="315"
+              src=" https://www.youtube.com/embed/SpMVPPIl8x0"
+              title="YouTube video player"
+              frameBorder="0"
+              allowfullscreen
+            ></iframe>
+          </motion.div>
+        </div>
+        <div className="text6 mt-2">Campus Tour, MMMUT, Gorakhpur</div>
       </div>
-      <div className="text6">Campus Tour, MMMUT, Gorakhpur</div>
-
       <Footer />
     </>
   );

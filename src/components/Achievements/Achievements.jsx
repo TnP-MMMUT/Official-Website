@@ -21,7 +21,7 @@ const Achievements = () => {
 
       <div className="container-fluid">
         <div className="about ms-3 ms-md-5 ms-lg-5">Achievements</div>
-        <div className="border1 ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="border-bottom mt-1 ms-3 ms-md-5 ms-lg-5"></div>
 
         <div className="component-div">
           <CounterComponent />
@@ -34,7 +34,7 @@ const Achievements = () => {
         <div className="alumni ms-3 ms-md-5 ms-lg-5 mt-2">
           Our Alumni Works At
         </div>
-        <div className="border1 border-alumni ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="border-bottom mt-1 ms-3 ms-md-5 ms-lg-5"></div>
         <div className="component-alumni">
           <div className="logo-component text-center mx-auto">
             <Logos />
@@ -42,7 +42,7 @@ const Achievements = () => {
         </div>
 
         <div className="about ms-3 ms-md-5 ms-lg-5">Students Achievements</div>
-        <div className="border1 border-layout ms-3 ms-md-5 ms-lg-5"></div>
+        <div className="border-bottom mt-1 ms-3 ms-md-5 ms-lg-5"></div>
 
         <div className="layout-container">
           <Layout />
@@ -50,7 +50,7 @@ const Achievements = () => {
       </div>
 
       <div className="about ms-3 ms-md-5 ms-lg-5">MMMUT in News</div>
-      <div className="border1 border-news ms-3 ms-md-5 ms-lg-5"></div>
+      <div className="border-bottom mt-1 ms-3 ms-md-5 ms-lg-5"></div>
 
       <div className="news-component">
         <News />
