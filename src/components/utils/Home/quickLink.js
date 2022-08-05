@@ -39,7 +39,7 @@ const QuickLinks = () => {
                 <div className="link-container mb-2 mt-3">
                   <img
                     className="img"
-                    src="https://cdn-icons.flaticon.com/png/512/1925/premium/1925510.png?token=exp=1659695741~hmac=db53065b3fae46451343cf13d4b99dbc"
+                    src="https://cdn-icons-png.flaticon.com/512/1150/1150626.png"
                     alt="Error loading "
                   />
                   <h2 className="text-center mt-2">Quick Links</h2>

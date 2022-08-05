@@ -17,7 +17,7 @@ const BarGraph = ({ chartData }) => {
         ticks: {
           font: {
             size: 16,
-            family: "Neo Sans Pro",
+            family: "Exo",
           },
         },
         grid: {
@@ -29,7 +29,7 @@ const BarGraph = ({ chartData }) => {
         ticks: {
           font: {
             size: 16,
-            family: "Neo Sans Pro",
+            family: "Exo",
           },
         },
         grid: {
@@ -42,14 +42,14 @@ const BarGraph = ({ chartData }) => {
         display: false,
         font: {
           size: 20,
-          family: "Neo Sans Pro",
+          family: "Exo",
           padding: 20,
         },
         position: "bottom",
         labels: {
           font: {
             size: 20,
-            family: "Neo Sans Pro",
+            family: "Exo",
             padding: 20,
           },
         },
@@ -57,11 +57,11 @@ const BarGraph = ({ chartData }) => {
       tooltip: {
         titleFont: {
           size: 14,
-          family: "Neo Sans Pro",
+          family: "Exo",
         },
         bodyFont: {
           size: 14,
-          family: "Neo Sans Pro",
+          family: "Exo",
         },
       },
       title: {
@@ -74,7 +74,7 @@ const BarGraph = ({ chartData }) => {
         font: {
           weight: "bold",
           size: 20,
-          family: "Neo Sans Pro",
+          family: "Exo",
           padding: 10,
         },
       },

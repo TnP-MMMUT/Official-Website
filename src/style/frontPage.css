@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
 .container-sm {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .about-text {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -112,7 +112,7 @@ h4 .img {
 }
 
 [role="tooltip"].popup-content {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-size: 16px;
   text-decoration: none;
   width: -moz-fit-content !important;
@@ -132,7 +132,7 @@ h4 .img {
 
 .quicklinks .hid1 ul li {
   text-decoration: none !important;
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;

@@ -1,6 +1,6 @@
 /*------------Home page first 100vh-----------*/
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"); */
-@import url("http://fonts.cdnfonts.com/css/neo-sans-pro");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&display=swap");
 
 .homediv {
   background-image: linear-gradient(
@@ -92,7 +92,8 @@
 }
 
 .navbar .menu {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
+
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -137,7 +138,7 @@
   background-color: #f8f8f8;
   border-radius: 15px;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -148,7 +149,7 @@
   /* margin-left: 32px; */
 }
 .navbar .menu :hover .dropdown_menu ul {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -286,7 +287,7 @@
 
 .about {
   margin-top: 1rem;
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -306,7 +307,7 @@
 .text1 {
   padding-top: 10px;
   width: 94%;
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-size: 20px;
   line-height: 29px;
@@ -315,7 +316,7 @@
 }
 
 .vision {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -326,7 +327,7 @@
 .text2 {
   padding-top: 10px;
   width: 94%;
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-size: 20px;
   line-height: 29px;
@@ -335,7 +336,7 @@
 }
 
 .mission {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -347,7 +348,7 @@
   padding-top: 10px;
   width: 94%;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-size: 21px;
   line-height: 29px;
@@ -359,7 +360,7 @@
 .loc {
   margin-top: 1.5rem;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -371,7 +372,7 @@
   padding-top: 10px;
   width: 94%;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-size: 20px;
   line-height: 29px;
@@ -382,7 +383,7 @@
 .map {
   margin-top: 1.5rem;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -401,7 +402,7 @@
   margin-right: 7rem;
   padding-top: 1.5rem;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-size: 24px;
   line-height: 29px;
@@ -413,7 +414,7 @@
 .campus {
   margin-top: 1.5rem;
 
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -422,7 +423,7 @@
 }
 
 .text6 {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -437,7 +438,7 @@
   align-items: center;
 }
 .footer-links {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   display: flex;
   flex-direction: row;
   justify-items: center;
@@ -469,7 +470,7 @@
 }
 .footer-procedure div {
   margin: auto;
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
 }
 
 @keyframes caraouse {
@@ -673,7 +674,7 @@
 }
 
 .head2 {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -696,7 +697,7 @@
 }
 
 .invite-text {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
@@ -725,7 +726,7 @@
   border-radius: 4rem;
 }
 .downloadBrochure-button span {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -740,7 +741,7 @@
   text-decoration: none;
 }
 .mail-button a {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -756,7 +757,7 @@
   height: 60px;
 }
 .copyrt-invitation div {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-size: 1.2rem;
   margin: auto;
 }
@@ -947,7 +948,7 @@
     width: 6%;
   }
   .procedure span {
-    font-family: "Neo Sans Pro", sans-serif !important;
+    font-family: "Exo", sans-serif !important;
     font-size: 0.8rem;
     font-weight: 600;
   }

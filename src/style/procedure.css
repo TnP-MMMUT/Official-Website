@@ -19,7 +19,7 @@
 }
 
 .span-text {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-weight: 800;
   padding: 20px;
   margin: 0 15px 0 15px;
@@ -35,13 +35,13 @@
 }
 .procedure span {
   word-wrap: normal;
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-size: 18px;
   font-weight: 600;
   overflow: hidden;
 }
 .button-text {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   font-size: 1.2rem;
   font-weight: 900;
   margin: auto;

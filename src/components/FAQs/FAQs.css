@@ -1,5 +1,5 @@
 body {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
 }
 
 .accordion {
@@ -7,7 +7,7 @@ body {
 }
 
 .accordion-header button {
-  font-family: "Neo Sans Pro", sans-serif !important;
+  font-family: "Exo", sans-serif !important;
   color: black;
   font-weight: 600;
 }

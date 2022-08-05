@@ -48,6 +48,7 @@ const About = () => {
           <b>Madan Mohan Malaviya Engineering College, Gorakhpur</b> which was
           established in <b>1962</b>.
           <br />
+          <br />
           Fifty-Four batches of students have entered its portals to emerge
           after four years of rigorous education under the tutelage of some of
           the most venerable teachers, engineers ready to face the world and
