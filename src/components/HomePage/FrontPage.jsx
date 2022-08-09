@@ -8,8 +8,6 @@ import { motion, useScroll } from "framer-motion";
 
 import "../../style/frontPage.css";
 import imageCenter from "../../images/Center.png";
-import PhotoAlbum from "react-photo-album";
-import { gallery } from "../../data/gallery";
 
 const FrontPage = () => {
   const { scrollYProgress } = useScroll();
@@ -41,8 +39,8 @@ const FrontPage = () => {
           Cell is well equipped with excellent infrastructure to support each
           and every stage of the placement processes. T&P Student Coordinators
           assist in arranging Pre-Placement Talks, Written Tests, Group
-          Discussions, and Interviews etc. are made as per the requirements of
-          the Organizations conducting the drive.
+          Discussions, and Interviews etc. as per the requirements of the
+          Organizations conducting the drive.
         </p>
 
         {/* <h2 className="about">Announcements</h2>
@@ -55,18 +53,12 @@ const FrontPage = () => {
         <QuickLinks />
 
         <div className="about">From the Vice-Chancellor’s Desk</div>
-        <div className="border-bottom mb-3"></div>
+        <div className="border-bottom mb-2"></div>
         <VCsir />
 
         <div className="about">From the TPO’s Desk</div>
-        <div className="border-bottom mb-3"></div>
+        <div className="border-bottom mb-2"></div>
         <TPO />
-
-        <h2 className="about">Image Gallery of T&P Cell</h2>
-        <div className="border-bottom"></div>
-        <div className="news-container gallery-style container-fluid mt-3 text-center mx-auto">
-          <PhotoAlbum layout="masonry" photos={gallery} />
-        </div>
       </div>
 
       <Footer />

@@ -9,7 +9,7 @@
 .about-text {
   font-family: "Exo", sans-serif !important;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 29px;
   text-align: justify;
@@ -142,27 +142,26 @@ h4 .img {
   color: #457b9d;
 }
 
-#aboutBor {
-  width: 170px;
-}
-#aboutAnn {
-  width: 285px;
-}
-#aboutVCM {
-  width: 35rem;
-}
-#aboutTPOM {
-  width: 23rem;
+.d-flex {
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.border-gallery {
-  width: 430px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  /* margin-left: 7rem; */
+.image-container-home {
+  margin-left: 30px;
+}
+
+/* Image Styling */
+.f-image img {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  object-position: 50%;
+  /* border-radius: 19.7221px 0px; */
+  border: 3px solid #004774;
+  border-radius: 20px;
+  z-index: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 @media (max-width: 768px) {
@@ -188,21 +187,15 @@ h4 .img {
   }
 }
 
-@media (max-width: 760px) {
-  #aboutVCM {
-    width: 30rem;
+@media (max-width: 768px) {
+  .d-flex {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
-}
 
-@media (max-width: 512px) {
-  #aboutVCM {
-    width: 28rem;
-  }
-}
-
-@media (max-width: 453px) {
-  .border-gallery {
-    width: 360px;
+  .image-container-home {
+    margin-left: 0px !important;
   }
 }
 
@@ -212,44 +205,21 @@ h4 .img {
   }
 }
 
-@media (max-width: 386px) {
-  #aboutVCM {
-    width: 19rem;
-  }
-
-  #aboutTPOM {
-    width: 17rem;
-  }
-
-  .quicklinks {
-    width: 90%;
-  }
-
-  .border-gallery {
-    width: 350px;
+@media (max-width: 399px) {
+  .f_image img {
+    width: 240px;
+    height: 240px;
   }
 }
 
-@media (max-width: 384px) {
-  .border-gallery {
-    width: 290px;
+@media (max-width: 386px) {
+  .quicklinks {
+    width: 90%;
   }
 }
 
 @media (max-width: 343px) {
   .quicklinks {
     width: 100%;
-  }
-}
-
-@media (max-width: 331px) {
-  #aboutVCM {
-    width: 17rem;
-  }
-}
-
-@media (max-width: 310px) {
-  .border-gallery {
-    width: 240px;
   }
 }

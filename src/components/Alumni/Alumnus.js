@@ -14,7 +14,7 @@ const Alumnus = ({ data }) => {
             alt="alumnusImage"
           />
         </div>
-        <div className="team-content">
+        <div className="team-content mx-auto px-2 text-center">
           <h5 className="name">
             <b>{data.name}</b>
           </h5>

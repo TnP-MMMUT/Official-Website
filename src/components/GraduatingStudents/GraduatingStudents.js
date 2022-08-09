@@ -51,7 +51,7 @@ const GraduatingStudent = () => {
         label: "Available Courses & Their Intakes",
         data: ChartDataCourse.map((data) => data.TotalIntake),
         backgroundColor: colorArray,
-        borderColor: "#343a40",
+        borderColor,
       },
     ],
   });
@@ -60,10 +60,8 @@ const GraduatingStudent = () => {
     <>
       <Navsm />
       <div className="container-fluid">
-        <div className="chart-head ms-3 ms-lg-5" id="Graduate-title">
-          Graduating Students
-        </div>
-        <div className="border-bottom ms-3 ms-lg-5"></div>
+        <div className="about chart-head ms-0 ms-lg-5">Graduating Students</div>
+        <div className="border-bottom ms-0 ms-lg-5"></div>
 
         <div className="charts-container text-center">
           <div className="chart text-center">

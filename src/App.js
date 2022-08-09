@@ -4,6 +4,7 @@ import FrontPage from "./components/HomePage/FrontPage";
 import About from "./components/About/About";
 import Academics from "./components/Academics/Academics";
 import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Faculty from "./components/Faculty Coordinator/Faculty";
 import FAQs from "./components/FAQs/FAQs";
 import HeadTNP from "./components/HeadTNP/headTNP";
@@ -31,6 +32,7 @@ const Routing = () => {
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/graduates" element={<GraduatingStudent />} />
+        <Route path="/imageGallery" element={<ImageGallery />} />
         <Route path="/recruiters" element={<Recruiters />} />
         <Route path="/invite" element={<Invitation />} />
         <Route path="/procedure" element={<Procedure />} />

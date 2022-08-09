@@ -47,14 +47,12 @@ function LogoItem() {
     <Slider {...settings}>
       {LogoData.map((data) => {
         return (
-          <div className="slide">
-            <img
-              className="image"
-              src={data.imgLink}
-              alt={data.altText}
-              key={data.id}
-            />
-          </div>
+          <img
+            className="image"
+            src={data.imgLink}
+            alt={data.altText}
+            key={parseInt(data.id)}
+          />
         );
       })}
     </Slider>

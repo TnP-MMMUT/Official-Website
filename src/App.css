@@ -161,7 +161,12 @@
 }
 .navbar .menu :hover #whyRec,
 #whyRec ul li {
-  width: 280px;
+  width: 250px;
+}
+
+.navbar .menu :hover #aboutItem,
+#aboutItem ul li {
+  width: 180px;
 }
 
 .navbar .menu :hover .navwidth1 {
@@ -171,12 +176,26 @@
   width: 262px;
   /* padding: 0 .5rem; */
 }
+
+.navbar .menu :hover .navwidthrec {
+  width: 250px;
+  /* padding: 0 .5rem; */
+}
+.navbar .menu :hover .navwidth3 {
+  width: 180px;
+  /* padding: 0 .5rem; */
+}
+
+.navbar .menu :hover .dropdown_menu .navwidth3 {
+  width: 180px;
+}
+
 .navbar .menu :hover .dropdown_menu .navwidth2 {
   width: 262px;
 }
 
 .navbar .menu :hover .dropdown_menu .navwidth {
-  width: 197px;
+  width: 170px;
 }
 
 .navbar .menu :hover .dropdown_menu ul li {
@@ -395,7 +414,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 94%; */
+  width: 94%;
 }
 
 .text5 {
@@ -628,6 +647,9 @@
   }
   .navbar .menu :hover .dropdown_menu .navwidth2 {
     width: 280px;
+  }
+  .navbar .menu :hover .dropdown_menu .navwidth3 {
+    width: 180px !important;
   }
 }
 

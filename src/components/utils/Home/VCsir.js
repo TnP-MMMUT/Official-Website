@@ -27,16 +27,15 @@ const VCsir = () => {
     <>
       <div ref={refMessage}>
         <motion.div animate={animationMessage}>
-          <div className="row d-flex flex-row-reverse">
-            <div className="col-12 col-md-4 col-lg-4">
-              {/* <div className="f_object"> */}
-              <div className="f_image text-center f-image">
+          <div className="d-flex flex-row-reverse">
+            <div className="image-container-home">
+              <div className="f-image">
                 <img
                   src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655486033/cell_website/VC_Sir_nztioa.jpg"
                   alt="VC sir"
                 />
               </div>
-              {/* </div> */}
+
               <div className="text-center">
                 <h5 className="mx-auto">
                   <b>Prof. J.P. Pandey</b>
@@ -46,8 +45,9 @@ const VCsir = () => {
                 {/* <h4>MMMUT Gorakhpur</h4> */}
               </div>
             </div>
-            <div className="col-12 col-md-8 col-sm-12 col-lg-8">
-              <p className="about-text">
+
+            <div>
+              <p className="about-text mt-0">
                 Madan Mohan Malaviya University of Technology (MMMUT), Gorakhpur
                 has grown to become the national flagship of UP State
                 Government, known for the excellence of it's teaching to the

@@ -79,8 +79,8 @@ const About = () => {
             The distinctive mission of the University is:
             <br />
             <ul>
-              <br />
               <motion.li
+                className="mb-2 mt-2"
                 initial={{ opacity: 0, translateX: -40 }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 0.2, delay: 0.1 }}
@@ -90,8 +90,9 @@ const About = () => {
                 knowledge, discovering new knowledge and functioning as an
                 active working repository of organized knowledge.
               </motion.li>
-              <br />
+
               <motion.li
+                className="mb-2"
                 initial={{ opacity: 0, translateX: -40 }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 0.2, delay: 0.2 }}
@@ -102,8 +103,9 @@ const About = () => {
                 mass-communication, agriculture and other employable courses in
                 emerging areas.
               </motion.li>
-              <br />
+
               <motion.li
+                className="mb-2"
                 initial={{ opacity: 0, translateX: -40 }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 0.2, delay: 0.4 }}
@@ -114,8 +116,9 @@ const About = () => {
                 fiscal responsibility, support of diversity, a focus on quality
                 and a culture of professionalism.
               </motion.li>
-              <br />
+
               <motion.li
+                className="mb-2"
                 initial={{ opacity: 0, translateX: -40 }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 0.2, delay: 0.8 }}
@@ -125,8 +128,9 @@ const About = () => {
                 alumni and industries in order to provide significant
                 contribution to national and international development.
               </motion.li>
-              <br />
+
               <motion.li
+                className="mb-2"
                 initial={{ opacity: 0, translateX: -40 }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 0.2, delay: 1 }}

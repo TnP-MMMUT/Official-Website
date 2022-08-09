@@ -27,10 +27,9 @@ const TPO = () => {
     <>
       <div ref={refMessage}>
         <motion.div animate={animationMessage}>
-          <div className="row d-flex flex-row-reverse">
-            <div className="col-12 col-md-4 col-lg-4">
-              {/* <div className="f_object"> */}
-              <div className="f_image text-center f-image">
+          <div className="d-flex flex-row-reverse">
+            <div className="image-container-home">
+              <div className="f-image">
                 <img
                   src="https://res.cloudinary.com/daxilgrvn/image/upload/v1658460990/T_P%20Site/photo_2022-07-22_09-06-03_bd29u3.jpg"
                   alt="TPO sir"
@@ -46,8 +45,9 @@ const TPO = () => {
                 {/* <h4>MMMUT Gorakhpur</h4> */}
               </div>
             </div>
-            <div className="col-12 col-md-8 col-sm-12 col-lg-8">
-              <p className="about-text">
+
+            <div>
+              <p className="about-text mt-0">
                 Madan Mohan Malaviya University of Technology, Gorakhpur is one
                 of the established university of India. It is my pride and
                 privilege to share few facts about placements as it has always

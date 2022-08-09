@@ -23,47 +23,62 @@ const Navbar = () => {
             )}
           </motion.button>
         </div>
+
         <motion.ul layout className={isNavExpanded ? "menu expanded" : "menu"}>
           <li>
             <NavLink to="/" className="navbarlink">
               Home
             </NavLink>
           </li>
+
           <motion.li>
-            Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu mx-auto" id="whyRec">
-              <motion.ul className="about-list">
-                <motion.li>
+            About@MMMUT <i className="fa fa-caret-down"></i>
+            <div className="dropdown_menu mx-auto navwidth3">
+              <motion.ul>
+                <motion.li id="aboutItem">
                   <NavLink to="/about" className="dropdownnavlink">
                     About MMMUT
                   </NavLink>
                 </motion.li>
-                <li>
+                <li id="aboutItem">
                   <NavLink to="/lifeatmmmut" className="dropdownnavlink">
                     Life@MMMUT
                   </NavLink>
                 </li>
-                <li>
+                <li id="aboutItem">
                   <NavLink to="/academics" className="dropdownnavlink">
                     Academics
                   </NavLink>
                 </li>
-                <li>
+                <li id="aboutItem">
+                  <NavLink to="/imageGallery" className="dropdownnavlink">
+                    Image Gallery@TNP
+                  </NavLink>
+                </li>
+              </motion.ul>
+            </div>
+          </motion.li>
+
+          <motion.li>
+            Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
+            <div className="dropdown_menu mx-auto navwidthrec">
+              <motion.ul>
+                <li id="whyRec">
                   <NavLink to="/graduates" className="dropdownnavlink">
                     Graduating Students
                   </NavLink>
                 </li>
-                <li>
+                <li id="whyRec">
                   <NavLink to="/achievements" className="dropdownnavlink">
                     Achievements
                   </NavLink>
                 </li>
-                <li>
+                <li id="whyRec">
                   <NavLink to="/alumni" className="dropdownnavlink">
                     Prominent Alumni
                   </NavLink>
                 </li>
-                <li>
+                <li id="whyRec">
                   <NavLink
                     to="/recruiters"
                     className="dropdownnavlink"
@@ -75,6 +90,7 @@ const Navbar = () => {
               </motion.ul>
             </div>
           </motion.li>
+
           <motion.li>
             For Companies <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu navwidth2">
@@ -112,9 +128,10 @@ const Navbar = () => {
               </ul>
             </div>
           </motion.li>
+
           <motion.li>
             Student Utilities <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu mx-auto navwidth1">
+            <div className="dropdown_menu mx-auto navwidth">
               <ul>
                 <li className="navwidth">
                   <a
@@ -159,11 +176,13 @@ const Navbar = () => {
               </ul>
             </div>
           </motion.li>
+
           <motion.li>
             <NavLink to="/faqs" className="navbarlink">
               FAQs
             </NavLink>
           </motion.li>
+
           <motion.li>
             Contact Us <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto navwidth1">
@@ -190,8 +209,9 @@ const Navbar = () => {
                   </NavLink>
                 </li>
               </ul>
-            </div>{" "}
+            </div>
           </motion.li>
+
           <a href="https://in.linkedin.com/in/tnpmmm" target="blank">
             <li>
               <i className="fa fa-linkedin" aria-hidden="true"></i>

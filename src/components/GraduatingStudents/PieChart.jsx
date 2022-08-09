@@ -6,41 +6,30 @@ const PieChart = ({ chartData }) => {
   const header = chartData.datasets[0].label;
 
   const options = {
-    interaction: {
-      intersect: false,
-    },
-    // responsive: true,
     maintainAspectRatio: false,
-    elements: {
-      points: {
-        pointStyle: "circle",
-      },
-    },
+
     plugins: {
       legend: {
         display: true,
-        position: "right",
+        position: "top",
+        padding: 20,
         labels: {
+          padding: 15,
           font: {
             size: 16,
             family: "Exo",
-            padding: 20,
+            weight: 600,
           },
         },
       },
-      chartAreaBorder: {
-        borderColor: "red",
-        borderWidth: 2,
-        borderDash: [5, 5],
-        borderDashOffset: 2,
-      },
+
       tooltip: {
         titleFont: {
-          size: 20,
+          size: 16,
           family: "Exo",
         },
         bodyFont: {
-          size: 20,
+          size: 16,
           family: "Exo",
         },
       },

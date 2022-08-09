@@ -114,11 +114,12 @@ const AlumniData = [
   {
     id: 15,
     image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152740/Alumnis/Layer_15_copy_esexds.jpg",
-    name: "Vinay Prajapati",
-    post: "C0-Founder & CEO (Propdial)",
+      "https://scontent-del1-2.xx.fbcdn.net/v/t1.18169-9/308853_3550675580014_586150373_n.jpg?stp=c0.22.577.577a_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=3TqD4IEohdYAX8DdyVj&_nc_ht=scontent-del1-2.xx&oh=00_AT9_9R2QfIAAy9ysQ4_4J_0IfqAYqf2RCMrSvyS9S1lkxQ&oe=630AC6E2",
+    name: "Gopal Mishra",
+    post: "Project Manager (UPPCL)",
     in: "",
   },
+
   {
     id: 16,
     image:
@@ -136,7 +137,7 @@ const AlumniData = [
     in: "",
   },
   {
-    id: "18",
+    id: 18,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095643/alumini-photos/Mukul_Sharma_sir_rlbzot.png",
     name: "Mukul Sharma",
@@ -144,22 +145,22 @@ const AlumniData = [
     in: "https://www.linkedin.com/in/sharmamukul/",
   },
   {
-    id: "19",
+    id: 19,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095645/alumini-photos/Pawan_Tripathi_sir_kqmaxj.png",
     name: "Pawan Tripathi",
     post: "Managing Director (GeoCon Infra Pvt Ltd)",
   },
   {
-    id: "20",
+    id: 20,
     image:
-      "https://scontent-del1-2.xx.fbcdn.net/v/t1.18169-9/308853_3550675580014_586150373_n.jpg?stp=c0.22.577.577a_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=3TqD4IEohdYAX8DdyVj&_nc_ht=scontent-del1-2.xx&oh=00_AT9_9R2QfIAAy9ysQ4_4J_0IfqAYqf2RCMrSvyS9S1lkxQ&oe=630AC6E2",
-    name: "Gopal Mishra",
-    post: "Project Manager (UPPCL)",
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152740/Alumnis/Layer_15_copy_esexds.jpg",
+    name: "Vinay Prajapati",
+    post: "C0-Founder & CEO (Propdial)",
     in: "",
   },
   {
-    id: "21",
+    id: 21,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095648/alumini-photos/Manoj_Jain_sir_lleyu0.png",
     name: "Manoj Jain",
@@ -167,7 +168,7 @@ const AlumniData = [
     in: "https://www.linkedin.com/in/manoj-jain-9563022/",
   },
   {
-    id: "22",
+    id: 22,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095646/alumini-photos/Mohd_Ehteshamul_Haque_sir_gmqjq3.png",
     name: " Mohd Ehteshamul Haque",
@@ -175,7 +176,7 @@ const AlumniData = [
     in: "",
   },
   {
-    id: "23",
+    id: 23,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095647/alumini-photos/Rashmi_Chaudhary_mam_yoggma.png",
     name: "Rashmi Chaudhary",
@@ -183,7 +184,7 @@ const AlumniData = [
     in: "",
   },
   {
-    id: "24",
+    id: 24,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095647/alumini-photos/Randhir_sir_vdwtpc.png",
     name: "Randhir Singh",
@@ -191,7 +192,7 @@ const AlumniData = [
     in: "https://www.linkedin.com/in/randhir-singh-3950b27/",
   },
   {
-    id: "25",
+    id: 25,
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/t_Profile/v1659095647/alumini-photos/Pawan_sir_poa6y4.png",
     name: "Pawan Pundir",
@@ -199,7 +200,7 @@ const AlumniData = [
     in: "https://www.linkedin.com/in/pawanpundir/",
   },
   {
-    id: "26",
+    id: 26,
     image:
       "https://media-exp1.licdn.com/dms/image/C4D03AQEgLpNhI1UGEw/profile-displayphoto-shrink_800_800/0/1516843068066?e=1665014400&v=beta&t=tAl03xa9bHSsmTNlKtgPCCxDn3NFIbndLatVqfV0OEw",
     name: "Rohit Kamal Saxena",
@@ -207,7 +208,7 @@ const AlumniData = [
     in: "https://www.linkedin.com/in/rksaxena1/",
   },
   {
-    id: "27",
+    id: 27,
     image:
       "https://media-exp1.licdn.com/dms/image/C5603AQFthgi7QGy3bg/profile-displayphoto-shrink_800_800/0/1628538230451?e=1665014400&v=beta&t=8YHccXWGv_aMJ7kOYhzbe-K62yPe7Tx3V1Wg-qTwYUU",
     name: "Ram Chandel",
@@ -219,7 +220,31 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152740/Alumnis/Layer_18_copy_fxjczh.jpg",
     name: "Mudit Srivastava",
-    post: "Vide-President (JP Morgan)",
+    post: "Vice-President (JP Morgan)",
+    in: "",
+  },
+  {
+    id: 29,
+    image:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1660036412/T_P%20Site/vishal-singh-profile-image_zw6fnv.png",
+    name: "IAS Vishal Singh",
+    post: "Municipal Commissioner - Ayodhya & Vice Chairman - Ayodhya Development Authority",
+    in: "https://www.linkedin.com/in/vishalsinghias/",
+  },
+  {
+    id: 30,
+    image:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1660035849/T_P%20Site/WhatsApp_Image_2022-05-28_at_10.26.31_AM_ibzjpl.jpg",
+    name: "IAS Anjani Kumar Singh",
+    post: "Director (UP Mandi Parishad)",
+    in: "",
+  },
+  {
+    id: 31,
+    image:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1660035849/T_P%20Site/WhatsApp_Image_2022-05-30_at_10.41.29_AM_gor1qy.jpg",
+    name: "R.P. Singh",
+    post: "President (Hindaclo Industries)",
     in: "",
   },
 ];
