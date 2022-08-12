@@ -178,7 +178,7 @@ const QuickLinks = () => {
                     <div className="hid1">
                       <ul>
                         <li>
-                          <a href="http://www.mmmut.ac.in/pdf/TNP2021-22.pdf">
+                          <a href="https://res.cloudinary.com/daxilgrvn/image/upload/v1660326012/T_P%20Site/Placement_Report_2021-22_bu8c97.pdf">
                             Placement Report 2021-2022
                           </a>
                         </li>
