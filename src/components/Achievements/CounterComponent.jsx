@@ -71,8 +71,8 @@ const CounterComponent = () => {
             transition={childTransition}
           >
             <Counter
-              end={7}
-              suffix={" LPA"}
+              end={6}
+              suffix={" + LPA"}
               title={"Average Package Offered"}
             />
           </motion.div>
