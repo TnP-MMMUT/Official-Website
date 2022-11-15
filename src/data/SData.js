@@ -107,18 +107,6 @@ const SData = [
     in: "https://www.linkedin.com/in/vivek-kumar-51a005207",
   },
   {
-    id: 10,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130342/tnp/Agnivesh_uzjhoi.jpg",
-    name: "Agnivesh Anand Paney",
-    post: "Senior Student Coordinator",
-    branch: "ECE",
-    year: "Final",
-    phone: "9452307033",
-    fb: "",
-    in: "https://www.linkedin.com/in/agnivesh-pandey-5057971bb",
-  },
-  {
     id: 11,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130343/tnp/Pranjal_eklqov.jpg",
@@ -131,30 +119,6 @@ const SData = [
     in: "https://www.linkedin.com/in/pranjal-srivastava-0499401a8",
   },
   {
-    id: 12,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130466/tnp/Shreya_jhpkve.jpg",
-    name: "Shreya Singh",
-    post: "Senior Student Coordinator",
-    branch: "ECE",
-    year: "Final",
-    phone: "9653012633",
-    fb: "",
-    in: "https://www.linkedin.com/in/shreya-singh-421875176",
-  },
-  {
-    id: 13,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123090/tnp/Suraj_islmyi.jpg",
-    name: "Suraj Yadav",
-    post: "Senior Student Coordinator",
-    branch: "EE",
-    year: "Final",
-    phone: "6394752973",
-    fb: "",
-    in: "https://www.linkedin.com/in/suraj-yadav-28982a1b0",
-  },
-  {
     id: 14,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123109/tnp/Akrist_dgmdts.jpg",
@@ -165,18 +129,6 @@ const SData = [
     phone: "8233994143",
     fb: "",
     in: "https://www.linkedin.com/in/akrist-srivastava-820a081a2",
-  },
-  {
-    id: 15,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123778/tnp/Anand_gy8fpe.jpg",
-    name: "Anand Srivastava",
-    post: "Student Coordinator",
-    branch: "ME",
-    year: "Third",
-    phone: "8299081617",
-    fb: "",
-    in: "https://www.linkedin.com/in/anand-srivastava-5b2ab9222",
   },
   {
     id: 16,
@@ -227,18 +179,6 @@ const SData = [
     in: "https://www.linkedin.com/in/aryan-singh-496453183",
   },
   {
-    id: 20,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658132693/tnp/DSC_4242_1_hohebi.jpg",
-    name: "Bhaskar Trivedi",
-    post: "Student Coordinator",
-    branch: "CSE",
-    year: "Third",
-    phone: "7505726510",
-    fb: "",
-    in: "https://www.linkedin.com/in/bhaskart488",
-  },
-  {
     id: 21,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123307/tnp/Divyanshu_xtaxj3.jpg",
@@ -273,18 +213,6 @@ const SData = [
     phone: "8340621602",
     fb: "",
     in: "https://www.linkedin.com/in/kumari-astha-rani-552662212/",
-  },
-  {
-    id: 24,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123324/tnp/Maitri_t36hoh.jpg",
-    name: "Maitri Dubey",
-    post: "Student Coordinator",
-    branch: "CHE",
-    year: "Third",
-    phone: "6394663865",
-    fb: "",
-    in: "https://www.linkedin.com/in/maitri-d-b37631227",
   },
   {
     id: 25,
@@ -347,18 +275,6 @@ const SData = [
     in: "https://www.linkedin.com/in/shivam-kumar-singh-106740200/",
   },
   {
-    id: 30,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130838/tnp/Shiwang_qdzbsy.jpg",
-    name: "Shivang Dwivedi",
-    post: "Student Coordinator",
-    branch: "ECE",
-    year: "Third",
-    phone: "9695561058",
-    fb: "",
-    in: "https://www.linkedin.com/in/shivang-dwivedi-b83173212",
-  },
-  {
     id: 31,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123066/tnp/Vaishnavi_cyuc0f.jpg",
@@ -369,18 +285,6 @@ const SData = [
     phone: "7310028425",
     fb: "",
     in: "https://www.linkedin.com/in/vaishnavi-porwal-879887218",
-  },
-  {
-    id: 32,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123052/tnp/Vareny_cnhpkc.jpg",
-    name: "Vareny Dwivedi",
-    post: "Student Coordinator",
-    branch: "CE",
-    year: "Third",
-    phone: "6388928024",
-    fb: "",
-    in: "https://www.linkedin.com/in/vareny-dwivedi-089a1a224",
   },
   {
     id: 33,
