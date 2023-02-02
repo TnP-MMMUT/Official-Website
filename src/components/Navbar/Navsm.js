@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import imageCenterNavBar from "../../images/Group 32.png";
+import imageCenterNavBar from "../../images/NavCenter.png";
 
 const Navsm = () => {
   return (
@@ -7,7 +7,7 @@ const Navsm = () => {
       <div className="pages_nav">
         <Navbar />
 
-        <div className="image-nav-div-container mt-5">
+        <div className="image-nav-div-container mt-3">
           <img
             className="mx-auto text-center mt-5"
             src={imageCenterNavBar}

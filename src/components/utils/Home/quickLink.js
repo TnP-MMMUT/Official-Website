@@ -178,6 +178,11 @@ const QuickLinks = () => {
                     <div className="hid1">
                       <ul>
                         <li>
+                          <a href="https://res.cloudinary.com/daxilgrvn/image/upload/v1675362702/T_P%20Site/Placement_Report_2022-23_yh2hzh.pdf">
+                            Placement Report 2022-2023
+                          </a>
+                        </li>
+                        <li>
                           <a href="https://res.cloudinary.com/daxilgrvn/image/upload/v1660326012/T_P%20Site/Placement_Report_2021-22_bu8c97.pdf">
                             Placement Report 2021-2022
                           </a>
@@ -195,11 +200,6 @@ const QuickLinks = () => {
                         <li>
                           <a href="http://www.mmmut.ac.in/pdf/2018-19.pdf">
                             Placement Report 2018-2019
-                          </a>
-                        </li>
-                        <li>
-                          <a href="http://www.mmmut.ac.in/pdf/2017-18.pdf">
-                            Placement Report 2017-2018
                           </a>
                         </li>
                       </ul>

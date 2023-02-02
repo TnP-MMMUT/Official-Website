@@ -103,6 +103,16 @@ const Navbar = () => {
                 <li className="navwidth2">
                   <a
                     style={{ textDecoration: "none", color: "#000" }}
+                    href="https://bit.ly/3Dy8msg"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Placements 2022-23
+                  </a>
+                </li>
+                <li className="navwidth2">
+                  <a
+                    style={{ textDecoration: "none", color: "#000" }}
                     href="http://www.mmmut.ac.in/Pdf/T&P%20Placement%20Brochure%202022-23.pdf"
                     target="_blank"
                     rel="noreferrer"
@@ -187,12 +197,12 @@ const Navbar = () => {
             Contact Us <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto navwidth1">
               <ul>
-                <li className="navwidth">
+                <li className="navwidth1">
                   <NavLink to="/HeadTnP" className="dropdownnavlink">
                     Head of T&P, MMMUT
                   </NavLink>
                 </li>
-                <li className="navwidth">
+                <li className="navwidth1">
                   <NavLink
                     to="/facultyCoordinators"
                     className="dropdownnavlink"
@@ -200,7 +210,7 @@ const Navbar = () => {
                     Faculty Coordinators
                   </NavLink>
                 </li>
-                <li className="navwidth">
+                <li className="navwidth1">
                   <NavLink
                     to="/studentCoordinators"
                     className="dropdownnavlink"

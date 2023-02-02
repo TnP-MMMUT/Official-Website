@@ -249,7 +249,8 @@ export const LogoData = [
   },
   {
     id: "43",
-    imgLink: "https://www.thinksys.com/assets/images/logo1.png",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1675365185/T_P%20Site/logo_n2ltza.png",
     altText: "company_logo",
   },
   {
@@ -276,7 +277,8 @@ export const LogoData = [
   },
   {
     id: "48",
-    imgLink: "https://www.unthinkable.co/wp-content/uploads/2021/03/logo.png",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1675364631/T_P%20Site/cropped-footer-logo_xlhmgz.webp",
     altText: "company_logo",
   },
   {
@@ -373,13 +375,13 @@ export const LogoData = [
   {
     id: "65",
     imgLink:
-      "https://revature.com/wp-content/uploads/2017/12/revature-logo-600x219.png",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1675364793/T_P%20Site/Revature-768x768_dlcccd.webp",
     altText: "company_logo",
   },
   {
     id: "66",
     imgLink:
-      "https://www.pyramidci.com/images/Logo/Pyramid_Consulting_Horz.png",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1675364858/T_P%20Site/corporate-footer-logo_zahwhx.svg",
     altText: "company_logo",
   },
   {
@@ -390,7 +392,8 @@ export const LogoData = [
   },
   {
     id: "68",
-    imgLink: "https://cdn.coai.com/sites/default/files/2017-04/jio.png",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1675364968/T_P%20Site/Reliance_Jio_Logo__October_2015_s0huyi.svg",
     altText: "company_logo",
   },
   {
@@ -402,11 +405,6 @@ export const LogoData = [
   {
     id: "70",
     imgLink: "https://www.pepcoding.com/images/logo.png",
-    altText: "company_logo",
-  },
-  {
-    id: "71",
-    imgLink: "https://www.unthinkable.co/wp-content/uploads/2021/03/logo.png",
     altText: "company_logo",
   },
   {
@@ -461,8 +459,7 @@ export const LogoData = [
   },
   {
     id: "81",
-    imgLink:
-      "https://www.bigohtech.com/storage/2022/05/MicrosoftTeams-image.jpg",
+    imgLink: "https://bigohtech.com/wp-content/uploads/2022/12/logo-c.png",
     altText: "company_logo",
   },
   {

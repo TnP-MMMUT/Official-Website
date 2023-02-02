@@ -27,11 +27,7 @@ const StudentCoordinator = ({ data }) => {
         </div>
         <ul className="social">
           <li>
-            <Link
-              to={data.in}
-              className="fa fa-linkedin"
-              aria-hidden="true"
-            ></Link>
+            <a href={data.in} className="fa fa-linkedin" aria-hidden="true"></a>
           </li>
         </ul>
       </div>

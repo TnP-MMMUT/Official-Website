@@ -13,7 +13,7 @@ export const AchievementData = [
     content:
       "Priyanshi Rawat, B.Tech. (2022), CSE & Rupali Singh, B.Tech. (2023), CSE has secured a Full-Time Offer in ServiceNow at 34 LPA.",
     image:
-      "https://media-exp1.licdn.com/dms/image/C560BAQEuzVBzTq8wqA/company-logo_200_200/0/1642492123759?e=1666828800&v=beta&t=DT_a3x3EbSDQjewbSBMQuv3oq03HmzaTftEraEvg71Y",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1675365635/T_P%20Site/ServiceNow_logo.svg_radmmv.png",
   },
   {
     id: 3,
@@ -99,7 +99,7 @@ export const AchievementData = [
     content:
       "Anuranjan Srivastava, B.Tech. (2022), CSE secured Full-Time Offer in Media.net",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4D0BAQHVudDrP057qg/company-logo_200_200/0/1656682900096?e=1666828800&v=beta&t=4O1WFmV7SA3Z9V1zCcey2pNzMuPCXHsG_3rpfkW6018",
+      "https://i0.wp.com/apuzz.com/wp-content/uploads/2019/07/Media.net-logo.png",
   },
   {
     id: 14,
