@@ -19,7 +19,7 @@ export const AchievementData = [
     id: 3,
     title: "Scaler Academy",
     content:
-      "3 Students of 2023 Batch were selected for intern role at Scaler by InterviewBit.",
+      "8 Students of 2023 Batch were selected for intern role at Scaler by InterviewBit.",
     image:
       "https://assets.scaler.com/assets/scaler/svg/scaler-logo-new-15cddca2e0196e677600f6671b42a288bdc89c398adc29fe82b7441503c4b129.svg.gz",
   },
@@ -27,7 +27,7 @@ export const AchievementData = [
     id: 4,
     title: "Juspay",
     content:
-      "2 Students of Batch 2022 were selected for a Full-Time Role at higher packages. Ekansh Saxena (IT’23) secured a Intern+FTE offer at a package of 27 LPA.",
+      "2 Students of Batch 2022 were selected for a Full-Time Role at higher packages. 2 Students (Batch 2023) secured a Intern+FTE offer at a package of 27 LPA.",
     image: "https://www.finsmes.com/wp-content/uploads/2020/03/juspay.png",
   },
   {
@@ -89,7 +89,7 @@ export const AchievementData = [
     id: 12,
     title: "Shiprocket",
     content:
-      "2 Students of Batch 2022 secured FTE offers from Shiprocket  at 15 LPA",
+      "4 Students of Batch 2022 secured FTE offers from Shiprocket  at 11-15 LPA",
     image:
       "https://clutchco-static.s3.amazonaws.com/s3fs-public/logos/167772a72c16443ac208308b55436eed.png?VersionId=z7aFZK4DWaM5VgL.sMRoms5MdZkcyaGj",
   },

@@ -44,7 +44,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152741/Alumnis/Layer_6_copy_fepthb.jpg",
     name: "Dr. Jitendra Mohan Bhardwaj",
-    post: "Sr. Vice President (Coforge)",
+    post: "Chief Information Security Officer | Business Head - Cyber Security (TATA Advanced Systems Limited)",
     in: "",
   },
   {
@@ -76,7 +76,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152739/Alumnis/Layer_10_copy_gx9vm0.jpg",
     name: "R M Agarwal",
-    post: "CMD (ITI Limited)",
+    post: "Deputy Director General (Department of Telecommunications, Govt. of India)",
     in: "",
   },
   {
@@ -84,7 +84,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152740/Alumnis/Layer_11_copy_nifwap.jpg",
     name: "Vivek Pachauri",
-    post: "Head-contract Management",
+    post: "Head-contract Management (Baker Hughes)",
     in: "",
   },
   {
@@ -114,7 +114,7 @@ const AlumniData = [
   {
     id: 15,
     image:
-      "https://scontent-del1-2.xx.fbcdn.net/v/t1.18169-9/308853_3550675580014_586150373_n.jpg?stp=c0.22.577.577a_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=3TqD4IEohdYAX8DdyVj&_nc_ht=scontent-del1-2.xx&oh=00_AT9_9R2QfIAAy9ysQ4_4J_0IfqAYqf2RCMrSvyS9S1lkxQ&oe=630AC6E2",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1676965162/T_P%20Site/851f5ac9941d720844d143ed9cfcf60a_77770ef9563500a3bc4ad1df80280437_thumb_sgwfxa.jpg",
     name: "Gopal Mishra",
     post: "Project Manager (UPPCL)",
     in: "",
@@ -202,15 +202,15 @@ const AlumniData = [
   {
     id: 26,
     image:
-      "https://media-exp1.licdn.com/dms/image/C4D03AQEgLpNhI1UGEw/profile-displayphoto-shrink_800_800/0/1516843068066?e=1665014400&v=beta&t=tAl03xa9bHSsmTNlKtgPCCxDn3NFIbndLatVqfV0OEw",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1676965390/T_P%20Site/851f5ac9941d720844d143ed9cfcf60a_eec44e6b407ae7d9d4d7c8eede178a0c_thumb_noow4i.jpg",
     name: "Rohit Kamal Saxena",
-    post: " Architect (Flipkart)",
+    post: "Architect (Flipkart)",
     in: "https://www.linkedin.com/in/rksaxena1/",
   },
   {
     id: 27,
     image:
-      "https://media-exp1.licdn.com/dms/image/C5603AQFthgi7QGy3bg/profile-displayphoto-shrink_800_800/0/1628538230451?e=1665014400&v=beta&t=8YHccXWGv_aMJ7kOYhzbe-K62yPe7Tx3V1Wg-qTwYUU",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1676965489/T_P%20Site/1663040271736_grusac.jpg",
     name: "Ram Chandel",
     post: "Partner/Principal (Deloitte Consulting)",
     in: "https://www.linkedin.com/in/ramchandel/",

@@ -2,7 +2,7 @@ const Fdata = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658460990/T_P%20Site/photo_2022-07-22_09-06-03_bd29u3.jpg",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1676956497/T_P%20Site/IMG_20230217_102526_upa73y.jpg",
     name: "Prof. V.K. Dwivedi",
     post: "Chairman",
     designation: "Professor",
@@ -74,7 +74,7 @@ const Fdata = [
   {
     id: 9,
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQG5Pr5V17v0SQ/profile-displayphoto-shrink_800_800/0/1600438600882?e=1663804800&v=beta&t=aS7CWQeYCiVPIWEAAn9ilpxgDD232DKtBol9yoUArag",
+      "https://res.cloudinary.com/daxilgrvn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1676955801/T_P%20Site/WhatsApp_Image_2023-02-17_at_12.39.12_n7d2tz.jpg",
     name: "Dr. Bharti Shukla",
     post: "Member",
     designation: "Assistant Professor",

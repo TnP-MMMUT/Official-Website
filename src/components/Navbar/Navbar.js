@@ -166,7 +166,7 @@ const Navbar = () => {
                 <li className="navwidth">
                   <a
                     style={{ textDecoration: "none", color: "#000" }}
-                    href="https://tinyurl.com/y5vkask9"
+                    href="https://bit.ly/3zhzNVy"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -176,7 +176,7 @@ const Navbar = () => {
                 <li className="navwidth">
                   <a
                     style={{ textDecoration: "none", color: "#000" }}
-                    href="https://bit.ly/3zhzNVy"
+                    href="https://tinyurl.com/y5vkask9"
                     target="_blank"
                     rel="noreferrer"
                   >

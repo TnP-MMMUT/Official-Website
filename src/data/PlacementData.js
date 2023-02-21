@@ -37,8 +37,8 @@ export const PlacementData = [
   {
     id: 6,
     Year: "2021 - 22",
-    Offers: "1000",
-    AveragePackage: "7",
+    Offers: "1023",
+    AveragePackage: "6.2",
     HighestPackage: "50",
   },
 ];

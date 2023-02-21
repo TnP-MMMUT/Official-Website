@@ -8,8 +8,8 @@ const UG = () => {
       <div className="text2-UG mx-auto ms-lg-5">
         <p>
           The University offers the following undergraduate programmes leading
-          to B.Tech. and B.B.A. degrees, which are of 4 and 3 years of duration,
-          respectively.
+          to B.Tech., B.B.A. and B.Pharm. degrees, which are of 4, 3 and 3 years
+          of duration, respectively.
         </p>
         <b>Bachelor of Technology (B.Tech.):</b>
       </div>
@@ -41,19 +41,19 @@ const UG = () => {
           <b className="sub-head">Duration:</b> 3 Years
         </li>
         <li>
-          <b className="sub-head">Admission Through:</b> UPCET
+          <b className="sub-head">Admission Through:</b> CUET(UG)
         </li>
       </ul>
 
       <div className="text2-UG mx-auto ms-lg-5">
-        <b>Bachelor of Pharmacy (B.Pharma):</b>
+        <b>Bachelor of Pharmacy (B.Pharm.):</b>
       </div>
       <ul className="acad mx-auto ms-4 ms-md-5 ms-lg-5">
         <li>
           <b className="sub-head">Duration:</b> 3 Years
         </li>
         <li>
-          <b className="sub-head">Admission Through:</b> UPCET
+          <b className="sub-head">Admission Through:</b> CUET(UG)
         </li>
       </ul>
     </>

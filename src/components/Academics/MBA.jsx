@@ -10,7 +10,7 @@ const MBA = () => {
           <b className="sub-head">Duration:</b> 2 Years
         </li>
         <li>
-          <b className="sub-head">Admission Through:</b> UPCET
+          <b className="sub-head">Admission Through:</b> CUET(PG)
         </li>
         <li>
           <b className="sub-head">Specializations Offered:</b>
@@ -19,6 +19,9 @@ const MBA = () => {
             <li>Human Resource (HR)</li>
             <li>Information Technology (IT)</li>
             <li>Marketing</li>
+            <li>International Business</li>
+            <li>Entrepreneurship Development</li>
+            <li>Operations Management</li>
           </ul>
         </li>
       </ul>

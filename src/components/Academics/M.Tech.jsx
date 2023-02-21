@@ -8,7 +8,7 @@ const MTech = () => {
           <b className="sub-head">Duration:</b> 2 Years
         </li>
         <li>
-          <b className="sub-head">Admission Through:</b> GATE Examination
+          <b className="sub-head">Admission Through:</b> CUET(PG)
         </li>
         <li>
           <b className="sub-head">Specializations Offered:</b>
