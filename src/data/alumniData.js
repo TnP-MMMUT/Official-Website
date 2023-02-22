@@ -247,6 +247,159 @@ const AlumniData = [
     post: "President (Hindaclo Industries)",
     in: "",
   },
+  {
+    id: 32,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071164/Alumnis/Lalit_peaupe.jpg",
+    name: "Lalit Singh ",
+    post: "Addl. GM (C&I Maint.)",
+    in: "https://www.linkedin.com/in/lalit-singh-b333a7187/",
+  },
+  {
+    id: 33,
+    image:
+      "",
+    name: "Sudesh Kumar Kashyap",
+    post: "Chief Scientist at National Aerospace Laboratories",
+    in: "https://www.linkedin.com/in/sudesh-kumar-kashyap-98aa0724/",
+  },
+  {
+    id: 34,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071524/uma_kx49af.jpg",
+    name: "Umakant Mishra",
+    post: "Director - Data and AI",
+    in: "https://www.linkedin.com/in/umakantpmp/",
+  },
+  {
+    id: 35,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071675/1657867156098_ti2c6y.jpg",
+    name: "Himani Agarwal",
+    post: "Senior Technical Lead at Mercedes-Benz Research and Development India",
+    in: "https://www.linkedin.com/in/himani-agarwal-84857127/",
+  },
+  {
+    id: 36,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071855/1583300459052_l4moaz.jpg",
+    name: "Shalinee Ram",
+    post: "Talent Acquisition at Valuefirst - A Twilio Company",
+    in: "https://www.linkedin.com/in/shalinee-ram-417757144/",
+  },
+  {
+    id: 37,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072027/hfhgvghvh_rk9buf.jpg",
+    name: "Sudhir Bhargava",
+    post: "CFO - Collegedekho.com",
+    in: "https://www.linkedin.com/in/sudhir-bhargava-7720527/",
+  },
+  {
+    id: 38,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072242/1516778487500_kkwhiw.jpg",
+    name: "Pankaj Rai",
+    post: "AVP at Barclays",
+    in: "https://www.linkedin.com/in/pankaj-rai-69ab3137/",
+  },
+  {
+    id: 39,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072588/sanjay_nes9eu.jpg",
+    name: "Sanjay Garg",
+    post: "Director - Program Management at Capgemini",
+    in: "https://www.linkedin.com/in/sanjay-garg-1ba6405/",
+  },
+  {
+    id: 40,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072720/1673533602078_d4fzta.jpg",
+    name: "Ambika Srivastava",
+    post: "IT Head, CCIIT",
+    in: "https://www.linkedin.com/in/ambika-srivastava-096226215/",
+  },
+  {
+    id: 41,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072790/naveen_sgegvi.jpg",
+    name: "Naveen Tyagi",
+    post: "DGM( HSM Project )Jindal Steel",
+    in: "https://www.linkedin.com/in/naveen-tyagi-37131617b/",
+  },
+  {
+    id: 42,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072922/devarshi_s2ltmu.jpg",
+    name: "Devarshi Kumar Mishra",
+    post: "Dy. Manager in R&D",
+    in: "https://www.linkedin.com/in/devarshi-mishra-88657045/",
+  },
+  {
+    id: 43,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073050/prateek_b0nerb.jpg",
+    name: "Prateesh Shukla",
+    post: "Lead Analyst - Strategy and Competitive Intelligence at Baker Hughes",
+    in: "https://www.linkedin.com/in/prateesh-shukla-b945971a/",
+  },
+  {
+    id: 44,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073190/anoop_ulepfi.jpg",
+    name: "Anoop Srivastava",
+    post: "Chief Environment at Tata Steel Meramandali",
+    in: "https://www.linkedin.com/in/anoop-srivastava-011b9973/",
+  },
+  {
+    id: 45,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073291/durgesh_e7jeys.jpg",
+    name: "Durgeshwar Dwivedi",
+    post: "RBU Head at Apollo Tyres Ltd",
+    in: "https://www.linkedin.com/in/durgeshwar-dwivedi-32896640/",
+  },
+  {
+    id: 46,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073368/abhi_ndsrpv.jpg",
+    name: "Abhishek Jaiswal",
+    post: "VP at Barclays Technology Centre",
+    in: "https://www.linkedin.com/in/abhishek-jaiswal-08960325/",
+  },
+  {
+    id: 47,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073514/rajesh_z4kzbu.jpg",
+    name: "Rajesh K Chaurasia",
+    post: "Master Technologist at Hewlett Packard",
+    in: "https://www.linkedin.com/in/rajeshkc/",
+  },
+  {
+    id: 48,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073737/harish_umspeb.jpg",
+    name: "Harish Srivastava",
+    post: "Sr Advisory Solution Consultant - ServiceNow",
+    in: "https://www.linkedin.com/in/srivastavaharish/",
+  },
+  {
+    id: 49,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073737/dalip_s7mip9.jpg",
+    name: "Dalip Singh Negi",
+    post: "Engineering Leader Microsoft",
+    in: "https://www.linkedin.com/in/dalipnegi/",
+  },
+  {
+    id: 50,
+    image:
+      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073619/sumit_peki2q.jpg",
+    name: "Sumeet Kejriwal",
+    post: "DGM - Service at Adonis Electronics Private Limited (Onida)",
+    in: "https://www.linkedin.com/in/sumeet-kejriwal-960b7520/",
+  },
+  
 ];
 
 export default AlumniData;
