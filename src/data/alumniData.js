@@ -300,7 +300,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dd6idpm2e/image/upload/v1677045361/img7_dr4wxf.jpg",
     name: "Anshuman Singh",
-    post: "Jusda India SCM - Foxconn Technology Group (Director)",
+    post: "Director - Freight, Warehouse and Customer Success (Jusda India SCM - Foxconn Technology Group)",
     in: "",
   },
 
@@ -469,7 +469,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dd6idpm2e/image/upload/v1677089600/img8_db4xag.jpg",
     name: "Manish Dayal",
-    post: "Head (Production & Maintenance) (Bharat Heavy Electricals Limited)",
+    post: "Head-Production & Maintenance (Bharat Heavy Electricals Limited)",
     in: "",
   },
   {
@@ -573,7 +573,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091919/alumini-photos/Amit_Barnawal_rkifmn.jpg",
     name: "Amit Barnawal",
-    post: "Technical Architect at Cognizant",
+    post: "Technical Architect (Cognizant)",
     in: "https://www.linkedin.com/in/abarnawal/",
   },
   {
@@ -581,7 +581,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091918/alumini-photos/Aakash_Singh_bgbn9x.jpg",
     name: "Aakash Singh",
-    post: "Managing Director at M/s Shiva and Sons Agro Products",
+    post: "Managing Director (M/s Shiva and Sons Agro Products)",
     in: "https://www.linkedin.com/in/aakash-singh-2234a8169/",
   },
   {
@@ -589,7 +589,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091920/alumini-photos/Hemant_Chaurasia_cawxs5.jpg",
     name: "Hemant Chaurasia",
-    post: "Procurement Manager at NTPC",
+    post: "Procurement Manager (NTPC)",
     in: "https://www.linkedin.com/in/hemant-chaurasia-5416b318/",
   },
   {
@@ -597,7 +597,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091920/alumini-photos/Nirbhay_Pratap_Singh_wgsx8w.jpg",
     name: "Nirbhay Pratap Singh",
-    post: "Director of Engineering at Walmart Global Tech India",
+    post: "Director of Engineering (Walmart Global Tech India)",
     in: "https://www.linkedin.com/in/nirbhay-pratap-singh-19009727/",
   },
   {
@@ -605,7 +605,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091921/alumini-photos/Rashmi_Mishra_xk2z2o.jpg",
     name: "Rashmi Mishra",
-    post: "Engineering Manager at EFI",
+    post: "Engineering Manager (EFI)",
     in: "https://www.linkedin.com/in/rashmi-mishra-4328025/",
   },
   {
@@ -613,7 +613,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091918/alumini-photos/Ashutosh_Singh_x4dbkx.jpg",
     name: "Ashutosh Singh",
-    post: "Assistant Vice President | Strategic Analytics | Risk Management at Citi",
+    post: "Assistant Vice President (Citi Bank)",
     in: "https://www.linkedin.com/in/ashutosh-singh-73770124/",
   },
   {
@@ -621,7 +621,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091920/alumini-photos/Neelesh_K_Shukla_g0dwdb.jpg",
     name: "Neelesh K Shukla",
-    post: "Principal Scientist & Coordinator -AI Innovation & Research, Manager-AI at State Street",
+    post: "Principal Scientist & Coordinator - AI Innovation & Research, Manager-AI (State Street)",
     in: "https://www.linkedin.com/in/neeleshshukla/",
   },
   {
@@ -629,7 +629,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091918/alumini-photos/Aman_Jain_my6bjn.jpg",
     name: "Aman Jain",
-    post: "Chairman and Managing Director At Reckon Sales Pvt Ltd",
+    post: "Chairman and Managing Director (Reckon Sales Pvt Ltd)",
     in: "https://www.linkedin.com/in/amanjainreckon/",
   },
   {
@@ -637,7 +637,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091919/alumini-photos/Ashwani_Kumar_n2i2aj.jpg",
     name: "Ashwani Kumar",
-    post: "Co-Founder at Royalzig Luxury Furniture",
+    post: "Co-Founder (Royalzig Luxury Furniture)",
     in: "https://www.linkedin.com/in/ashwani-kumar-99077185/",
   },
   {
@@ -645,7 +645,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677093155/alumini-photos/Dr._Bharat_Lohani_g0uyco.jpg",
     name: "Dr. Bharat Lohani",
-    post: "Professor-IITK | Founder-Geokno",
+    post: "Professor-IITK | Founder (Geokno)",
     in: "https://www.linkedin.com/in/bharatlohani/",
   },
   {
@@ -653,7 +653,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091921/alumini-photos/Rajeev_Srivastava_ro4hqp.jpg",
     name: "Rajeev Srivastava",
-    post: "Senior Technical Architect at Cognizant",
+    post: "Senior Technical Architect (Cognizant)",
     in: "https://www.linkedin.com/in/srivastavark/",
   },
   {
@@ -661,7 +661,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091920/alumini-photos/Bhaskar_Pathak_l61buq.jpg",
     name: "Bhaskar Pathak",
-    post: "Principal Architect at LTI at Larsen & Toubro Infotech",
+    post: "Principal Architect (Larsen & Toubro Infotech)",
     in: "https://www.linkedin.com/in/bhaskarpathak/",
   },
   {
@@ -669,7 +669,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091921/alumini-photos/Sunder_Singh_xswdgp.jpg",
     name: "Sunder Singh",
-    post: "Senior Vice President | Chief Operating Officer - India Offshore Operations, Board member IFS India LLP & IFS India LLC",
+    post: "Senior Vice President & Chief Operating Officer (IFS India LLP & IFS India LLC)",
     in: "https://www.linkedin.com/in/sundersingh1/",
   },
   {
@@ -677,7 +677,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677093037/alumini-photos/Anita_Meghani_js1ugm.jpg",
     name: "Anita Meghani ",
-    post: "Technology Project and Program Manager at Wolters Kluwer",
+    post: "Technology Project and Program Manager (Wolters Kluwer)",
     in: "https://www.linkedin.com/in/anita-meghani-05a99934/",
   },
   {
@@ -685,7 +685,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091918/alumini-photos/adarsh_mishra_lysllx.jpg",
     name: "Adarsh Mishra",
-    post: "Senior Member of Technical Staff at Oracle",
+    post: "Senior Member of Technical Staff (Oracle)",
     in: "https://www.linkedin.com/in/adarsh-mishra-66451918/",
   },
   {
@@ -693,7 +693,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091920/alumini-photos/Avinash_Mishra_y0tg4x.jpg",
     name: "Avinash Mishra",
-    post: "Senior Manager at Morgan Stanley",
+    post: "Senior Manager (Morgan Stanley)",
     in: "https://www.linkedin.com/in/avinash-mishra-71474431/",
   },
   {
@@ -701,7 +701,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/vaish1101/image/upload/v1677091920/alumini-photos/Pankaj_Bhalla_bepxte.jpg",
     name: "Pankaj Bhalla",
-    post: "Director, IT at Fiserv",
+    post: "Director-IT (Fiserv)",
     in: "https://www.linkedin.com/in/pankajbhalla/",
   },
   {
@@ -733,7 +733,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dd6idpm2e/image/upload/v1677130198/img_jlydub.jpg",
     name: "Sudesh Kumar Kashyap",
-    post: "Chief Scientist at National Aerospace Laboratories",
+    post: "Chief Scientist (National Aerospace Laboratories)",
     in: "https://www.linkedin.com/in/sudesh-kumar-kashyap-98aa0724/",
   },
   {
@@ -741,7 +741,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071524/uma_kx49af.jpg",
     name: "Umakant Mishra",
-    post: "Director - Data and AI",
+    post: "Director - Data and AI (Incedo Inc.)",
     in: "https://www.linkedin.com/in/umakantpmp/",
   },
   {
@@ -749,7 +749,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071675/1657867156098_ti2c6y.jpg",
     name: "Himani Agarwal",
-    post: "Senior Technical Lead at Mercedes-Benz Research and Development India",
+    post: "Senior Technical Lead (Mercedes-Benz Research and Development India)",
     in: "https://www.linkedin.com/in/himani-agarwal-84857127/",
   },
   {
@@ -757,7 +757,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677071855/1583300459052_l4moaz.jpg",
     name: "Shalinee Ram",
-    post: "Talent Acquisition at Valuefirst - A Twilio Company",
+    post: "Talent Acquisition (Valuefirst - A Twilio Company)",
     in: "https://www.linkedin.com/in/shalinee-ram-417757144/",
   },
   {
@@ -765,7 +765,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072027/hfhgvghvh_rk9buf.jpg",
     name: "Sudhir Bhargava",
-    post: "CFO - Collegedekho.com",
+    post: "CFO (Collegedekho.com)",
     in: "https://www.linkedin.com/in/sudhir-bhargava-7720527/",
   },
   {
@@ -773,7 +773,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072242/1516778487500_kkwhiw.jpg",
     name: "Pankaj Rai",
-    post: "AVP at Barclays",
+    post: "AVP (Barclays)",
     in: "https://www.linkedin.com/in/pankaj-rai-69ab3137/",
   },
   {
@@ -781,7 +781,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072588/sanjay_nes9eu.jpg",
     name: "Sanjay Garg",
-    post: "Director - Program Management at Capgemini",
+    post: "Director - Program Management (Capgemini)",
     in: "https://www.linkedin.com/in/sanjay-garg-1ba6405/",
   },
   {
@@ -789,7 +789,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072720/1673533602078_d4fzta.jpg",
     name: "Ambika Srivastava",
-    post: "IT Head, CCIIT",
+    post: "IT Head (CCIIT)",
     in: "https://www.linkedin.com/in/ambika-srivastava-096226215/",
   },
   {
@@ -797,7 +797,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072790/naveen_sgegvi.jpg",
     name: "Naveen Tyagi",
-    post: "DGM( HSM Project )Jindal Steel",
+    post: "DGM (HSM Project) (Jindal Steel)",
     in: "https://www.linkedin.com/in/naveen-tyagi-37131617b/",
   },
   {
@@ -805,7 +805,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677072922/devarshi_s2ltmu.jpg",
     name: "Devarshi Kumar Mishra",
-    post: "Dy. Manager in R&D",
+    post: "Dy. Manager-R&D (ASK FRAS-LE FRICTION PVT. LTD)",
     in: "https://www.linkedin.com/in/devarshi-mishra-88657045/",
   },
   {
@@ -813,7 +813,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073050/prateek_b0nerb.jpg",
     name: "Prateesh Shukla",
-    post: "Lead Analyst - Strategy and Competitive Intelligence at Baker Hughes",
+    post: "Lead Analyst - Strategy and Competitive Intelligence (Baker Hughes)",
     in: "https://www.linkedin.com/in/prateesh-shukla-b945971a/",
   },
   {
@@ -821,7 +821,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073190/anoop_ulepfi.jpg",
     name: "Anoop Srivastava",
-    post: "Chief Environment at Tata Steel Meramandali",
+    post: "Chief Environment (Tata Steel Meramandali)",
     in: "https://www.linkedin.com/in/anoop-srivastava-011b9973/",
   },
   {
@@ -829,7 +829,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073291/durgesh_e7jeys.jpg",
     name: "Durgeshwar Dwivedi",
-    post: "RBU Head at Apollo Tyres Ltd",
+    post: "RBU Head (Apollo Tyres Ltd)",
     in: "https://www.linkedin.com/in/durgeshwar-dwivedi-32896640/",
   },
   {
@@ -837,7 +837,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073368/abhi_ndsrpv.jpg",
     name: "Abhishek Jaiswal",
-    post: "VP at Barclays Technology Centre",
+    post: "Vice-President (Barclays Technology Centre)",
     in: "https://www.linkedin.com/in/abhishek-jaiswal-08960325/",
   },
   {
@@ -845,7 +845,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073514/rajesh_z4kzbu.jpg",
     name: "Rajesh K Chaurasia",
-    post: "Master Technologist at Hewlett Packard",
+    post: "Master Technologist (Hewlett Packard)",
     in: "https://www.linkedin.com/in/rajeshkc/",
   },
   {
@@ -853,7 +853,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073737/harish_umspeb.jpg",
     name: "Harish Srivastava",
-    post: "Sr Advisory Solution Consultant - ServiceNow",
+    post: "Sr Advisory Solution Consultant (ServiceNow)",
     in: "https://www.linkedin.com/in/srivastavaharish/",
   },
   {
@@ -861,7 +861,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1677073737/dalip_s7mip9.jpg",
     name: "Dalip Singh Negi",
-    post: "Engineering Leader Microsoft",
+    post: "Engineering Leader (Microsoft)",
     in: "https://www.linkedin.com/in/dalipnegi/",
   },
   {
