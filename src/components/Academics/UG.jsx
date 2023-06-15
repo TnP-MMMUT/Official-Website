@@ -8,7 +8,7 @@ const UG = () => {
       <div className="text2-UG mx-auto ms-lg-5">
         <p>
           The University offers the following undergraduate programmes leading
-          to B.Tech., B.B.A. and B.Pharm. degrees, which are of 4, 3 and 3 years
+          to B.Tech., B.B.A. and B.Pharm. degrees, which are of 4, 3 and 4 years
           of duration, respectively.
         </p>
         <b>Bachelor of Technology (B.Tech.):</b>
