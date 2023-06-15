@@ -19,10 +19,11 @@ export const ChartDataCourse = [
     TotalIntake: 1006,
   },
   { id: 2, Course: "BBA (60)", TotalIntake: 60 },
-  { id: 3, Course: "MCA (75)", TotalIntake: 75 },
-  { id: 4, Course: "MBA (75)", TotalIntake: 75 },
-  { id: 5, Course: "M.Sc. (90)", TotalIntake: 90 },
-  { id: 6, Course: "M.Tech. (216)", TotalIntake: 216 },
+  { id: 3, Course: "B.Pharma (75)", TotalIntake: 60 },
+  { id: 4, Course: "MCA (75)", TotalIntake: 75 },
+  { id: 5, Course: "MBA (75)", TotalIntake: 75 },
+  { id: 6, Course: "M.Sc. (90)", TotalIntake: 90 },
+  { id: 7, Course: "M.Tech. (216)", TotalIntake: 216 },
 ];
 
 export const ChartDataPG = [
