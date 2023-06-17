@@ -283,7 +283,7 @@ const QuickLinks = () => {
                     >
                       <a
                         className="link"
-                        href="http://www.mmmut.ac.in/pdf/T&P%20Contacts_List%202022-2023.pdf"
+                        href="https://mmmutgkp-my.sharepoint.com/:b:/g/personal/tnpmmmut_info_mmmut_ac_in/Eaae-B92eZ5PhHl3oyYO-FIBT-4p4I_IgkhRIzESRyH8xA?e=aluDGB"
                       >
                         Contact List
                       </a>
