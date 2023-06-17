@@ -217,7 +217,7 @@ const QuickLinks = () => {
                       whileTap={{ scale: 0.9 }}
                     >
                       <a
-                        href="https://mmmutgkp-my.sharepoint.com/:b:/g/personal/tnpmmmut_info_mmmut_ac_in/EQb8PYFvZytIuywgT8FJWw4BzhgjNjNv73Jwyvnz7QKyqg?e=thNTgN"
+                        href="https://res.cloudinary.com/vaish1101/image/upload/v1658241167/gyan%20sir/T_P_Policy_2022_kf9g0e.pdf"
                         className="link"
                       >
                         Placement Policy
