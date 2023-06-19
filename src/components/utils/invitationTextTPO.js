@@ -128,7 +128,7 @@ const InvitationTextTPO = () => {
                   {" "}
                   &nbsp;{" "}
                   <a
-                    href="https://drive.google.com/file/d/1H2UVnWmQmS-wATsCzgiXyqNX31WDKqw1/view?usp=drivesdk"
+                    href="https://res.cloudinary.com/dirfs5ho3/image/upload/v1687067609/Placement_Brochure_2023-24_compressed_chflps.pdf"
                     target="_"
                   >
                     <strong>Placement Brochure</strong>
