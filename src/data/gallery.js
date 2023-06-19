@@ -139,4 +139,16 @@ export const gallery = [
     width: 4,
     height: 3,
   },
+
+  {
+    src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/v1687169765/arsh_goyal_1_wtvc3h.jpg",
+    width: 4,
+    height: 3,
+  },
+
+  {
+    src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/v1687169765/arsh_goyal_jzbq2n.jpg",
+    width: 4,
+    height: 3,
+  },
 ];
