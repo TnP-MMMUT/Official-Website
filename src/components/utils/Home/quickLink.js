@@ -106,6 +106,11 @@ const QuickLinks = () => {
                     <div className="hid1">
                       <ul>
                         <li>
+                          <a href="https://res.cloudinary.com/dirfs5ho3/image/upload/v1687067609/Placement_Brochure_2023-24_compressed_chflps.pdf">
+                            Placement Brochure 2023-2024
+                          </a>
+                        </li>
+                        <li>
                           <a href="http://www.mmmut.ac.in/Pdf/T&P%20Placement%20Brochure%202022-23.pdf">
                             Placement Brochure 2022-2023
                           </a>
@@ -178,7 +183,7 @@ const QuickLinks = () => {
                     <div className="hid1">
                       <ul>
                         <li>
-                          <a href="https://res.cloudinary.com/daxilgrvn/image/upload/v1675362702/T_P%20Site/Placement_Report_2022-23_yh2hzh.pdf">
+                          <a href="https://res.cloudinary.com/dirfs5ho3/image/upload/v1687110551/Placement_Report_2022-23_h1yeoj.pdf">
                             Placement Report 2022-2023
                           </a>
                         </li>
