@@ -27,12 +27,13 @@ export const userColumns = [
 
   {
     field: "speaker",
-    headerName: "Speaker of Event",
+    headerName: "Details of Event",
     width: 600,
     headerAlign: "center",
     align: "center",
     sortable: false,
   },
+  
 ];
 
 export const userRows = [
