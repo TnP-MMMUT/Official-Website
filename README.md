@@ -11,4 +11,4 @@ Created By:
 
 This is a Copyright Property of Training & Placement Cell, MMMUT, Gorakhpur.
 
-©2022, Training & Placement Cell, MMMUT, Gorakhpur
+©2023, Training & Placement Cell, MMMUT, Gorakhpur
