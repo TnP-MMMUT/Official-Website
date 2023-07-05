@@ -97,18 +97,7 @@ const SData = [
     fb: "",
     in: "https://www.linkedin.com/in/yash-mishra-57084a203",
   },
-  {
-    id: 9,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123109/tnp/Akrist_dgmdts.jpg",
-    name: "Akrist Srivastava",
-    post: "T&P Final Year",
-    branch: "IT",
-    year: "Final",
-    phone: "8233994143",
-    fb: "",
-    in: "https://www.linkedin.com/in/akrist-srivastava-820a081a2",
-  },
+  
   {
     id: 10,
     image:
@@ -134,18 +123,7 @@ const SData = [
     in: "https://www.linkedin.com/in/aryan-singh-496453183",
   },
  
-  {
-    id: 12,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123336/tnp/Harsh_xxtlh8.jpg",
-    name: "Harsh Jha",
-    post: "T&P Final Year",
-    branch: "EE",
-    year: "Final",
-    phone: "7007916033",
-    fb: "",
-    in: "www.linkedin.com/in/harsh-jha-0311",
-  },
+ 
   {
     id: 13,
     image:
