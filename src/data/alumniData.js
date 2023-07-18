@@ -125,7 +125,7 @@ const AlumniData = [
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658152741/Alumnis/Layer_16_copy_vpm0qa.jpg",
     name: "Nitesh Gautam",
-    post: "Director of Engineering (ARM)",
+    post: "Director (R&D)",
     in: "",
   },
   {

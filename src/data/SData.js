@@ -2,7 +2,7 @@ const SData = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123307/tnp/Divyanshu_xtaxj3.jpg",
+      "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1687323522/divyanshu_sir_bgteor.jpg",
     name: "Divyanshu Chandra",
     post: "Secretary",
     branch: "ECE",
@@ -97,20 +97,9 @@ const SData = [
     fb: "",
     in: "https://www.linkedin.com/in/yash-mishra-57084a203",
   },
+  
   {
     id: 9,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123109/tnp/Akrist_dgmdts.jpg",
-    name: "Akrist Srivastava",
-    post: "T&P Final Year",
-    branch: "IT",
-    year: "Final",
-    phone: "8233994143",
-    fb: "",
-    in: "https://www.linkedin.com/in/akrist-srivastava-820a081a2",
-  },
-  {
-    id: 10,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130555/tnp/Arpita_rubvgk.jpg",
     name: "Arpita Varshneya",
@@ -122,7 +111,7 @@ const SData = [
     in: "https://www.linkedin.com/in/arpita-varshneya-55ab6a202/",
   },
   {
-    id: 11,
+    id: 10,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123214/tnp/Aryan_djwtdk.jpg",
     name: "Aryan Singh",
@@ -135,19 +124,7 @@ const SData = [
   },
  
   {
-    id: 12,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123336/tnp/Harsh_xxtlh8.jpg",
-    name: "Harsh Jha",
-    post: "T&P Final Year",
-    branch: "EE",
-    year: "Final",
-    phone: "7007916033",
-    fb: "",
-    in: "www.linkedin.com/in/harsh-jha-0311",
-  },
-  {
-    id: 13,
+    id: 11,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123407/tnp/Mudit_ty4zhz.jpg",
     name: "Mudit Pandey",
@@ -159,7 +136,7 @@ const SData = [
     in: "https://www.linkedin.com/in/mudit-pandey-4286a3232/",
   },
   {
-    id: 14,
+    id: 12,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123492/tnp/Samarth_yspn1n.jpg",
     name: "Samarth Mishra",
@@ -171,7 +148,7 @@ const SData = [
     in: "https://www.linkedin.com/in/samarth-mishra-161994220",
   },
   {
-    id: 15,
+    id: 13,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130757/tnp/satwick_q1p0tc.jpg",
     name: "Satwick Deep Verma",
@@ -184,7 +161,7 @@ const SData = [
   },
 
     {
-      id: 16,
+      id: 14,
       image:
       "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686890975/Honey_tbc4ua.jpg",
       name: "Harsh Vardhan",
@@ -197,7 +174,7 @@ const SData = [
     },
   
     {
-      id: 17,
+      id: 15,
       image:
       "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848230/IMG-20190428-WA0006_-_Harshit_Singh_tcawfa.jpg",
       name: "Harshit Singh",
@@ -210,7 +187,7 @@ const SData = [
     },
   
     {
-      id: 18,
+      id: 16,
       image:
       "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686851057/ishika_w0ep1o.jpg",
       name: "Ishika Gupta",
@@ -223,7 +200,7 @@ const SData = [
     },
   
     {
-        id: 19,
+        id: 17,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686842451/DSC035183_rfqf0u.jpg",
         name: "Kartikay Singh",
@@ -236,7 +213,7 @@ const SData = [
       },
       
       {
-        id: 20,
+        id: 18,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848232/parlakshit_ccwnmf.jpg",
         name: "Parlakshit Tyagi",
@@ -249,7 +226,7 @@ const SData = [
       },
       
       {
-        id: 21,
+        id: 19,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848233/20220113_232932_5_-_Utkarsh_Kumar_Saini_kkxqpl.jpg",
         name: "Utkarsh",
@@ -262,7 +239,7 @@ const SData = [
       },
   
       {
-        id: 22,
+        id: 20,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848225/anant_kas8mg.jpg",
         name: "Anant Sharma",
@@ -275,7 +252,7 @@ const SData = [
       },
       
       {
-        id: 23,
+        id: 21,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848230/IMG_20230421_131546_-_Chaitanya_Dubey_migszf.jpg",
         name: "Pratham Mishra",
@@ -288,7 +265,7 @@ const SData = [
       },
       
       {
-        id: 24,
+        id: 22,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848231/IMG-20230419-WA0067_-_Atul_Mishra_zactow.jpg",
         name: "Atul Mishra",
@@ -301,7 +278,7 @@ const SData = [
       },
       
       {
-        id: 25,
+        id: 23,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848230/IMG_20230420_014801_263_-_Satvik_Tripathi_e1kyi8.jpg",
         name: "Satvik Tripathi",
@@ -314,9 +291,9 @@ const SData = [
       },
   
       {
-        id: 26,
+        id: 24,
         image:
-        "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848233/t_p_-_Skand_Tripathi_vmq3kc.jpg",
+        "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1687323523/skand_u9n4hs.jpg",
         name: "Skand Tripathi",
         post: "T&P Third Year",
         branch: "ECE",
@@ -327,7 +304,7 @@ const SData = [
       },
       
       {
-        id: 27,
+        id: 25,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848231/IMG-20221030-WA0008-01_-_Vansh_Yadav_ryfxkl.jpg",
         name: "Vansh Yadav",
@@ -340,7 +317,7 @@ const SData = [
       },
       
       {
-        id: 28,
+        id: 26,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848232/1681981391663_-_Chaitanya_Dubey_wzegfk.jpg",
         name: "Chaitanya Prakash Dubey",
@@ -353,7 +330,7 @@ const SData = [
       },
   
       {
-        id: 29,
+        id: 27,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686918910/pratyush_afpeex.jpg",
         name: "Pratyush Singh",
@@ -365,7 +342,7 @@ const SData = [
         in: "https://www.linkedin.com/in/pratyush-singh-5b37a9264/",
       },
       {
-        id: 30,
+        id: 28,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686918946/priyansh_owmcux.jpg",
         name: "Priyansh Agarwal",
@@ -377,7 +354,7 @@ const SData = [
         in: "https://www.linkedin.com/in/priyanshag02/",
       },
       {
-        id: 31,
+        id: 29,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848231/IMG-20230202-WA0017_-_Ritika_Agrahari_ewwnlp.jpg",
         name: "Ritika Agrahari",
@@ -390,7 +367,7 @@ const SData = [
       },
       
       {
-        id: 32,
+        id: 30,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848229/IMG_20230420_092631_-_Khushi_Tiwari_wybpq9.jpg",
         name: "Khushi Tiwari",
@@ -403,7 +380,7 @@ const SData = [
       },
   
       {
-        id: 33,
+        id: 31,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848233/vanshika_qo6qha.jpg",
         name: "Vanshika Chaudhary",
@@ -416,7 +393,7 @@ const SData = [
       },
   
       {
-        id: 34,
+        id: 32,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848233/supriya_ilkys4.jpg",
         name: "Supriya Rai",
@@ -429,7 +406,7 @@ const SData = [
       },
       
       {
-        id: 35,
+        id: 33,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686851060/Shubham_tx892h.jpg",
         name: "Shubham Mishra",
@@ -442,9 +419,9 @@ const SData = [
       },
       
       {
-        id: 36,
+        id: 34,
         image:
-        "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848222/20230420_000505_-_VANDANA_GUPTA_bodn5g.jpg",
+        "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1687323522/vandana_mam_ps44gr.jpg",
         name: "Vandana Gupta",
         post: "T&P Third Year",
         branch: "MCA",
@@ -455,7 +432,7 @@ const SData = [
       },
   
       {
-        id: 37,
+        id: 35,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848232/photoid_-_Vipin_Yadav_nq8x2x.jpg",
         name: "Vipin Yadav",
@@ -468,7 +445,7 @@ const SData = [
       },
   
       {
-        id: 38,
+        id: 36,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848222/IMG_20230419_234707_-_Badal_Sharma_jhq1ob.png",
         name: "Badal Sharma",
@@ -481,7 +458,7 @@ const SData = [
       },
      
       {
-        id: 39,
+        id: 37,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848232/IMG20230414151332_-_vanshika_agrawal_x7uo4a.jpg",
         name: "Vanshika Agrawal",
@@ -494,7 +471,7 @@ const SData = [
       },
   
       {
-        id: 40,
+        id: 38,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686851357/ayushman_gvm5hv.jpg",
         name: "Aayushman Pandey",
@@ -507,9 +484,9 @@ const SData = [
       },
       
       {
-        id: 41,
+        id: 39,
         image:
-        "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686848234/Screenshot_20230420_150331_Photos_-_arpita_singh_micqiy.jpg",
+        "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1687323523/arpita_ysbubp.jpg",
         name: "Arpita Singh",
         post: "T&P Third Year",
         branch: "BBA",
@@ -520,7 +497,7 @@ const SData = [
       },
       
       {
-        id: 42,
+        id: 40,
         image:
         "https://res.cloudinary.com/dkddubkcn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1686851357/mridani_eqvtjf.jpg",
         name: "Mridani Tripathi",
