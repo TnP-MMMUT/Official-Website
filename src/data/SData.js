@@ -99,18 +99,6 @@ const SData = [
   },
   
   {
-    id: 10,
-    image:
-      "https://res.cloudinary.com/dpcpegpsn/image/upload/v1658130555/tnp/Arpita_rubvgk.jpg",
-    name: "Arpita Varshneya",
-    post: "T&P Final Year",
-    branch: "ECE",
-    year: "Final",
-    phone: "9305672599",
-    fb: "",
-    in: "https://www.linkedin.com/in/arpita-varshneya-55ab6a202/",
-  },
-  {
     id: 11,
     image:
       "https://res.cloudinary.com/dpcpegpsn/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1658123214/tnp/Aryan_djwtdk.jpg",
