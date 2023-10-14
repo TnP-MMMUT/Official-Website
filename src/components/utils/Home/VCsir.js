@@ -31,14 +31,14 @@ const VCsir = () => {
             <div className="image-container-home">
               <div className="f-image">
                 <img
-                  src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655486033/cell_website/VC_Sir_nztioa.jpg"
+                  src="https://res.cloudinary.com/dkddubkcn/image/upload/v1697268444/1_jlyzkr.jpg"
                   alt="VC sir"
                 />
               </div>
 
               <div className="text-center">
                 <h5 className="mx-auto">
-                  <b>Prof. J.P. Pandey</b>
+                  <b>Prof. J.P. Saini</b>
                 </h5>
                 <h6>Vice-Chancellor</h6>
                 <h6>MMMUT, Gorakhpur</h6>
