@@ -151,4 +151,14 @@ export const gallery = [
     width: 4,
     height: 3,
   },
+  {
+    src: "https://res.cloudinary.com/dkddubkcn/image/upload/v1697268558/3_x2isq6.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "https://res.cloudinary.com/dkddubkcn/image/upload/v1697268603/2_kiwpyp.jpg",
+    width: 4,
+    height: 3,
+  }
 ];
