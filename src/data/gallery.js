@@ -1,5 +1,15 @@
 export const gallery = [
   {
+    src: "https://res.cloudinary.com/dkddubkcn/image/upload/v1697268558/3_x2isq6.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "https://res.cloudinary.com/dkddubkcn/image/upload/v1697268603/2_kiwpyp.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
     src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659265689/T_P%20Site/Gallery/2_kpivea.jpg",
     width: 4,
     height: 3,
@@ -15,12 +25,7 @@ export const gallery = [
     height: 3,
   },
   {
-    src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659265618/T_P%20Site/Gallery/WhatsApp_Image_2022-04-09_at_3.21.16_AM_1_pnyqgn.jpg",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659265613/T_P%20Site/Gallery/WhatsApp_Image_2022-04-09_at_3.21.16_AM_2_pidxv6.jpg",
+    src: "https://res.cloudinary.com/dnoyktmm3/image/upload/v1697554572/img1_ztzpic.jpg",
     width: 4,
     height: 3,
   },
@@ -30,7 +35,7 @@ export const gallery = [
     height: 3,
   },
   {
-    src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659265610/T_P%20Site/Gallery/WhatsApp_Image_2022-04-09_at_3.21.17_AM_fynhft.jpg",
+    src: "https://res.cloudinary.com/dnoyktmm3/image/upload/v1697554569/img2_hvrtas.jpg",
     width: 4,
     height: 3,
   },
@@ -45,6 +50,11 @@ export const gallery = [
     height: 3,
   },
   {
+    src: "https://res.cloudinary.com/dnoyktmm3/image/upload/v1697554569/img3_bef6pe.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
     src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659265608/T_P%20Site/Gallery/WhatsApp_Image_2022-04-09_at_3.35.54_AM_vl7pea.jpg",
     width: 4,
     height: 3,
@@ -55,12 +65,12 @@ export const gallery = [
     height: 3,
   },
   {
-    src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659266101/T_P%20Site/Gallery/IMG_3498_svwdra.jpg",
+    src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659266292/T_P%20Site/Gallery/photo_2022-07-31_16-45-06_vnq0hi.jpg",
     width: 4,
     height: 3,
   },
   {
-    src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659266292/T_P%20Site/Gallery/photo_2022-07-31_16-45-06_vnq0hi.jpg",
+    src: "https://res.cloudinary.com/dnoyktmm3/image/upload/v1697554569/img4_lbnvhp.jpg",
     width: 4,
     height: 3,
   },
@@ -109,56 +119,39 @@ export const gallery = [
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659267560/T_P%20Site/Gallery/photo_2022-07-31_17-08-41_xnffk2.jpg",
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/daxilgrvn/image/upload/v1659266077/T_P%20Site/Gallery/IMG_3431_bprbri.jpg",
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/f_auto,q_auto/l4popytuguanuzgf0mcm",
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/f_auto,q_auto/htgtigqrdgekuvi8va1x",
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/f_auto,q_auto/WhatsApp_Image_2023-06-18_at_12.10.40_AM_cubpzz",
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/v1687169765/arsh_goyal_1_wtvc3h.jpg",
     width: 4,
     height: 3,
   },
-
   {
     src: "https://res.cloudinary.com/dnrlpjsvu/image/upload/v1687169765/arsh_goyal_jzbq2n.jpg",
     width: 4,
     height: 3,
   },
-  {
-    src: "https://res.cloudinary.com/dkddubkcn/image/upload/v1697268558/3_x2isq6.jpg",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://res.cloudinary.com/dkddubkcn/image/upload/v1697268603/2_kiwpyp.jpg",
-    width: 4,
-    height: 3,
-  }
 ];
