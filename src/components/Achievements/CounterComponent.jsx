@@ -43,7 +43,7 @@ const CounterComponent = () => {
             variants={childVariant}
             transition={childTransition}
           >
-            <Counter end={885} title={" Offers"} />
+            <Counter end={992} title={" Offers"} />
           </motion.div>
           <motion.div
             className="quadrant-1"
@@ -60,7 +60,7 @@ const CounterComponent = () => {
             transition={childTransition}
           >
             <Counter
-              end={42}
+              end={52}
               suffix={" LPA"}
               title={"Highest Package Offered"}
             />
